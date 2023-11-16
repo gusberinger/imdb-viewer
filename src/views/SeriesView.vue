@@ -31,11 +31,13 @@ type SeriesDB = {
 const route = useRoute()
 const db = ref<null | SeriesDB>(null)
 
-onMounted(() => {
-    const tconst = route.params.tconst
-    import(`../assets/series_db/${tconst}.json`).then((module) => {
-        db.value = module.default
-    })
+onMounted(async () => {
+    const tconst = route.params.tconst as string
+    const group = Number(tconst.replace("tt", "")) % 500
+    const response = await fetch(`/series_db/${group}/${tconst}.json`)
+    const data = await response.json()
+    db.value = data
+
 })
 </script>
 <template>
