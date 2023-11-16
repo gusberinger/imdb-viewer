@@ -88,21 +88,21 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
             </div>
             <div class="flex gap-x-4">
                 <input
-                type="checkbox"
-                v-model="displayOptions.hidePilots"
-                class="border-2"
-                id="hidePilots"
-                :binary="true"
+                    type="checkbox"
+                    v-model="displayOptions.hidePilots"
+                    class="border-2"
+                    id="hidePilots"
+                    :binary="true"
                 />
                 <label for="hidePilots">Hide pilots</label>
             </div>
             <div class="flex gap-x-4">
                 <input
-                type="checkbox"
-                v-model="displayOptions.hideUnrated"
-                class="border-2"
-                id="hideUnrated"
-                :binary="true"
+                    type="checkbox"
+                    v-model="displayOptions.hideUnrated"
+                    class="border-2"
+                    id="hideUnrated"
+                    :binary="true"
                 />
                 <label for="hideUnrated">Hide unrated episodes</label>
             </div>

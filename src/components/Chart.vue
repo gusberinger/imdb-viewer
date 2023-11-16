@@ -20,7 +20,7 @@ const { db, episodes } = storeToRefs(useDataBaseStore())
 const displayStore = useDisplayOptionsStore()
 const { displayOptions } = storeToRefs(displayStore)
 
-const lineChart = ref<null | typeof Line >(null)
+const lineChart = ref<null | typeof Line>(null)
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend)
 const colors = ['#1be7ffff', '#6eeb83ff', '#e4ff1aff', '#e8aa14ff', '#ff5714ff']
@@ -72,7 +72,6 @@ const data = computed(() => {
         ]
     } satisfies ChartData<'line'>
 })
-
 
 const options = computed(() => {
     return {
@@ -126,8 +125,6 @@ const options = computed(() => {
         }
     } satisfies ChartOptions<'line'>
 })
-
-
 </script>
 <template>
     <div>

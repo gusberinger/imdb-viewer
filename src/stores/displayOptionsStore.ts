@@ -12,17 +12,23 @@ type DisplayOptions = {
     hideUnrated: boolean
 }
 
+const defaultDisplayOptions: DisplayOptions = {
+    yAxis: 'averageRating',
+    yAxisRange: 'fixed',
+    mode: 'both',
+    colorEnabled: true,
+    tooltipDisabled: false,
+    hideSeasonConnectionSegments: true,
+    hidePilots: true,
+    hideUnrated: true
+}
+
+const savedDisplayOptions = localStorage.getItem('displayOptions')
+
 export const useDisplayOptionsStore = defineStore('displayOptions', () => {
-    const displayOptions = ref<DisplayOptions>({
-        yAxis: 'averageRating',
-        yAxisRange: 'fixed',
-        mode: 'both',
-        colorEnabled: true,
-        tooltipDisabled: false,
-        hideSeasonConnectionSegments: true,
-        hidePilots: true,
-        hideUnrated: true,
-    })
+    const displayOptions = ref<DisplayOptions>(
+        savedDisplayOptions ? JSON.parse(savedDisplayOptions) : defaultDisplayOptions
+    )
 
     const pointsEnabled = computed(
         () => displayOptions.value.mode === 'points' || displayOptions.value.mode === 'both'
