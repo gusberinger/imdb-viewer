@@ -7,6 +7,7 @@ type DisplayOptions = {
     lineEnabled: boolean
     pointsEnabled: boolean
     colorEnabled: boolean
+    tooltipEnabled?: boolean
     showSeasonConnectionSegments?: boolean
 }
 
@@ -17,6 +18,7 @@ export const useDisplayOptionsStore = defineStore('displayOptions', () => {
         lineEnabled: true,
         pointsEnabled: true,
         colorEnabled: true,
+        tooltipEnabled: true,
         showSeasonConnectionSegments: false
     })
     return { displayOptions }

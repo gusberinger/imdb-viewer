@@ -20,6 +20,20 @@ const t = ref(null)
                 optionLabel="label"
                 option-value="value"
             />
+            <label for="yAxis">Y Axis Value</label>
+        </div>
+        <div class="p-float-label">
+            <Dropdown
+            v-model="displayOptions.yAxisScale"
+                inputId="yAxis"
+                :options="[
+                    { label: 'Fit', value: 'fit' },
+                    { label: 'Fixed', value: 'fixed' }
+                ]"
+                class="w-full md:w-[9.6rem] border"
+                optionLabel="label"
+                option-value="value"
+            />
             <label for="yAxis">Y Axis Scale</label>
         </div>
     </div>
