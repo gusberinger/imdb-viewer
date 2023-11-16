@@ -20,8 +20,10 @@ onMounted(async () => {
 </script>
 <template>
     <div v-if="db !== null" class="flex min-h-screen flex-col items-center justify-center">
-        <div class="flex flex-col md:flex-row items-center justify-between w-full max-w-3xl">
-            <h1 class="text-xl py-5">{{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear }})</h1>
+        <div class="flex w-full max-w-3xl flex-col items-center justify-between md:flex-row">
+            <h1 class="py-5 text-xl">
+                {{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear }})
+            </h1>
             <SeriesSearch />
         </div>
         <ChartControls />
