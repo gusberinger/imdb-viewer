@@ -6,12 +6,14 @@ import { onMounted, ref, watch } from 'vue'
 const value = ref('')
 const suggestions = ref([])
 const db = ref<null | { tconst: string; title: string }[]>(null)
+
+
 const search = (e: { query: string }) => {
     const results = db.value
         ?.filter((item) => {
             return item.title.toLowerCase().startsWith(e.query.toLowerCase())
         })
-        .map((item) => ({...item, display: `${item.title} (${item.startYear}–${item.endYear})`}))
+        .map((item) => ({...item, display: `${item.title} (${item.startYear}–${item.endYear.replace("\\N", "")})`}))
         .slice(0, 10)
     console.log(results)
     suggestions.value = results || []

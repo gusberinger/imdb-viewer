@@ -22,7 +22,7 @@ onMounted(async () => {
     <div v-if="db !== null" class="flex min-h-screen flex-col items-center justify-center">
         <div class="flex w-full max-w-3xl flex-col items-center justify-between md:flex-row">
             <h1 class="py-5 text-xl">
-                {{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear }})
+            {{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear.replace("\\N", "") }})
                 <span v-if="db.originalTitle !== db.primaryTitle" class="italic text-gray-500">{{ db.originalTitle }}</span>
             </h1>
             <SeriesSearch />
