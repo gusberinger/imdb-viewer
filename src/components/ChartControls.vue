@@ -84,17 +84,37 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
                     id="hideSeasonConnectionSegments"
                     :binary="true"
                 />
-                <label for="hideSeasonConnectionSegments">Hide lines between seasons </label>
+                <label for="hideSeasonConnectionSegments">Hide line between seasons </label>
+            </div>
+            <div class="flex gap-x-4">
+                <input
+                type="checkbox"
+                v-model="displayOptions.hidePilots"
+                class="border-2"
+                id="hidePilots"
+                :binary="true"
+                />
+                <label for="hidePilots">Hide pilots</label>
+            </div>
+            <div class="flex gap-x-4">
+                <input
+                type="checkbox"
+                v-model="displayOptions.hideUnrated"
+                class="border-2"
+                id="hideUnrated"
+                :binary="true"
+                />
+                <label for="hideUnrated">Hide unrated episodes</label>
             </div>
             <div class="flex gap-x-4">
                 <input
                     type="checkbox"
-                    v-model="displayOptions.tooltipEnabled"
+                    v-model="displayOptions.tooltipDisabled"
                     class="border-2"
-                    id="hideSeasonConnectionSegments"
+                    id="tooltipDisabled"
                     :binary="true"
                 />
-                <label for="hideSeasonConnectionSegments">Disable tooltip</label>
+                <label for="tooltipDisabled">Disable tooltip</label>
             </div>
         </div>
     </Dialog>

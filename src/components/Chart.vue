@@ -16,7 +16,7 @@ import {
 import { storeToRefs } from 'pinia'
 import { computed, ref } from 'vue'
 import { Line } from 'vue-chartjs'
-const { db } = storeToRefs(useDataBaseStore())
+const { db, episodes } = storeToRefs(useDataBaseStore())
 const displayStore = useDisplayOptionsStore()
 const { displayOptions } = storeToRefs(displayStore)
 
@@ -30,18 +30,18 @@ const data = computed(() => {
         // @ts-ignore - force reactivity
         hideSeasonConnectionSegments: displayStore.displayOptions.hideSeasonConnectionSegments,
 
-        labels: db.value.episodes.map((e) => e.seasonNumber + 'x' + e.episodeNumber),
+        labels: episodes.value.map((e) => e.seasonNumber + 'x' + e.episodeNumber),
         datasets: [
             {
                 label:
                     displayOptions.value.yAxis === 'averageRating'
                         ? 'Average Rating'
                         : 'Number of Votes',
-                data: db.value.episodes.map((e) =>
+                data: episodes.value.map((e) =>
                     displayOptions.value.yAxis === 'averageRating' ? e.averageRating : e.numVotes
                 ),
                 pointBackgroundColor: (ctx) => {
-                    const season = db.value.episodes[ctx.dataIndex].seasonNumber
+                    const season = episodes.value[ctx.dataIndex].seasonNumber
                     return colors[season % colors.length]
                 },
                 borderWidth: displayStore.linesEnabled ? 3 : 0,
@@ -57,10 +57,10 @@ const data = computed(() => {
                             return colors[0]
                         }
                         const idx = ctx.p0DataIndex
-                        const episode = db.value.episodes[idx]
+                        const episode = episodes.value[idx]
 
                         if (displayOptions.value.hideSeasonConnectionSegments) {
-                            const nextEpisode = db.value.episodes[idx + 1]
+                            const nextEpisode = episodes.value[idx + 1]
                             if (nextEpisode.seasonNumber !== episode.seasonNumber) {
                                 return 'rgba(0,0,0,0)'
                             }
@@ -103,17 +103,17 @@ const options = computed(() => {
                         : `Episode Votes`
             },
             tooltip: {
-                enabled: displayOptions.value.tooltipEnabled,
+                enabled: !displayOptions.value.tooltipDisabled,
                 callbacks: {
                     label: (ctx) => {
                         const index = ctx.dataIndex
-                        const episode = db.value.episodes[index]
+                        const episode = episodes.value[index]
                         const value = episode.primaryTitle
                         return value == null ? '[No Title]' : value
                     },
                     afterBody: (tooltipInfo) => {
                         const index = tooltipInfo[0].dataIndex
-                        const episode = db.value.episodes[index]
+                        const episode = episodes.value[index]
                         let message = `Season ${episode.seasonNumber} Episode ${episode.episodeNumber}`
                         message += `\n${episode.averageRating}/10`
                         message += `\n${episode.numVotes} votes`

@@ -6,8 +6,10 @@ type DisplayOptions = {
     yAxisRange: 'fit' | 'fixed'
     mode: 'points' | 'lines' | 'both'
     colorEnabled: boolean
-    tooltipEnabled?: boolean
-    hideSeasonConnectionSegments?: boolean
+    tooltipDisabled: boolean
+    hideSeasonConnectionSegments: boolean
+    hidePilots: boolean
+    hideUnrated: boolean
 }
 
 export const useDisplayOptionsStore = defineStore('displayOptions', () => {
@@ -16,8 +18,10 @@ export const useDisplayOptionsStore = defineStore('displayOptions', () => {
         yAxisRange: 'fixed',
         mode: 'both',
         colorEnabled: true,
-        tooltipEnabled: true,
-        hideSeasonConnectionSegments: true
+        tooltipDisabled: false,
+        hideSeasonConnectionSegments: true,
+        hidePilots: true,
+        hideUnrated: true,
     })
 
     const pointsEnabled = computed(
