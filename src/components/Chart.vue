@@ -17,7 +17,8 @@ import { storeToRefs } from 'pinia'
 import { computed } from 'vue'
 import { Line } from 'vue-chartjs'
 const { db } = storeToRefs(useDataBaseStore())
-const { displayOptions } = storeToRefs(useDisplayOptionsStore())
+const displayStore = useDisplayOptionsStore()
+const { displayOptions } = storeToRefs(displayStore)
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend)
 const colors = ['#1be7ffff', '#6eeb83ff', '#e4ff1aff', '#e8aa14ff', '#ff5714ff']
@@ -38,11 +39,11 @@ const data = computed(() => {
                     const season = db.value.episodes[ctx.dataIndex].seasonNumber
                     return colors[season % colors.length]
                 },
-                borderWidth: displayOptions.value.lineEnabled ? 3 : 0,
+                borderWidth: displayStore.linesEnabled ? 3 : 0,
                 pointBorderWidth: 0,
                 pointHitRadius: 20,
-                pointHoverRadius: displayOptions.value.pointsEnabled ? 6 : 1,
-                pointRadius: displayOptions.value.pointsEnabled ? 4 : 0,
+                pointHoverRadius: displayStore.pointsEnabled ? 6 : 1,
+                pointRadius: displayStore.pointsEnabled ? 4 : 0,
                 borderCapStyle: 'square',
                 tension: 0.1,
                 segment: {

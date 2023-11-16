@@ -1,11 +1,10 @@
-import { defineStore } from "pinia";
-import { ref } from "vue";
+import { defineStore } from 'pinia'
+import { computed, ref } from 'vue'
 
 type DisplayOptions = {
     yAxis: 'averageRating' | 'numVotes'
     yAxisScale: 'fit' | 'fixed'
-    lineEnabled: boolean
-    pointsEnabled: boolean
+    mode: 'points' | 'lines' | 'both'
     colorEnabled: boolean
     tooltipEnabled?: boolean
     showSeasonConnectionSegments?: boolean
@@ -15,11 +14,18 @@ export const useDisplayOptionsStore = defineStore('displayOptions', () => {
     const displayOptions = ref<DisplayOptions>({
         yAxis: 'averageRating',
         yAxisScale: 'fixed',
-        lineEnabled: true,
-        pointsEnabled: true,
+        mode: 'both',
         colorEnabled: true,
         tooltipEnabled: true,
         showSeasonConnectionSegments: false
     })
-    return { displayOptions }
+
+    const pointsEnabled = computed(
+        () => displayOptions.value.mode === 'points' || displayOptions.value.mode === 'both'
+    )
+
+    const linesEnabled = computed(
+        () => displayOptions.value.mode === 'lines' || displayOptions.value.mode === 'both'
+    )
+    return { displayOptions, pointsEnabled, linesEnabled }
 })
