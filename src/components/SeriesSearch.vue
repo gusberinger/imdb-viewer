@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import AutoComplete from 'primevue/autocomplete'
+import { isTemplateExpression } from 'typescript';
 import { onMounted, ref, watch } from 'vue'
 
 const value = ref('')
@@ -10,7 +11,9 @@ const search = (e: { query: string }) => {
         ?.filter((item) => {
             return item.title.toLowerCase().startsWith(e.query.toLowerCase())
         })
+        .map((item) => ({...item, display: `${item.title} (${item.startYear}–${item.endYear})`}))
         .slice(0, 10)
+    console.log(results)
     suggestions.value = results || []
 }
 
@@ -33,7 +36,7 @@ watch(value, (val) => {
             v-model="value"
             placeholder="Search Title"
             :suggestions="suggestions"
-            option-label="title"
+            option-label="display"
             @complete="search"
         />
     </div>
