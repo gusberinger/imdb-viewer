@@ -71,7 +71,24 @@ const data = computed(() => {
                 pointHoverRadius: displayOptions.value.pointsEnabled ? 6 : 1,
                 pointRadius: displayOptions.value.pointsEnabled ? 4 : 0,
                 borderCapStyle: 'square',
-                tension: 0.1
+                tension: 0.1,
+                segment: {
+								borderColor: (ctx) => {
+									if (!displayOptions.value.colorEnabled) {
+										return colors[0]
+									}
+									const idx = ctx.p0DataIndex
+									const episode = db.value.episodes[idx]
+
+									if (displayOptions.value.showSeasonConnectionSegments) {
+										const nextEpisode = db.value.episodes[idx + 1]
+										if (nextEpisode.seasonNumber !== episode.seasonNumber) {
+											return "rgba(0,0,0,0)"
+										}
+									}
+									return colors[episode.seasonNumber % colors.length]
+								},
+							},
             }
         ]
     } satisfies ChartData<'line'>

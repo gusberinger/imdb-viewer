@@ -19,7 +19,7 @@ onMounted(async () => {
 </script>
 <template>
     <div v-if="db !== null" class="flex min-h-screen flex-col items-center justify-center">
-        <h1>{{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear }})</h1>
+        <h1 class="text-xl py-5">{{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear }})</h1>
         <ChartControls />
         <!-- <h2 class="max-w-lg">{{ db.episodes }}</h2> -->
         <Chart />

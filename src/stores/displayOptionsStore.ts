@@ -6,6 +6,8 @@ type DisplayOptions = {
     yAxisScale: 'fit' | 'fixed'
     lineEnabled: boolean
     pointsEnabled: boolean
+    colorEnabled: boolean
+    showSeasonConnectionSegments?: boolean
 }
 
 export const useDisplayOptionsStore = defineStore('displayOptions', () => {
@@ -14,6 +16,8 @@ export const useDisplayOptionsStore = defineStore('displayOptions', () => {
         yAxisScale: 'fixed',
         lineEnabled: true,
         pointsEnabled: true,
+        colorEnabled: true,
+        showSeasonConnectionSegments: false
     })
     return { displayOptions }
 })
