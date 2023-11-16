@@ -14,17 +14,22 @@ import {
     type ChartData
 } from 'chart.js'
 import { storeToRefs } from 'pinia'
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { Line } from 'vue-chartjs'
 const { db } = storeToRefs(useDataBaseStore())
 const displayStore = useDisplayOptionsStore()
 const { displayOptions } = storeToRefs(displayStore)
+
+const lineChart = ref<null | typeof Line >(null)
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend)
 const colors = ['#1be7ffff', '#6eeb83ff', '#e4ff1aff', '#e8aa14ff', '#ff5714ff']
 
 const data = computed(() => {
     return {
+        // @ts-ignore - force reactivity
+        hideSeasonConnectionSegments: displayStore.displayOptions.hideSeasonConnectionSegments,
+
         labels: db.value.episodes.map((e) => e.seasonNumber + 'x' + e.episodeNumber),
         datasets: [
             {
@@ -54,7 +59,7 @@ const data = computed(() => {
                         const idx = ctx.p0DataIndex
                         const episode = db.value.episodes[idx]
 
-                        if (displayOptions.value.showSeasonConnectionSegments) {
+                        if (displayOptions.value.hideSeasonConnectionSegments) {
                             const nextEpisode = db.value.episodes[idx + 1]
                             if (nextEpisode.seasonNumber !== episode.seasonNumber) {
                                 return 'rgba(0,0,0,0)'
@@ -68,6 +73,7 @@ const data = computed(() => {
     } satisfies ChartData<'line'>
 })
 
+
 const options = computed(() => {
     return {
         animation: {
@@ -80,7 +86,7 @@ const options = computed(() => {
                 max: displayOptions.value.yAxis == 'averageRating' ? 10 : undefined,
                 min:
                     displayOptions.value.yAxis == 'averageRating' &&
-                    displayOptions.value.yAxisScale == 'fixed'
+                    displayOptions.value.yAxisRange == 'fixed'
                         ? 0
                         : undefined
             }
@@ -120,9 +126,11 @@ const options = computed(() => {
         }
     } satisfies ChartOptions<'line'>
 })
+
+
 </script>
 <template>
     <div>
-        <Line :width="1000" :height="500" :data="data" :options="options" />
+        <Line :width="1000" :height="500" :data="data" :options="options" ref="lineChart" />
     </div>
 </template>

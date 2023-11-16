@@ -2,12 +2,19 @@
 import { useDisplayOptionsStore } from '@/stores/displayOptionsStore'
 import { storeToRefs } from 'pinia'
 import Dropdown from 'primevue/dropdown'
+import InputGroup from 'primevue/inputgroup'
+import InputGroupAddon from 'primevue/inputgroupaddon'
+import Checkbox from 'primevue/checkbox'
+import { CogIcon } from '@heroicons/vue/24/outline'
+import Dialog from 'primevue/dialog'
 import { ref } from 'vue'
+
+const showDialog = ref(false)
 
 const { displayOptions } = storeToRefs(useDisplayOptionsStore())
 </script>
 <template>
-    <div class="flex w-full justify-center py-6">
+    <InputGroup class="flex max-w-3xl justify-center py-6">
         <div class="p-float-label">
             <Dropdown
                 v-model="displayOptions.yAxis"
@@ -24,7 +31,7 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
         </div>
         <div v-if="displayOptions.yAxis == 'averageRating'" class="p-float-label">
             <Dropdown
-                v-model="displayOptions.yAxisScale"
+                v-model="displayOptions.yAxisRange"
                 inputId="yAxis"
                 :options="[
                     { label: 'Fit', value: 'fit' },
@@ -34,7 +41,7 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
                 optionLabel="label"
                 option-value="value"
             />
-            <label for="yAxis">Y Axis Scale</label>
+            <label for="yAxis">Y Axis Range</label>
         </div>
         <div class="p-float-label">
             <Dropdown
@@ -51,5 +58,44 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
             />
             <label for="yAxis">Mode</label>
         </div>
-    </div>
+        <InputGroupAddon>
+            <CogIcon
+                @click="showDialog = true"
+                class="text-gray-500 hover:cursor-pointer hover:saturate-50"
+            />
+        </InputGroupAddon>
+    </InputGroup>
+    <Dialog
+        v-model:visible="showDialog"
+        :dismissableMask="true"
+        class="mb-[30rem]"
+        :draggable="false"
+        :closable="false"
+        header="Display Options"
+        :modal="true"
+        :baseZIndex="10000"
+    >
+        <div class="flex flex-col">
+            <div class="flex gap-x-4">
+                <input
+                    type="checkbox"
+                    v-model="displayOptions.hideSeasonConnectionSegments"
+                    class="border-2"
+                    id="hideSeasonConnectionSegments"
+                    :binary="true"
+                />
+                <label for="hideSeasonConnectionSegments">Hide lines between seasons </label>
+            </div>
+            <div class="flex gap-x-4">
+                <input
+                    type="checkbox"
+                    v-model="displayOptions.tooltipEnabled"
+                    class="border-2"
+                    id="hideSeasonConnectionSegments"
+                    :binary="true"
+                />
+                <label for="hideSeasonConnectionSegments">Disable tooltip</label>
+            </div>
+        </div>
+    </Dialog>
 </template>
