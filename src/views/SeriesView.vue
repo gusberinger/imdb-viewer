@@ -1,13 +1,13 @@
 <script lang="ts" setup>
 import Chart from '@/components/Chart.vue'
+import ChartControls from '@/components/ChartControls.vue'
 import { useDataBaseStore } from '@/stores/databaseStore'
 import { storeToRefs } from 'pinia'
 import { onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
-const store = useDataBaseStore()
-const { db } = storeToRefs(store)
+const { db } = storeToRefs(useDataBaseStore())
 
 onMounted(async () => {
     const tconst = route.params.tconst as string
@@ -20,6 +20,7 @@ onMounted(async () => {
 <template>
     <div v-if="db !== null" class="flex min-h-screen flex-col items-center justify-center">
         <h1>{{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear }})</h1>
+        <ChartControls />
         <!-- <h2 class="max-w-lg">{{ db.episodes }}</h2> -->
         <Chart />
     </div>
