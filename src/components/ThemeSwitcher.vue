@@ -17,10 +17,6 @@ const toggleSunClick = () => {
     isDark.value = true
 }
 
-
-// watch(isDark, (val) => {
-    // PrimeVue.changeTheme(val ? 'lara-dark-teal' : 'lara-dark-teal', val ? 'lara-dark-teal' : 'lara-dark-teal', val ? 'lara-dark-teal' : 'lara-dark-teal')
-
 </script>
 <template>
     <div>
