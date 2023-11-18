@@ -2,6 +2,7 @@
 import Chart from '@/components/Chart.vue'
 import ChartControls from '@/components/ChartControls.vue'
 import SeriesSearch from '@/components/SeriesSearch.vue'
+import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
 import { useDataBaseStore } from '@/stores/databaseStore'
 import { storeToRefs } from 'pinia'
 import { onMounted } from 'vue'
@@ -22,7 +23,10 @@ onMounted(async () => {
     <div v-if="db !== null" class="flex min-h-screen flex-col items-center justify-center">
         <div class="flex flex-col md:flex-row items-center justify-between w-full max-w-3xl">
             <h1 class="text-xl py-5">{{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear }})</h1>
-            <SeriesSearch />
+            <div class="flex items-center gap-x-3">
+                <theme-switcher />
+                <SeriesSearch />
+            </div>
         </div>
         <ChartControls />
         <!-- <h2 class="max-w-lg">{{ db.episodes }}</h2> -->
