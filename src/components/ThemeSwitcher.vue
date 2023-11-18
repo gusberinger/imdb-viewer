@@ -1,22 +1,20 @@
 <script lang="ts" setup>
 import { MoonIcon } from '@heroicons/vue/24/outline';
 import { SunIcon } from '@heroicons/vue/24/outline';
-import { useToggle } from '@vueuse/shared';
 import { useDark } from '@vueuse/core';
 import { usePrimeVue } from 'primevue/config';
 const PrimeVue = usePrimeVue()
 
 const isDark = useDark()
-const toggleDark = useToggle(isDark)
 
 const toggleMoonClick = () => {
     PrimeVue.changeTheme('lara-dark-teal', 'lara-light-teal', 'lara-theme')
-    toggleDark(false)
+    isDark.value = false
 }
 
 const toggleSunClick = () => {
     PrimeVue.changeTheme('lara-light-teal', 'lara-dark-teal', 'lara-theme')
-    toggleDark(true)
+    isDark.value = true
 }
 
 
