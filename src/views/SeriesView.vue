@@ -29,7 +29,6 @@ onMounted(async () => {
             </div>
         </div>
         <ChartControls />
-        <!-- <h2 class="max-w-lg">{{ db.episodes }}</h2> -->
         <Chart />
     </div>
 </template>
