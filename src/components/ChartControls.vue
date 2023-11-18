@@ -4,7 +4,6 @@ import { storeToRefs } from 'pinia'
 import Dropdown from 'primevue/dropdown'
 import InputGroup from 'primevue/inputgroup'
 import InputGroupAddon from 'primevue/inputgroupaddon'
-import Checkbox from 'primevue/checkbox'
 import { CogIcon } from '@heroicons/vue/24/outline'
 import Dialog from 'primevue/dialog'
 import { ref } from 'vue'
@@ -58,9 +57,8 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
             />
             <label for="yAxis">Mode</label>
         </div>
-        <InputGroupAddon>
+        <InputGroupAddon @click="showDialog = true" class="hover:brightness-[.98] transition-all">
             <CogIcon
-                @click="showDialog = true"
                 class="text-gray-500 hover:cursor-pointer hover:saturate-50"
             />
         </InputGroupAddon>
@@ -88,21 +86,21 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
             </div>
             <div class="flex gap-x-4">
                 <input
-                type="checkbox"
-                v-model="displayOptions.hidePilots"
-                class="border-2"
-                id="hidePilots"
-                :binary="true"
+                    type="checkbox"
+                    v-model="displayOptions.hidePilots"
+                    class="border-2"
+                    id="hidePilots"
+                    :binary="true"
                 />
                 <label for="hidePilots">Hide pilots</label>
             </div>
             <div class="flex gap-x-4">
                 <input
-                type="checkbox"
-                v-model="displayOptions.hideUnrated"
-                class="border-2"
-                id="hideUnrated"
-                :binary="true"
+                    type="checkbox"
+                    v-model="displayOptions.hideUnrated"
+                    class="border-2"
+                    id="hideUnrated"
+                    :binary="true"
                 />
                 <label for="hideUnrated">Hide unrated episodes</label>
             </div>

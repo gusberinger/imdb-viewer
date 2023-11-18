@@ -12,24 +12,34 @@ type DisplayOptions = {
     hideUnrated: boolean
 }
 
-export const useDisplayOptionsStore = defineStore('displayOptions', () => {
-    const displayOptions = ref<DisplayOptions>({
-        yAxis: 'averageRating',
-        yAxisRange: 'fixed',
-        mode: 'both',
-        colorEnabled: true,
-        tooltipDisabled: false,
-        hideSeasonConnectionSegments: true,
-        hidePilots: true,
-        hideUnrated: true,
-    })
+const defaultDisplayOptions: DisplayOptions = {
+    yAxis: 'averageRating',
+    yAxisRange: 'fixed',
+    mode: 'both',
+    colorEnabled: true,
+    tooltipDisabled: false,
+    hideSeasonConnectionSegments: true,
+    hidePilots: true,
+    hideUnrated: true
+}
 
-    const pointsEnabled = computed(
-        () => displayOptions.value.mode === 'points' || displayOptions.value.mode === 'both'
-    )
+// const savedDisplayOptions = localStorage.getItem('displayOptions')
 
-    const linesEnabled = computed(
-        () => displayOptions.value.mode === 'lines' || displayOptions.value.mode === 'both'
-    )
-    return { displayOptions, pointsEnabled, linesEnabled }
-})
+export const useDisplayOptionsStore = defineStore(
+    'displayOptions',
+    () => {
+        const displayOptions = ref<DisplayOptions>(
+            defaultDisplayOptions
+        )
+
+        const pointsEnabled = computed(
+            () => displayOptions.value.mode === 'points' || displayOptions.value.mode === 'both'
+        )
+
+        const linesEnabled = computed(
+            () => displayOptions.value.mode === 'lines' || displayOptions.value.mode === 'both'
+        )
+        return { displayOptions, pointsEnabled, linesEnabled }
+    },
+    { persist: true }
+)
