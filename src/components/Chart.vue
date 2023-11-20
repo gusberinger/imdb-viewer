@@ -22,10 +22,11 @@ const { displayOptions } = storeToRefs(displayStore)
 
 const lineChart = ref<null | typeof Line>(null)
 
+
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend)
-const colors = ['#1be7ffff', '#6eeb83ff', '#e4ff1aff', '#e8aa14ff', '#ff5714ff']
 
 const data = computed(() => {
+    const colors = displayOptions.value.colors
     return {
         // @ts-ignore - force reactivity
         hideSeasonConnectionSegments: displayStore.displayOptions.hideSeasonConnectionSegments,
@@ -54,9 +55,6 @@ const data = computed(() => {
                 tension: 0.1,
                 segment: {
                     borderColor: (ctx) => {
-                        if (!displayOptions.value.colorEnabled) {
-                            return colors[0]
-                        }
                         const idx = ctx.p0DataIndex
                         const episode = episodes.value[idx]
 

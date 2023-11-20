@@ -5,7 +5,7 @@ type DisplayOptions = {
     yAxis: 'averageRating' | 'numVotes'
     yAxisRange: 'fit' | 'fixed'
     mode: 'points' | 'lines' | 'both'
-    colorEnabled: boolean
+    colors: string[]
     tooltipDisabled: boolean
     hideSeasonConnectionSegments: boolean
     hidePilots: boolean
@@ -17,7 +17,7 @@ const defaultDisplayOptions: DisplayOptions = {
     yAxis: 'averageRating',
     yAxisRange: 'fixed',
     mode: 'both',
-    colorEnabled: true,
+    colors: ['#1be7ffff', '#6eeb83ff', '#e4ff1aff', '#e8aa14ff', '#ff5714ff'],
     tooltipDisabled: false,
     hideSeasonConnectionSegments: true,
     hidePilots: true,
