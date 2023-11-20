@@ -18,15 +18,16 @@ const removeColor = (idx: number) => {
 <template>
     <div class="py-1">
         <label for="">Season Color Palette</label>
-        <div class="flex gap-x-1">
+        <div class="flex gap-x-1 ">
             <ColorPicker
                 v-for="(_color, idx) in displayOptions.colors"
                 :key="idx"
+                class="first:order-1"
                 v-model="displayOptions.colors[idx]"
                 @click.shift="removeColor(idx)"
             />
             <button
-                class="group flex h-[32px] w-[32px] items-center justify-center rounded-[6px] border-2 border-stone-400 transition-colors"
+                class="group order-2 flex h-[32px] w-[32px] items-center justify-center rounded-[6px] border-2 border-stone-400 transition-colors"
                 @click="addColor"
             >
                 <PlusIcon class="h-5 w-5 fill-stone-800" />
