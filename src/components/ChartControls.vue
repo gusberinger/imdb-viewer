@@ -7,6 +7,7 @@ import InputGroupAddon from 'primevue/inputgroupaddon'
 import { CogIcon } from '@heroicons/vue/24/outline'
 import Dialog from 'primevue/dialog'
 import { ref } from 'vue'
+import ColorControls from './ColorControls.vue'
 
 const showDialog = ref(false)
 
@@ -124,6 +125,7 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
                 />
                 <label for="shiftClickToOpenInNewTab">Shift Click To Open Tab</label>
             </div>
+            <ColorControls />
         </div>
     </Dialog>
 </template>
