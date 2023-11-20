@@ -6,7 +6,7 @@ import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
 <template>
     <main class="flex min-h-screen flex-col items-center justify-center gap-3">
         <theme-switcher class="fixed top-4 left-4"/>
-        <a href="https://your-url" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80"
+        <a href="https://github.com/gusberinger/imdb-viewer" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80"
                 viewBox="0 0 250 250" style="fill: #151513; color: #fff; position: absolute; top: 0; border: 0; right: 0"
                 aria-hidden="true">
                 <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
