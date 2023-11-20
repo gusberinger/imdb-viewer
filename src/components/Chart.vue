@@ -79,6 +79,15 @@ const options = computed(() => {
         animation: {
             duration: 0
         },
+        onClick: (event, elements) => {
+            // @ts-ignore - incorrect library type
+            if (!event?.native?.shiftKey || elements.length === 0) {
+                return
+            }
+            const element = episodes.value[elements[0].index]
+            const link = `https://www.imdb.com/title/${element.tconst}`
+            window.open(link, '_blank')
+        },
         responsive: true,
         maintainAspectRatio: true,
         scales: {
