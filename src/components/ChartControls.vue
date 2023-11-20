@@ -57,9 +57,9 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
             />
             <label for="yAxis">Mode</label>
         </div>
-        <InputGroupAddon @click="showDialog = true" class="hover:brightness-[.98] transition-all">
+        <InputGroupAddon @click="showDialog = true" class="hover:brightness-[.98] hover:cursor-pointer transition-all">
             <CogIcon
-                class="text-gray-500 hover:cursor-pointer hover:saturate-50"
+                class="text-gray-500 hover:saturate-50"
             />
         </InputGroupAddon>
     </InputGroup>
