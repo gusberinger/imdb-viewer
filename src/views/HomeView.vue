@@ -31,7 +31,7 @@ import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
                 ></path></svg
         ></a>
         <section>
-            <h1 class="text-center text-2xl">IMDb Charts</h1>
+            <h1 class="text-center text-2xl mb-2">IMDb Charts</h1>
             <series-search />
         </section>
         <footer class="fixed bottom-0 mt-10 py-6 text-sm text-gray-400">
