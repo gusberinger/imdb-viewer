@@ -10,6 +10,7 @@ type DisplayOptions = {
     hideSeasonConnectionSegments: boolean
     hidePilots: boolean
     hideUnrated: boolean
+    autoSwitchMode: boolean
     shiftClickToOpenInNewTab: boolean
 }
 
@@ -18,14 +19,13 @@ const defaultDisplayOptions: DisplayOptions = {
     yAxisRange: 'fixed',
     mode: 'both',
     colors: ['1be7ff', '6eeb83', 'e4ff1a', 'e8aa14', 'ff5714'],
+    autoSwitchMode: true,
     tooltipDisabled: false,
     hideSeasonConnectionSegments: true,
     hidePilots: true,
     hideUnrated: true,
     shiftClickToOpenInNewTab: true
 }
-
-// const savedDisplayOptions = localStorage.getItem('displayOptions')
 
 export const useDisplayOptionsStore = defineStore(
     'displayOptions',

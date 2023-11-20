@@ -4,12 +4,14 @@ import ChartControls from '@/components/ChartControls.vue'
 import SeriesSearch from '@/components/SeriesSearch.vue'
 import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
 import { useDataBaseStore } from '@/stores/databaseStore'
+import { useDisplayOptionsStore } from '@/stores/displayOptionsStore'
 import { storeToRefs } from 'pinia'
 import { onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
 const { db } = storeToRefs(useDataBaseStore())
+const {displayOptions} = storeToRefs(useDisplayOptionsStore())
 
 onMounted(async () => {
     const tconst = route.params.tconst as string
@@ -17,6 +19,12 @@ onMounted(async () => {
     const response = await fetch(`/series_db/${group}/${tconst}.json`)
     const data = await response.json()
     db.value = data
+
+    if (displayOptions.value.autoSwitchMode) {
+        if (db.value.episodes.length > 300) {
+            displayOptions.value.mode = 'points'
+        } 
+    }
 })
 </script>
 <template>

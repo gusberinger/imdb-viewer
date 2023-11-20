@@ -88,6 +88,16 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
             <div class="flex gap-x-4">
                 <input
                     type="checkbox"
+                    v-model="displayOptions.autoSwitchMode"
+                    class="border-2"
+                    id="autoSwitchMode"
+                    :binary="true"
+                />
+                <label for="autoSwitchMode">Auto Switch Mode (+300 Episodes)</label>
+            </div>
+            <div class="flex gap-x-4">
+                <input
+                    type="checkbox"
                     v-model="displayOptions.hidePilots"
                     class="border-2"
                     id="hidePilots"

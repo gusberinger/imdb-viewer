@@ -16,7 +16,7 @@ import {
 import { storeToRefs } from 'pinia'
 import { computed, ref } from 'vue'
 import { Line } from 'vue-chartjs'
-const { db, episodes } = storeToRefs(useDataBaseStore())
+const { episodes } = storeToRefs(useDataBaseStore())
 const displayStore = useDisplayOptionsStore()
 const { displayOptions } = storeToRefs(displayStore)
 
