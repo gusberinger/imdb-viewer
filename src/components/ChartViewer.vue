@@ -14,13 +14,17 @@ import {
     type ChartData
 } from 'chart.js'
 import { storeToRefs } from 'pinia'
-import { computed, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { Line } from 'vue-chartjs'
 const { episodes } = storeToRefs(useDataBaseStore())
 const displayStore = useDisplayOptionsStore()
 const { displayOptions } = storeToRefs(displayStore)
 
-const lineChart = ref<null | typeof Line>(null)
+const lineChart = ref<any>(null)
+
+watch(displayOptions.value.colors, () => {
+    lineChart.value?.chart?.update()
+})
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend)
 

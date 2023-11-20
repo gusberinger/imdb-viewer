@@ -26,7 +26,7 @@ const removeColor = (idx: number) => {
                 @click.shift="removeColor(idx)"
             />
             <button
-                class="group flex h-[28px] w-[28px] items-center justify-center rounded-[6px] border-2 border-stone-400 transition-colors"
+                class="group flex h-[32px] w-[32px] items-center justify-center rounded-[6px] border-2 border-stone-400 transition-colors"
                 @click="addColor"
             >
                 <PlusIcon class="h-5 w-5 fill-stone-800" />
