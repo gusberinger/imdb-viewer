@@ -13,6 +13,11 @@ const router = createRouter({
             path: '/series/:tconst',
             name: 'about',
             component: () => import('../views/SeriesView.vue')
+        },
+        {
+            path: '/:pathMatch(.*)*',
+            name: 'Not Found',
+            component: () => import('../views/NotFound.vue')
         }
     ]
 })
