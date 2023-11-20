@@ -81,6 +81,9 @@ const options = computed(() => {
             duration: 0
         },
         onClick: (event, elements) => {
+            if (!displayOptions.value.shiftClickToOpenInNewTab) {
+                return
+            }
             // @ts-ignore - incorrect library type
             if (!event?.native?.shiftKey || elements.length === 0) {
                 return
