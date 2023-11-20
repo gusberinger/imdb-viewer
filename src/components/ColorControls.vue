@@ -9,6 +9,11 @@ const addColor = () => {
     const randomColor = Math.floor(Math.random() * 16777215).toString(16)
     displayOptions.value.colors.push(randomColor)
 }
+
+const removeColor = (idx: number) => {
+    displayOptions.value.colors.splice(idx, 1)
+}
+
 </script>
 <template>
     <div class="py-1">
@@ -18,6 +23,7 @@ const addColor = () => {
                 v-for="(_color, idx) in displayOptions.colors"
                 :key="idx"
                 v-model="displayOptions.colors[idx]"
+                @click.shift="removeColor(idx)"
             />
             <button
                 class="group flex h-[28px] w-[28px] items-center justify-center rounded-[6px] border-2 border-stone-400 transition-colors"
