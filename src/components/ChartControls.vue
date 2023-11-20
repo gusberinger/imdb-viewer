@@ -114,6 +114,16 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
                 />
                 <label for="tooltipDisabled">Disable tooltip</label>
             </div>
+            <div class="flex gap-x-4">
+                <input
+                    type="checkbox"
+                    v-model="displayOptions.shiftClickToOpenInNewTab"
+                    class="border-2"
+                    id="shiftClickToOpenInNewTab"
+                    :binary="true"
+                />
+                <label for="shiftClickToOpenInNewTab">Shift Click To Open Tab</label>
+            </div>
         </div>
     </Dialog>
 </template>
