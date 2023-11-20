@@ -17,7 +17,7 @@ const defaultDisplayOptions: DisplayOptions = {
     yAxis: 'averageRating',
     yAxisRange: 'fixed',
     mode: 'both',
-    colors: ['#1be7ffff', '#6eeb83ff', '#e4ff1aff', '#e8aa14ff', '#ff5714ff'],
+    colors: ['1be7ff', '6eeb83', 'e4ff1a', 'e8aa14', 'ff5714'],
     tooltipDisabled: false,
     hideSeasonConnectionSegments: true,
     hidePilots: true,

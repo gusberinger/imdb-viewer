@@ -44,7 +44,7 @@ const data = computed(() => {
                 ),
                 pointBackgroundColor: (ctx) => {
                     const season = episodes.value[ctx.dataIndex].seasonNumber
-                    return colors[season % colors.length]
+                    return '#' + colors[season % colors.length]
                 },
                 borderWidth: displayStore.linesEnabled ? 3 : 0,
                 pointBorderWidth: 0,
@@ -64,7 +64,7 @@ const data = computed(() => {
                                 return 'rgba(0,0,0,0)'
                             }
                         }
-                        return colors[episode.seasonNumber % colors.length]
+                        return '#' + colors[episode.seasonNumber % colors.length]
                     }
                 }
             }
