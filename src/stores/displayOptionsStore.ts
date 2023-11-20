@@ -10,6 +10,7 @@ type DisplayOptions = {
     hideSeasonConnectionSegments: boolean
     hidePilots: boolean
     hideUnrated: boolean
+    shiftClickToOpenInNewTab: boolean
 }
 
 const defaultDisplayOptions: DisplayOptions = {
@@ -20,7 +21,8 @@ const defaultDisplayOptions: DisplayOptions = {
     tooltipDisabled: false,
     hideSeasonConnectionSegments: true,
     hidePilots: true,
-    hideUnrated: true
+    hideUnrated: true,
+    shiftClickToOpenInNewTab: true
 }
 
 // const savedDisplayOptions = localStorage.getItem('displayOptions')
