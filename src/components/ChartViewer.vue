@@ -22,7 +22,6 @@ const { displayOptions } = storeToRefs(displayStore)
 
 const lineChart = ref<null | typeof Line>(null)
 
-
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend)
 
 const data = computed(() => {

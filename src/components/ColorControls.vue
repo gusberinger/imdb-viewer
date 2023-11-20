@@ -15,7 +15,7 @@ const addColor = () => {
         <label for="">Season Color Palette</label>
         <div class="flex gap-x-1">
             <ColorPicker
-                v-for="(color, idx) in displayOptions.colors"
+                v-for="(_color, idx) in displayOptions.colors"
                 :key="idx"
                 v-model="displayOptions.colors[idx]"
             />

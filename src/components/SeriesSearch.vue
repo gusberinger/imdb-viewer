@@ -2,19 +2,21 @@
 import AutoComplete from 'primevue/autocomplete'
 import { onMounted, ref, watch } from 'vue'
 
-type Series =  { tconst: string; title: string, startYear: string, endYear: string }
+type Series = { tconst: string; title: string; startYear: string; endYear: string }
 
 const value = ref<string | Series>('')
 const suggestions = ref<Series[]>([])
-const db = ref<null |Series[]>(null)
-
+const db = ref<null | Series[]>(null)
 
 const search = (e: { query: string }) => {
     const results = db.value
         ?.filter((item) => {
             return item.title.toLowerCase().startsWith(e.query.toLowerCase())
         })
-        .map((item) => ({...item, display: `${item.title} (${item.startYear}–${item.endYear.replace("\\N", "")})`}))
+        .map((item) => ({
+            ...item,
+            display: `${item.title} (${item.startYear}–${item.endYear.replace('\\N', '')})`
+        }))
         .slice(0, 10)
     console.log(results)
     suggestions.value = results || []
