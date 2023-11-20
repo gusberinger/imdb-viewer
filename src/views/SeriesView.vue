@@ -2,13 +2,15 @@
 import ChartViewer from '@/components/ChartViewer.vue'
 import ChartControls from '@/components/ChartControls.vue'
 import SeriesSearch from '@/components/SeriesSearch.vue'
+import NotFound from '@/views/NotFound.vue'
 import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
 import { useDataBaseStore } from '@/stores/databaseStore'
 import { useDisplayOptionsStore } from '@/stores/displayOptionsStore'
 import { storeToRefs } from 'pinia'
-import { onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 
+const seriesNotFound = ref(false)
 const route = useRoute()
 const { db } = storeToRefs(useDataBaseStore())
 const { displayOptions } = storeToRefs(useDisplayOptionsStore())
@@ -16,9 +18,13 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
 onMounted(async () => {
     const tconst = route.params.tconst as string
     const group = Number(tconst.replace('tt', '')) % 500
-    const response = await fetch(`/series_db/${group}/${tconst}.json`)
-    const data = await response.json()
-    db.value = data
+    try {
+        const response = await fetch(`/series_db/${group}/${tconst}.json`)
+        const data = await response.json()
+        db.value = data
+    } catch (error) {
+        seriesNotFound.value = true
+    }
 
     if (displayOptions.value.autoSwitchMode) {
         if (db.value.episodes.length > 300) {
@@ -28,6 +34,9 @@ onMounted(async () => {
 })
 </script>
 <template>
+    <div v-if="seriesNotFound">
+        <NotFound />
+    </div>
     <div v-if="db !== null" class="flex min-h-screen flex-col items-center justify-center">
         <div class="flex w-full max-w-3xl flex-col items-center justify-between md:flex-row">
             <h1 class="py-5 text-xl">

@@ -13,12 +13,11 @@ const addColor = () => {
 const removeColor = (idx: number) => {
     displayOptions.value.colors.splice(idx, 1)
 }
-
 </script>
 <template>
     <div class="py-1">
         <label for="">Season Color Palette</label>
-        <div class="flex gap-x-1 ">
+        <div class="flex gap-x-1">
             <ColorPicker
                 v-for="(_color, idx) in displayOptions.colors"
                 :key="idx"
