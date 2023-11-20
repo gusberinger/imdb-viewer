@@ -33,6 +33,7 @@ const data = computed(() => {
         labels: episodes.value.map((e) => e.seasonNumber + 'x' + e.episodeNumber),
         datasets: [
             {
+                normalized: true,
                 label:
                     displayOptions.value.yAxis === 'averageRating'
                         ? 'Average Rating'
