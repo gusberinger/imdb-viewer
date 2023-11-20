@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import AutoComplete from 'primevue/autocomplete'
-import { isTemplateExpression } from 'typescript';
 import { onMounted, ref, watch } from 'vue'
 
-const value = ref('')
-const suggestions = ref([])
-const db = ref<null | { tconst: string; title: string }[]>(null)
+type Series =  { tconst: string; title: string, startYear: string, endYear: string }
+
+const value = ref<string | Series>('')
+const suggestions = ref<Series[]>([])
+const db = ref<null |Series[]>(null)
 
 
 const search = (e: { query: string }) => {
@@ -25,7 +26,7 @@ onMounted(async () => {
 })
 
 watch(value, (val) => {
-    if (val.tconst) {
+    if (typeof val !== 'string' && val !== null) {
         window.location.href = `/series/${val.tconst}`
     }
 })
