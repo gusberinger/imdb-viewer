@@ -4,7 +4,7 @@
         <script>
             const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
             const currentTheme = localStorage.getItem('vueuse-color-scheme')
-            if ((currentTheme == null && prefersDark) || currentTheme === 'dark') {
+            if (((currentTheme == null || currentTheme == 'auto') && prefersDark) || currentTheme === 'dark') {
 				document.documentElement.classList.add('dark')
             }
         </script>
