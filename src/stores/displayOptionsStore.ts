@@ -30,9 +30,7 @@ const defaultDisplayOptions: DisplayOptions = {
 export const useDisplayOptionsStore = defineStore(
     'displayOptions',
     () => {
-        const displayOptions = ref<DisplayOptions>(
-            defaultDisplayOptions
-        )
+        const displayOptions = ref<DisplayOptions>(defaultDisplayOptions)
 
         const pointsEnabled = computed(
             () => displayOptions.value.mode === 'points' || displayOptions.value.mode === 'both'

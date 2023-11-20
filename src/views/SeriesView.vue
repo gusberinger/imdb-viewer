@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import Chart from '@/components/Chart.vue'
+import ChartViewer from '@/components/ChartViewer.vue'
 import ChartControls from '@/components/ChartControls.vue'
 import SeriesSearch from '@/components/SeriesSearch.vue'
 import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
@@ -11,7 +11,7 @@ import { useRoute } from 'vue-router'
 
 const route = useRoute()
 const { db } = storeToRefs(useDataBaseStore())
-const {displayOptions} = storeToRefs(useDisplayOptionsStore())
+const { displayOptions } = storeToRefs(useDisplayOptionsStore())
 
 onMounted(async () => {
     const tconst = route.params.tconst as string
@@ -23,7 +23,7 @@ onMounted(async () => {
     if (displayOptions.value.autoSwitchMode) {
         if (db.value.episodes.length > 300) {
             displayOptions.value.mode = 'points'
-        } 
+        }
     }
 })
 </script>
@@ -39,12 +39,10 @@ onMounted(async () => {
             </div>
         </div>
         <ChartControls />
-        <Chart />
-        <footer class="py-10 mt-10 text-sm text-gray-400">
-            © {{ new Date().getFullYear() }} Gus Beringer.
-            Information courtesy of
-            <a href="https://www.imdb.com">IMDb</a>,
-            used with permission.
+        <ChartViewer />
+        <footer class="mt-10 py-10 text-sm text-gray-400">
+            © {{ new Date().getFullYear() }} Gus Beringer. Information courtesy of
+            <a href="https://www.imdb.com">IMDb</a>, used with permission.
         </footer>
     </div>
 </template>
