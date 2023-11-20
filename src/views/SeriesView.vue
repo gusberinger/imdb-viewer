@@ -21,8 +21,10 @@ onMounted(async () => {
 </script>
 <template>
     <div v-if="db !== null" class="flex min-h-screen flex-col items-center justify-center">
-        <div class="flex flex-col md:flex-row items-center justify-between w-full max-w-3xl">
-            <h1 class="text-xl py-5">{{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear }})</h1>
+        <div class="flex w-full max-w-3xl flex-col items-center justify-between md:flex-row">
+            <h1 class="py-5 text-xl">
+                {{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear }})
+            </h1>
             <div class="flex items-center gap-x-3">
                 <theme-switcher />
                 <SeriesSearch />
@@ -30,6 +32,12 @@ onMounted(async () => {
         </div>
         <ChartControls />
         <Chart />
+        <footer class="py-10 mt-10 text-sm text-gray-400">
+            © {{ new Date().getFullYear() }} Gus Beringer.
+            Information courtesy of
+            <a href="https://www.imdb.com">IMDb</a>,
+            used with permission.
+        </footer>
     </div>
 </template>
 
