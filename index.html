@@ -8,12 +8,12 @@
             const setDarkMode = ((currentTheme == null || currentTheme == 'auto') && prefersDark) || currentTheme === 'dark'
             if (setDarkMode) {
 				document.documentElement.classList.add('dark')
-                const linkElement = document.createElement('link')
-                linkElement.rel = 'stylesheet'
-                linkElement.id = 'lara-theme'
-                linkElement.href = `/themes/lara-${setDarkMode ? 'dark' : 'light'}-teal/theme.css`
-                document.head.appendChild(linkElement)
             }
+            const linkElement = document.createElement('link')
+            linkElement.rel = 'stylesheet'
+            linkElement.id = 'lara-theme'
+            linkElement.href = `/themes/lara-${setDarkMode ? 'dark' : 'light'}-teal/theme.css`
+            document.head.appendChild(linkElement)
 
 
         </script>
