@@ -128,6 +128,9 @@ const options = computed(() => {
                         const index = tooltipInfo[0].dataIndex
                         const episode = episodes.value[index]
                         let message = `Season ${episode.seasonNumber} Episode ${episode.episodeNumber}`
+                        if (episode.startYear) {
+                            message += `\n${episode.startYear}`
+                        }
                         message += `\n${episode.averageRating}/10`
                         message += `\n${episode.numVotes} votes`
                         return message
