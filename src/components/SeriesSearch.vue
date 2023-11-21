@@ -14,7 +14,7 @@ const search = (e: { query: string }) => {
     if (miniSearchObj.value === null) return
     const results = miniSearchObj.value.search(e.query, { prefix: true, fuzzy: 0.2 })
     console.log(results)
-    suggestions.value = results.map((result) => ({
+    suggestions.value = results.slice(0, 10).map((result) => ({
         tconst: result.tconst,
         title: result.title,
         startYear: result.startYear,
