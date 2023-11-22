@@ -2,14 +2,14 @@
 import ChartViewer from '@/components/ChartViewer.vue'
 import ChartControls from '@/components/ChartControls.vue'
 import SeriesSearch from '@/components/SeriesSearch.vue'
-import NotFound from '@/views/NotFound.vue'
 import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
 import { useDataBaseStore } from '@/stores/databaseStore'
 import { useDisplayOptionsStore } from '@/stores/displayOptionsStore'
 import { storeToRefs } from 'pinia'
-import { onMounted, ref } from 'vue'
+import { onMounted, ref, defineAsyncComponent } from 'vue'
 import { useRoute } from 'vue-router'
 
+const NotFound = defineAsyncComponent(() => import('@/views/NotFound.vue'))
 const seriesNotFound = ref(false)
 const route = useRoute()
 const { db } = storeToRefs(useDataBaseStore())
@@ -24,6 +24,7 @@ onMounted(async () => {
         db.value = data
     } catch (error) {
         seriesNotFound.value = true
+        return
     }
 
     if (displayOptions.value.autoSwitchMode) {
