@@ -44,7 +44,6 @@ watch(value, (val) => {
 <template>
     <div>
         <AutoComplete
-            class="rounded-2xl border-2 px-1 py-2"
             v-if="miniSearchObj !== null"
             v-model="value"
             placeholder="Search Title"
@@ -54,3 +53,10 @@ watch(value, (val) => {
         />
     </div>
 </template>
+<style>
+
+div.p-autocomplete input.p-inputtext {
+    @apply rounded-2xl px-2 py-2 border-2;
+}
+
+</style>
