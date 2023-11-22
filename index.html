@@ -5,17 +5,17 @@
             const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
             const currentTheme = localStorage.getItem('vueuse-color-scheme')
 
-            const setDarkMode = ((currentTheme == null || currentTheme == 'auto') && prefersDark) || currentTheme === 'dark'
+            const setDarkMode =
+                ((currentTheme == null || currentTheme == 'auto') && prefersDark) ||
+                currentTheme === 'dark'
             if (setDarkMode) {
-				document.documentElement.classList.add('dark')
+                document.documentElement.classList.add('dark')
             }
             const linkElement = document.createElement('link')
             linkElement.rel = 'stylesheet'
             linkElement.id = 'lara-theme'
             linkElement.href = `/themes/lara-${setDarkMode ? 'dark' : 'light'}-teal/theme.css`
             document.head.appendChild(linkElement)
-
-
         </script>
         <meta charset="UTF-8" />
         <link rel="icon" href="/favicon.svg" />
@@ -28,4 +28,11 @@
         <div id="app"></div>
         <script type="module" src="/src/main.ts"></script>
     </body>
+    <!-- Cloudflare Web Analytics -->
+    <script
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "cbeded6d048a44fd8f91ef294ff6f87c"}'
+    ></script>
+    <!-- End Cloudflare Web Analytics -->
 </html>
