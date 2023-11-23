@@ -65,7 +65,8 @@ watch(value, (val) => {
             <template #option="option">
               <p>
                 <span>{{ option.option.primaryTitle }}</span>
-                <span class="text-gray-400" v-if="option.option.originalTitle">{{ ' (' + option.option.originalTitle }})</span>
+                <!-- <span class="text-gray-400" v-if="option.option.originalTitle">{{ ' (' + option.option.originalTitle }})</span> -->
+                <span class="text-teal-300 dark:text-teal-600">{{ ' ('+ option.option.startYear }}–{{ option.option.endYear ? option.option.endYear : ''}})</span>
               </p>
             </template>
         </AutoComplete>
