@@ -40,8 +40,11 @@ onMounted(async () => {
     </div>
     <div v-if="db !== null" class="flex min-h-screen flex-col items-center justify-center">
         <div class="flex w-full max-w-3xl flex-col items-center justify-between md:flex-row">
-            <h1 class="py-5 text-xl">
+            <h1 v-if="db.startYear != db.endYear" class="py-5 text-xl">
                 {{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear }})
+            </h1>
+            <h1 v-else>
+                {{ db.primaryTitle }} ({{ db.startYear }})
             </h1>
             <div class="flex items-center gap-x-3">
                 <theme-switcher />
