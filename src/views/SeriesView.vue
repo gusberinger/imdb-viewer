@@ -72,9 +72,14 @@ onMounted(async () => {
             </div>
         </div>
         <div v-if="tmdb != null" class="flex justify-evenly py-10 gap-x-4"> 
-            <a :href="`https://imdb.com/title/${db.tconst}`"><img :src="`https://image.tmdb.org/t/p/w500/${tmdb.poster_path}`" class="w-32" /></a>
-            <p class="max-w-lg">{{ tmdb.overview }}</p>
+            <a :href="`https://imdb.com/title/${db.tconst}`"><img width="128" height="190"  :src="`https://image.tmdb.org/t/p/w500/${tmdb.poster_path}`" class="w-32" /></a>
+            <p class="overview" :class="{
+                'max-w-lg': tmdb.overview.length > 400,
+                'max-w-md': tmdb.overview.length > 150 && tmdb.overview.length <= 400,
+                'max-w-xs': tmdb.overview.length <= 150,
+            }">{{ tmdb.overview }}</p>
         </div>
+        <div v-else class="py-[9.8rem]"></div>
         <ChartControls />
         <ChartViewer />
         <footer class="mt-10 py-10 text-sm text-gray-400">
@@ -83,5 +88,3 @@ onMounted(async () => {
         </footer>
     </div>
 </template>
-
-<style></style>
