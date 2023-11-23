@@ -41,7 +41,16 @@ class Series(TypedDict):
     endYear: int | None
     runtimeMinutes: int | None
     genres: str | None
-    episodes: list[Episode]
+    episodes: list
+    
+
+
+VARTIANTS: dict[str, str] = {
+    "tt0386676": "The Office (US)",
+    "tt0290978": "The Office (UK)",
+    "tt20877972": "The Office (Saudi Arabia)",
+    "tt8305218": "The Office (India)",
+}
 
 
 def main():
@@ -103,6 +112,10 @@ def main():
                 numVotes = rating["numVotes"] if rating else 0
                 if numVotes < 1000:
                     continue
+
+                if tconst in VARTIANTS:
+                    primaryTitle = VARTIANTS[tconst]
+                    originalTitle = None
 
                 series_db[tconst] = {
                     "tconst": tconst,
