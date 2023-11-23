@@ -22,7 +22,6 @@ const posterUrl = (path: string) => {
     return `https://image.tmdb.org/t/p/w500${path}`
 }
 
-
 onMounted(async () => {
     const tconst = route.params.tconst as string
     const group = Number(tconst.replace('tt', '')) % 500
@@ -42,9 +41,8 @@ onMounted(async () => {
             }
         })
         tmdb.value = (await response).data
-        
     } catch (error) {
-        console.log("hello world error", error)
+        console.log('hello world error', error)
     }
 
     if (displayOptions.value.autoSwitchMode) {
@@ -63,21 +61,33 @@ onMounted(async () => {
             <h1 v-if="db.startYear != db.endYear" class="py-5 text-xl">
                 {{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear }})
             </h1>
-            <h1 v-else>
-                {{ db.primaryTitle }} ({{ db.startYear }})
-            </h1>
+            <h1 v-else>{{ db.primaryTitle }} ({{ db.startYear }})</h1>
             <div class="flex items-center gap-x-3">
                 <theme-switcher />
                 <SeriesSearch />
             </div>
         </div>
-        <div v-if="tmdb != null" class="flex justify-evenly py-10 gap-x-4"> 
-            <a :href="`https://imdb.com/title/${db.tconst}`"><img width="128" height="190"  :src="`https://image.tmdb.org/t/p/w500/${tmdb.poster_path}`" class="w-32" /></a>
-            <p class="overview" :class="{
-                'max-w-lg': tmdb.overview.length > 400,
-                'max-w-md': tmdb.overview.length > 150 && tmdb.overview.length <= 400,
-                'max-w-xs': tmdb.overview.length <= 150,
-            }">{{ tmdb.overview }}</p>
+        <div
+            v-if="tmdb != null"
+            class="flex flex-col items-center justify-evenly gap-x-4 py-10 md:flex-row md:items-start md:text-left text-justify gap-y-2"
+        >
+            <a :href="`https://imdb.com/title/${db.tconst}`"
+                ><img
+                    width="128"
+                    height="190"
+                    :src="`https://image.tmdb.org/t/p/w500/${tmdb.poster_path}`"
+                    class="w-32"
+            /></a>
+            <p
+                class="overview"
+                :class="{
+                    'max-w-lg': tmdb.overview.length > 400,
+                    'max-w-md': tmdb.overview.length > 150 && tmdb.overview.length <= 400,
+                    'max-w-xs': tmdb.overview.length <= 150
+                }"
+            >
+                {{ tmdb.overview }}
+            </p>
         </div>
         <div v-else class="py-[9.8rem]"></div>
         <ChartControls />
