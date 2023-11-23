@@ -49,6 +49,7 @@ def main():
     episodes_db: dict[str, Episode] = {}
     series_db: dict[str, Series] = {}
 
+    print("Parsing Ratings")
     with open(ratings_tsv_path, "r") as f:
         next(f)
         for tconst, averageRating, numVotes in csv.reader(
@@ -59,6 +60,7 @@ def main():
                 "numVotes": int(numVotes),
             }
 
+    print("Parsing Episodes")
     with open(episodes_tsv_path, "r") as f:
         next(f)
         for tconst, parentTconst, seasonNumber, episodeNumber in tqdm(
@@ -81,6 +83,7 @@ def main():
                 "numVotes": ratings["numVotes"],
             }
 
+    print("Parsing Basics")
     with open(basics_tsv_path, "r") as f:
         for (
             tconst,
@@ -98,8 +101,9 @@ def main():
             if titleType == "tvSeries" or titleType == "tvMiniSeries":
                 rating = ratings_db.get(tconst, None)
                 numVotes = rating["numVotes"] if rating else 0
-                if numVotes < 300:
+                if numVotes < 1000:
                     continue
+
                 series_db[tconst] = {
                     "tconst": tconst,
                     "titleType": titleType,
