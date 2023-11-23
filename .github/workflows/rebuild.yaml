@@ -1,11 +1,9 @@
-# run the python script at scripts/main.py then commit the changes to the repo
-
 name: Rebuild Database
 
 on:
   schedule:
     # Run at midnight on the first of every month
-    - cron: '0 0 1 * *'
+    - cron: '0 0 */3 * *'
 
   workflow_dispatch:
 
