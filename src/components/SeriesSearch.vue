@@ -63,11 +63,19 @@ watch(value, (val) => {
             @complete="search"
         >
             <template #option="option">
-              <p>
-                <span>{{ option.option.primaryTitle }}</span>
-                <!-- <span class="text-gray-400" v-if="option.option.originalTitle">{{ ' (' + option.option.originalTitle }})</span> -->
-                <span class="text-teal-300 dark:text-teal-600">{{ ' ('+ option.option.startYear }}–{{ option.option.endYear ? option.option.endYear : ''}})</span>
-              </p>
+                <p>
+                    <span>{{ option.option.primaryTitle }}</span>
+                    <span
+                        v-if="option.option.startYear != option.option.endYear"
+                        class="text-teal-300 dark:text-teal-600"
+                        >{{ ' (' + option.option.startYear }}–{{
+                            option.option.endYear ? option.option.endYear : ''
+                        }})</span
+                    >
+                    <span v-else class="text-teal-300 dark:text-teal-600"
+                        >{{ ' (' + option.option.startYear }})</span
+                    >
+                </p>
             </template>
         </AutoComplete>
     </div>
