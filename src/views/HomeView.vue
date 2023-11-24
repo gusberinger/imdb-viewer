@@ -34,7 +34,7 @@ import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
             <h1 class="mb-2 text-center text-2xl">IMDb Charts</h1>
             <series-search />
         </section>
-        <footer class="fixed bottom-0 mt-10 py-6 text-sm text-gray-400">
+        <footer class="fixed bottom-0 mt-10 py-6 text-sm text-gray-500">
             © {{ new Date().getFullYear() }} Gus Beringer. Information courtesy of
             <a href="https://www.imdb.com">IMDb</a>, used with permission.
         </footer>
