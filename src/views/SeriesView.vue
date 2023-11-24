@@ -35,7 +35,7 @@ onMounted(async () => {
     }
 
     try {
-        const response = axios.get(`/tmdb`, {
+        const response = axios.get(`/api/tmdb/poster`, {
             params: {
                 tconst: tconst
             }
