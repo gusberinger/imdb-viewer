@@ -18,7 +18,15 @@ export async function onRequest(context) {
         return new Response({}, {status: 404})
       }
 
-      return new Response(JSON.stringify(tv_results[0]))
+      const expires = new Date()
+      expires.setDate(expires.getDate() + 7)
+
+      return new Response(JSON.stringify(tv_results[0]), {
+        headers: {
+          "cache-control": "public, max-age=604800",
+          "expires": expires.toUTCString(),
+        }
+      })
 
     } catch (err) {
       console.error(err)
