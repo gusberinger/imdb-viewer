@@ -17,6 +17,7 @@ const route = useRoute()
 const { db } = storeToRefs(useDataBaseStore())
 const { displayOptions } = storeToRefs(useDisplayOptionsStore())
 const tmdb = ref<null | TMDBSeries>(null)
+const tmdb_not_found = ref(false)
 
 onMounted(async () => {
     const tconst = route.params.tconst as string
@@ -37,8 +38,19 @@ onMounted(async () => {
             }
         })
         tmdb.value = (await response).data
+    // } catch (error) {
+    //     if (error.message === 'Request failed with status code 404') {
+    //         tmdb_not_found.value = true
+    //     }
+    // }
     } catch (error) {
-        console.log('hello world error', error)
+        if (!axios.isAxiosError(error)) {
+            throw error
+        }
+        if (error.response?.status === 404) {
+            tmdb_not_found.value = true
+        }
+
     }
 
     if (displayOptions.value.autoSwitchMode) {
@@ -63,8 +75,10 @@ onMounted(async () => {
                 <SeriesSearch />
             </div>
         </div>
+        <div v-if="tmdb == null && tmdb_not_found === true" />
+        <div v-else-if="tmdb == null" class="py-[9.8rem]"></div>
         <div
-            v-if="tmdb != null"
+            v-else
             class="flex flex-col items-center justify-evenly gap-x-4 py-10 md:flex-row md:items-start md:text-left text-justify gap-y-2"
         >
             <a :href="`https://imdb.com/title/${db.tconst}`"
@@ -85,7 +99,6 @@ onMounted(async () => {
                 {{ tmdb.overview }}
             </p>
         </div>
-        <div v-else class="py-[9.8rem]"></div>
         <ChartControls />
         <ChartViewer />
         <footer class="mt-10 py-10 text-sm text-gray-500">
