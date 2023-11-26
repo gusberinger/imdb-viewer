@@ -4,7 +4,6 @@
  * @returns
  */
 export async function onRequest(context) {
-    console.log('Hello, world!', context)
     const [, tconst] = context.request.url.split('?tconst=')
     try {
         const tmdb_api_key = context.env.TMDB_API_KEY
