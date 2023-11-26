@@ -19,7 +19,6 @@ const miniSearchObj = ref<null | MiniSearch>(null)
 const search = (e: { query: string }) => {
     if (miniSearchObj.value === null) return
     const results = miniSearchObj.value.search(e.query, { prefix: true, fuzzy: 0.2 })
-    console.log(results)
     suggestions.value = results.slice(0, 10).map((result) => {
         const date = `${result.startYear}–${result.endYear ? result.endYear : ''}`
         return {
