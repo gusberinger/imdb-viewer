@@ -18,10 +18,6 @@ const { db } = storeToRefs(useDataBaseStore())
 const { displayOptions } = storeToRefs(useDisplayOptionsStore())
 const tmdb = ref<null | TMDBSeries>(null)
 
-const posterUrl = (path: string) => {
-    return `https://image.tmdb.org/t/p/w500${path}`
-}
-
 onMounted(async () => {
     const tconst = route.params.tconst as string
     const group = Number(tconst.replace('tt', '')) % 500
