@@ -8,7 +8,7 @@ import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
         <theme-switcher class="fixed left-4 top-4" />
         <a
             href="https://github.com/gusberinger/imdb-viewer"
-            class="fixed right-0 top-0 github-corner"
+            class="github-corner fixed right-0 top-0"
             aria-label="View source on GitHub"
             ><svg
                 width="80"

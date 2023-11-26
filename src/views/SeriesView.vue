@@ -38,11 +38,11 @@ onMounted(async () => {
             }
         })
         tmdb.value = (await response).data
-    // } catch (error) {
-    //     if (error.message === 'Request failed with status code 404') {
-    //         tmdb_not_found.value = true
-    //     }
-    // }
+        // } catch (error) {
+        //     if (error.message === 'Request failed with status code 404') {
+        //         tmdb_not_found.value = true
+        //     }
+        // }
     } catch (error) {
         if (!axios.isAxiosError(error)) {
             throw error
@@ -50,7 +50,6 @@ onMounted(async () => {
         if (error.response?.status === 404) {
             tmdb_not_found.value = true
         }
-
     }
 
     if (displayOptions.value.autoSwitchMode) {
@@ -79,7 +78,7 @@ onMounted(async () => {
         <div v-else-if="tmdb == null" class="py-[9.8rem]"></div>
         <div
             v-else
-            class="flex flex-col items-center justify-evenly gap-x-4 py-10 md:flex-row md:items-start md:text-left text-justify gap-y-2"
+            class="flex flex-col items-center justify-evenly gap-x-4 gap-y-2 py-10 text-justify md:flex-row md:items-start md:text-left"
         >
             <a :href="`https://imdb.com/title/${db.tconst}`"
                 ><img
