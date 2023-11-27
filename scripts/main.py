@@ -3,6 +3,8 @@ import shutil
 
 
 def main():
+    build_database.trending()
+    return
     build_database.download(delete_existing=False)
     series_path = build_database.PUBLIC_DIR_PATH / "series"
 

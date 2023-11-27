@@ -23,6 +23,9 @@ def main():
 
     trending_db = []
     for show in trending_shows:
+        if 16 in show["genre_ids"] and show["origin_country"] == ["JP"]:
+            print("Skipping anime " + show["name"])
+            continue
         if show["adult"]:
             print("Skipping adult show " + show["name"])
             continue
