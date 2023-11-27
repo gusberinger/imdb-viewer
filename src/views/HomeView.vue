@@ -29,7 +29,7 @@ const trendingRandom = computed(() => {
         <section class="mx-2 mt-5 py-10">
             <div class="flex items-center justify-between">
                 <h2
-                    class="py-2 text-2xl font-semibold text-gray-700 dark:text-gray-300 md:text-4xl"
+                    class="py-2 text-2xl font-semibold text-gray-700 dark:text-gray-200 md:text-4xl"
                 >
                     TRENDING TV SHOWS
                 </h2>
@@ -48,6 +48,9 @@ const trendingRandom = computed(() => {
                 >
                     <img
                         class="h-60 w-40 object-cover"
+                        width="160"
+                        height="240"
+                        fetchpriority="high"
                         :src="series.poster_path"
                         :alt="series.name + ' Poster'"
                     />
