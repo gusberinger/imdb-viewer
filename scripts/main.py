@@ -12,6 +12,7 @@ def main():
         shutil.rmtree(file)
 
     build_database.database()
+    build_database.trending()
     build_database.sitemap()
 
 
