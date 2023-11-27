@@ -3,7 +3,7 @@ import SeriesSearch from '@/components/SeriesSearch.vue'
 import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
 import GithubCallToAction from '@/components/GithubCallToAction.vue'
 import trending from '@/assets/trending.json'
-import { shuffle } from '@/utils/random.ts'
+import { shuffle } from '@/utils/random'
 import { breakpointsTailwind, useBreakpoints } from '@vueuse/core'
 import { computed } from 'vue'
 
