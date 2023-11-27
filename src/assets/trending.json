@@ -1,82 +1,62 @@
 [
-    {
-        "tconst": "tt2560140",
-        "name": "Attack on Titan",
-        "poster_path": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg"
-    },
-    {
-        "tconst": "tt9140554",
-        "name": "Loki",
-        "poster_path": "https://image.tmdb.org/t/p/w500/voHUmluYmKyleFkTu3lOXQG702u.jpg"
-    },
-    {
-        "tconst": "tt0436992",
-        "name": "Doctor Who",
-        "poster_path": "https://image.tmdb.org/t/p/w500/bqyAlTdHMTc4EP4jP49uSGObtlb.jpg"
-    },
-    {
-        "tconst": "tt0388629",
-        "name": "One Piece",
-        "poster_path": "https://image.tmdb.org/t/p/w500/e3NBGiAifW9Xt8xD5tpARskjccO.jpg"
-    },
-    {
-        "tconst": "tt12343534",
-        "name": "Jujutsu Kaisen",
-        "poster_path": "https://image.tmdb.org/t/p/w500/hFWP5HkbVEe40hrXgtCeQxoccHE.jpg"
-    },
-    {
-        "tconst": "tt6741278",
-        "name": "Invincible",
-        "poster_path": "https://image.tmdb.org/t/p/w500/dMOpdkrDC5dQxqNydgKxXjBKyAc.jpg"
-    },
-    {
-        "tconst": "tt16969708",
-        "name": "Scott Pilgrim Takes Off",
-        "poster_path": "https://image.tmdb.org/t/p/w500/nHROk2C6bv8LqtvyYd0tCMURbxC.jpg"
-    },
-    {
-        "tconst": "tt2802850",
-        "name": "Fargo",
-        "poster_path": "https://image.tmdb.org/t/p/w500/6U9CPeD8obHzweikFhiLhpc7YBT.jpg"
-    },
-    {
-        "tconst": "tt13159924",
-        "name": "Gen V",
-        "poster_path": "https://image.tmdb.org/t/p/w500/uuot1N5AgZ7xRCKgm4ZCwOhgIJu.jpg"
-    },
-    {
-        "tconst": "tt0944947",
-        "name": "Game of Thrones",
-        "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
-    },
-    {
-        "tconst": "tt2861424",
-        "name": "Rick and Morty",
-        "poster_path": "https://image.tmdb.org/t/p/w500/gdIrmf2DdY5mgN6ycVP0XlzKzbE.jpg"
-    },
-    {
-        "tconst": "tt4786824",
-        "name": "The Crown",
-        "poster_path": "https://image.tmdb.org/t/p/w500/1M876KPjulVwppEpldhdc8V4o68.jpg"
-    },
-    {
-        "tconst": "tt7772588",
-        "name": "For All Mankind",
-        "poster_path": "https://image.tmdb.org/t/p/w500/mNXT1QjRCEasXGH3rHCTQm0A0Su.jpg"
-    },
-    {
-        "tconst": "tt13911628",
-        "name": "Lessons in Chemistry",
-        "poster_path": "https://image.tmdb.org/t/p/w500/tCPIf5f6jUIr8KDMWsfaXwXW0kl.jpg"
-    },
-    {
-        "tconst": "tt13309742",
-        "name": "BLUE EYE SAMURAI",
-        "poster_path": "https://image.tmdb.org/t/p/w500/fXm3JT4WLQVnwukdvghtAblc1wc.jpg"
-    },
-    {
-        "tconst": "tt13706018",
-        "name": "SPY x FAMILY",
-        "poster_path": "https://image.tmdb.org/t/p/w500/7NAvPYPAu7MeHwP8E9sn81PqsRh.jpg"
-    }
+  {
+    "tconst": "tt9140554",
+    "name": "Loki",
+    "poster_path": "https://image.tmdb.org/t/p/w500/voHUmluYmKyleFkTu3lOXQG702u.jpg"
+  },
+  {
+    "tconst": "tt0436992",
+    "name": "Doctor Who",
+    "poster_path": "https://image.tmdb.org/t/p/w500/bqyAlTdHMTc4EP4jP49uSGObtlb.jpg"
+  },
+  {
+    "tconst": "tt6741278",
+    "name": "Invincible",
+    "poster_path": "https://image.tmdb.org/t/p/w500/dMOpdkrDC5dQxqNydgKxXjBKyAc.jpg"
+  },
+  {
+    "tconst": "tt16969708",
+    "name": "Scott Pilgrim Takes Off",
+    "poster_path": "https://image.tmdb.org/t/p/w500/nHROk2C6bv8LqtvyYd0tCMURbxC.jpg"
+  },
+  {
+    "tconst": "tt2802850",
+    "name": "Fargo",
+    "poster_path": "https://image.tmdb.org/t/p/w500/6U9CPeD8obHzweikFhiLhpc7YBT.jpg"
+  },
+  {
+    "tconst": "tt13159924",
+    "name": "Gen V",
+    "poster_path": "https://image.tmdb.org/t/p/w500/uuot1N5AgZ7xRCKgm4ZCwOhgIJu.jpg"
+  },
+  {
+    "tconst": "tt0944947",
+    "name": "Game of Thrones",
+    "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
+  },
+  {
+    "tconst": "tt2861424",
+    "name": "Rick and Morty",
+    "poster_path": "https://image.tmdb.org/t/p/w500/gdIrmf2DdY5mgN6ycVP0XlzKzbE.jpg"
+  },
+  {
+    "tconst": "tt4786824",
+    "name": "The Crown",
+    "poster_path": "https://image.tmdb.org/t/p/w500/1M876KPjulVwppEpldhdc8V4o68.jpg"
+  },
+  {
+    "tconst": "tt7772588",
+    "name": "For All Mankind",
+    "poster_path": "https://image.tmdb.org/t/p/w500/mNXT1QjRCEasXGH3rHCTQm0A0Su.jpg"
+  },
+  {
+    "tconst": "tt13911628",
+    "name": "Lessons in Chemistry",
+    "poster_path": "https://image.tmdb.org/t/p/w500/tCPIf5f6jUIr8KDMWsfaXwXW0kl.jpg"
+  },
+  {
+    "tconst": "tt13309742",
+    "name": "BLUE EYE SAMURAI",
+    "poster_path": "https://image.tmdb.org/t/p/w500/fXm3JT4WLQVnwukdvghtAblc1wc.jpg"
+  }
 ]
