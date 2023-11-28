@@ -18,11 +18,7 @@ jobs:
           python-version: '3.12' 
       - name: Add Environment Files
         run: |
-          echo "name = \"my-worker-dev\"" >> .wrangler.toml
-          echo "[vars]" >> .wrangler.toml
-          echo "TMDB_API_KEY = \"${{ secrets.TMDB_API_KEY }}\"" >> .wrangler.toml
-          cat .wrangler.toml
-
+          echo "${{ secrets.WRANGLER_TOML }}" > wrangler.toml
       - name: Database Update
         run : |
           python -m pip install --upgrade pip
