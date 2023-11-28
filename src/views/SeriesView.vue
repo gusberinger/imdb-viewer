@@ -38,11 +38,6 @@ onMounted(async () => {
             }
         })
         tmdb.value = (await response).data
-        // } catch (error) {
-        //     if (error.message === 'Request failed with status code 404') {
-        //         tmdb_not_found.value = true
-        //     }
-        // }
     } catch (error) {
         if (!axios.isAxiosError(error)) {
             throw error
@@ -80,13 +75,13 @@ onMounted(async () => {
             v-else
             class="flex flex-col items-center justify-evenly gap-x-4 gap-y-2 py-10 text-justify md:flex-row md:items-start md:text-left"
         >
-            <a :href="`https://imdb.com/title/${db.tconst}`"
+            <router-link :to="`/series/${db.tconst}`"
                 ><img
                     width="128"
                     height="190"
                     :src="`https://image.tmdb.org/t/p/w500/${tmdb.poster_path}`"
                     class="w-32"
-            /></a>
+            /></router-link>
             <p
                 class="overview"
                 :class="{
