@@ -2,6 +2,7 @@
 import AutoComplete from 'primevue/autocomplete'
 import { onMounted, ref, watch } from 'vue'
 import MiniSearch from 'minisearch'
+import { useRouter } from 'vue-router'
 
 type Series = {
     tconst: string
@@ -11,6 +12,7 @@ type Series = {
     endYear: string
 }
 
+const router = useRouter()
 const value = ref<string | Series>('')
 const suggestions = ref<Series[]>([])
 
@@ -47,7 +49,7 @@ onMounted(async () => {
 
 watch(value, (val) => {
     if (typeof val !== 'string' && val !== null) {
-        window.location.href = `/series/${val.tconst}`
+        router.push(`/series/${val.tconst}`)
     }
 })
 </script>
