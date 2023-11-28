@@ -3,9 +3,7 @@ import shutil
 
 
 def main():
-    build_database.trending()
-    return
-    build_database.download(delete_existing=False)
+    build_database.download(delete_existing=True)
     series_path = build_database.PUBLIC_DIR_PATH / "series"
 
     # delete smaller folders instead of one big folder to avoid filesystem slowdowns
