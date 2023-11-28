@@ -8,6 +8,8 @@ on:
 
 jobs:
   build:
+    env:
+      WRANGLER_TOML: ${{ secrets.WRANGLER_TOML }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -18,7 +20,8 @@ jobs:
           python-version: '3.12' 
       - name: Add Environment Files
         run: |
-          echo "${{ secrets.WRANGLER_TOML }}" > wrangler.toml
+          echo $WRANGLER_TOML | base64 --decode > wrangler.toml
+          cat wrangler.toml
       - name: Database Update
         run : |
           python -m pip install --upgrade pip
