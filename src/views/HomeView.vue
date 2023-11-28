@@ -42,7 +42,7 @@ const trendingRandom = computed(() => {
             >
                 <a
                     v-for="series in trendingRandom"
-                    class="shadow-sm hover:shadow-xl"
+                    class="border-transparent border-4 transition-colors duration-75 ease-in-out hover:dark:border-green-400 hover:border-amber-500"
                     :key="series.tconst"
                     :href="`/series/${series.tconst}`"
                 >
