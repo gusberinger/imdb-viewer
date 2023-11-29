@@ -3,23 +3,19 @@ import SeriesSearch from '@/components/SeriesSearch.vue'
 import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
 import GithubCallToAction from '@/components/GithubCallToAction.vue'
 import trending from '@/assets/trending.json'
-import { shuffle } from '@/utils/random'
 import { breakpointsTailwind, useBreakpoints } from '@vueuse/core'
 import { computed } from 'vue'
 
 const breakpoints = useBreakpoints(breakpointsTailwind)
 
 const trendingRandom = computed(() => {
-    const date = new Date()
-    const dateSeeed = date.getDate() + date.getMonth() * 100 + date.getFullYear() * 1000
-    const shuffled = shuffle(trending, dateSeeed)
     if (breakpoints.xl.value) {
-        return shuffled.slice(0, 12)
+        return trending.slice(0, 12)
     }
     if (breakpoints.md.value) {
-        return shuffled.slice(0, 8)
+        return trending.slice(0, 8)
     }
-    return shuffled.slice(0, 4)
+    return trending.slice(0, 4)
 })
 </script>
 
