@@ -59,7 +59,7 @@ onMounted(async () => {
         <NotFound />
     </div>
     <div v-if="db !== null" class="flex min-h-screen flex-col items-center justify-center">
-        <div class="flex w-full max-w-3xl flex-col items-center justify-between md:flex-row">
+        <header class="flex w-full max-w-3xl py-3 flex-col items-center justify-between md:flex-row">
             <h1 v-if="db.startYear != db.endYear" class="py-5 text-xl">
                 {{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear }})
             </h1>
@@ -68,7 +68,7 @@ onMounted(async () => {
                 <theme-switcher />
                 <SeriesSearch />
             </div>
-        </div>
+        </header>
         <div v-if="tmdb == null && tmdb_not_found === true" />
         <div v-else-if="tmdb == null" class="py-[9.8rem]"></div>
         <div
