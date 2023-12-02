@@ -59,7 +59,9 @@ onMounted(async () => {
         <NotFound />
     </div>
     <div v-if="db !== null" class="flex min-h-screen flex-col items-center justify-center">
-        <header class="flex w-full max-w-3xl py-3 flex-col items-center justify-between md:flex-row">
+        <header
+            class="flex w-full max-w-3xl flex-col items-center justify-between py-3 md:flex-row"
+        >
             <h1 v-if="db.startYear != db.endYear" class="py-5 text-xl">
                 {{ db.primaryTitle }} ({{ db.startYear }}–{{ db.endYear }})
             </h1>
@@ -75,13 +77,13 @@ onMounted(async () => {
             v-else
             class="flex flex-col items-center justify-evenly gap-x-4 gap-y-2 py-10 text-justify md:flex-row md:items-start md:text-left"
         >
-            <router-link :to="`/series/${db.tconst}`"
+            <a :href="`https://imdb.com/title/${db.tconst}`">
                 ><img
                     width="128"
                     height="190"
                     :src="`https://image.tmdb.org/t/p/w500/${tmdb.poster_path}`"
                     class="w-32"
-            /></router-link>
+            /></a>
             <p
                 class="overview"
                 :class="{
