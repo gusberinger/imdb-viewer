@@ -77,7 +77,7 @@ onMounted(async () => {
             v-else
             class="flex flex-col items-center justify-evenly gap-x-4 gap-y-2 py-10 text-justify md:flex-row md:items-start md:text-left"
         >
-            <a :href="`https://imdb.com/title/${db.tconst}`">
+            <a :href="`https://imdb.com/title/${db.tconst}`"
                 ><img
                     width="128"
                     height="190"
