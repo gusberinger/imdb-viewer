@@ -64,7 +64,13 @@ def main():
         })
 
     if len(trending_db) < 12:
-        trending_db.extend(backup)
+        existing_tconsts = {x["tconst"] for x in trending_db}
+        for show in backup:
+            if show["tconst"] not in search_db_tconst:
+                continue
+            if show["tconst"] in existing_tconsts:
+                continue
+            trending_db.append(show)
 
     (ROOT_PATH / "src" / "assets" / "trending.json").write_text(json.dumps(trending_db, indent=2))
         
