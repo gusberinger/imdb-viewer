@@ -4,6 +4,25 @@ import tomllib
 import requests
 import json
 
+# backup trending shows in case there are less than 12 trending shows
+backup = [
+    {
+        "tconst": "tt2297757",
+        "name": "Nathan for You",
+        "poster_path": "https://image.tmdb.org/t/p/w500/6tGXlz61c44onUg6EdRkbhjcaPA.jpg",
+    },
+    {
+        "tconst": "tt0804503",
+        "name": "Mad Men",
+        "poster_path": "https://image.tmdb.org/t/p/w500//7v8iCNzKFpdlrCMcqCoJyn74Nsa.jpg"
+    },
+    {
+        "tconst": "tt0367279",
+        "name": "Arrested Development",
+        "poster_path": "https://image.tmdb.org/t/p/w500//qMzwO952hMWQSCfHkp7IL20s4K7.jpg"
+    }
+]
+
 
 TMDB_API_URL = "https://api.themoviedb.org/3"
 def get_tmdb_api_key():
@@ -43,6 +62,9 @@ def main():
             "name": show["name"],
             "poster_path": poster_path,
         })
+
+    if len(trending_db) < 12:
+        trending_db.extend(backup)
 
     (ROOT_PATH / "src" / "assets" / "trending.json").write_text(json.dumps(trending_db, indent=2))
         
