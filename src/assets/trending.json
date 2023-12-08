@@ -20,14 +20,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/voHUmluYmKyleFkTu3lOXQG702u.jpg"
   },
   {
-    "tconst": "tt11097240",
-    "name": "Obliterated",
-    "poster_path": "https://image.tmdb.org/t/p/w500/5g3UrcV6oguAcI3myMKb6wi28y5.jpg"
-  },
-  {
     "tconst": "tt28104766",
     "name": "Squid Game: The Challenge",
     "poster_path": "https://image.tmdb.org/t/p/w500/eAjXAgdjPMZH9Ugub7XYPowFoS1.jpg"
+  },
+  {
+    "tconst": "tt11097240",
+    "name": "Obliterated",
+    "poster_path": "https://image.tmdb.org/t/p/w500/5g3UrcV6oguAcI3myMKb6wi28y5.jpg"
   },
   {
     "tconst": "tt2802850",
