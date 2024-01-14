@@ -5,14 +5,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/vFyJH630cF68LohVYjQW49074Sy.jpg"
   },
   {
-    "tconst": "tt9288030",
-    "name": "Reacher",
-    "poster_path": "https://image.tmdb.org/t/p/w500/jFuH0md41x5mB4qj5344mSmtHrO.jpg"
-  },
-  {
     "tconst": "tt17220216",
     "name": "Monarch: Legacy of Monsters",
     "poster_path": "https://image.tmdb.org/t/p/w500/uwrQHMnXD2DA1rvaMZk4pavZ3CY.jpg"
+  },
+  {
+    "tconst": "tt9288030",
+    "name": "Reacher",
+    "poster_path": "https://image.tmdb.org/t/p/w500/jFuH0md41x5mB4qj5344mSmtHrO.jpg"
   },
   {
     "tconst": "tt16288804",
@@ -50,23 +50,13 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/1qxRfQq9BI9dZ1nOztEtTkqNgea.jpg"
   },
   {
+    "tconst": "tt14824792",
+    "name": "ted",
+    "poster_path": "https://image.tmdb.org/t/p/w500/cPn71YFDENH0JkWUezlsLyWmLfN.jpg"
+  },
+  {
     "tconst": "tt26225038",
     "name": "Death's Game",
     "poster_path": "https://image.tmdb.org/t/p/w500/fS4i7HHi1NNksTdAT8Vrvz9O161.jpg"
-  },
-  {
-    "tconst": "tt2297757",
-    "name": "Nathan for You",
-    "poster_path": "https://image.tmdb.org/t/p/w500/6tGXlz61c44onUg6EdRkbhjcaPA.jpg"
-  },
-  {
-    "tconst": "tt0804503",
-    "name": "Mad Men",
-    "poster_path": "https://image.tmdb.org/t/p/w500//7v8iCNzKFpdlrCMcqCoJyn74Nsa.jpg"
-  },
-  {
-    "tconst": "tt0367279",
-    "name": "Arrested Development",
-    "poster_path": "https://image.tmdb.org/t/p/w500//qMzwO952hMWQSCfHkp7IL20s4K7.jpg"
   }
 ]
