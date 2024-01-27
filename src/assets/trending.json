@@ -30,6 +30,11 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/cPn71YFDENH0JkWUezlsLyWmLfN.jpg"
   },
   {
+    "tconst": "tt7216636",
+    "name": "Hazbin Hotel",
+    "poster_path": "https://image.tmdb.org/t/p/w500/rXojaQcxVUubPLSrFV8PD4xdjrs.jpg"
+  },
+  {
     "tconst": "tt2802850",
     "name": "Fargo",
     "poster_path": "https://image.tmdb.org/t/p/w500/6U9CPeD8obHzweikFhiLhpc7YBT.jpg"
@@ -40,19 +45,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/69YuvoiWTtK6oyYH2Jl4Q6SgZ59.jpg"
   },
   {
-    "tconst": "tt7216636",
-    "name": "Hazbin Hotel",
-    "poster_path": "https://image.tmdb.org/t/p/w500/rXojaQcxVUubPLSrFV8PD4xdjrs.jpg"
-  },
-  {
     "tconst": "tt0436992",
     "name": "Doctor Who",
     "poster_path": "https://image.tmdb.org/t/p/w500/4edFyasCrkH4MKs6H4mHqlrxA6b.jpg"
-  },
-  {
-    "tconst": "tt0944947",
-    "name": "Game of Thrones",
-    "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
   },
   {
     "tconst": "tt2297757",
