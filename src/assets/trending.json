@@ -35,14 +35,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/rXojaQcxVUubPLSrFV8PD4xdjrs.jpg"
   },
   {
-    "tconst": "tt17220216",
-    "name": "Monarch: Legacy of Monsters",
-    "poster_path": "https://image.tmdb.org/t/p/w500/uwrQHMnXD2DA1rvaMZk4pavZ3CY.jpg"
-  },
-  {
     "tconst": "tt0944947",
     "name": "Game of Thrones",
     "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
+  },
+  {
+    "tconst": "tt17220216",
+    "name": "Monarch: Legacy of Monsters",
+    "poster_path": "https://image.tmdb.org/t/p/w500/uwrQHMnXD2DA1rvaMZk4pavZ3CY.jpg"
   },
   {
     "tconst": "tt14824792",
@@ -55,18 +55,13 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/4edFyasCrkH4MKs6H4mHqlrxA6b.jpg"
   },
   {
-    "tconst": "tt15439048",
-    "name": "Death and Other Details",
-    "poster_path": "https://image.tmdb.org/t/p/w500/2DEa0Bz3j9ZhPRdBmNyco38OR6p.jpg"
-  },
-  {
-    "tconst": "tt27052533",
-    "name": "Masters of the Universe: Revolution",
-    "poster_path": "https://image.tmdb.org/t/p/w500/s54EXuPe3BlQ4PlotUznkuIHgd9.jpg"
-  },
-  {
     "tconst": "tt2802850",
     "name": "Fargo",
     "poster_path": "https://image.tmdb.org/t/p/w500/6U9CPeD8obHzweikFhiLhpc7YBT.jpg"
+  },
+  {
+    "tconst": "tt15439048",
+    "name": "Death and Other Details",
+    "poster_path": "https://image.tmdb.org/t/p/w500/2DEa0Bz3j9ZhPRdBmNyco38OR6p.jpg"
   }
 ]
