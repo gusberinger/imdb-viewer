@@ -5,14 +5,19 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/kvJvGxsDLi3MmHzc9nregyJtOWY.jpg"
   },
   {
-    "tconst": "tt2356777",
-    "name": "True Detective",
-    "poster_path": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg"
-  },
-  {
     "tconst": "tt2934286",
     "name": "Halo",
     "poster_path": "https://image.tmdb.org/t/p/w500/hmHA5jqxN3ESIAGx0jAwV7TJhTQ.jpg"
+  },
+  {
+    "tconst": "tt2640044",
+    "name": "Masters of the Air",
+    "poster_path": "https://image.tmdb.org/t/p/w500/rSAmgcoA74371rplbqM27yVsd3y.jpg"
+  },
+  {
+    "tconst": "tt2356777",
+    "name": "True Detective",
+    "poster_path": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg"
   },
   {
     "tconst": "tt12324366",
@@ -45,6 +50,16 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
   },
   {
+    "tconst": "tt8773420",
+    "name": "Expats",
+    "poster_path": "https://image.tmdb.org/t/p/w500/vKAkT96TIf3Mh8q2FXV6GqcuJab.jpg"
+  },
+  {
+    "tconst": "tt26450613",
+    "name": "A Shop for Killers",
+    "poster_path": "https://image.tmdb.org/t/p/w500/7yUY1HUyQuybbvkAAhLzQ7x1l9g.jpg"
+  },
+  {
     "tconst": "tt14824792",
     "name": "ted",
     "poster_path": "https://image.tmdb.org/t/p/w500/cPn71YFDENH0JkWUezlsLyWmLfN.jpg"
@@ -58,10 +73,5 @@
     "tconst": "tt17220216",
     "name": "Monarch: Legacy of Monsters",
     "poster_path": "https://image.tmdb.org/t/p/w500/uwrQHMnXD2DA1rvaMZk4pavZ3CY.jpg"
-  },
-  {
-    "tconst": "tt15439048",
-    "name": "Death and Other Details",
-    "poster_path": "https://image.tmdb.org/t/p/w500/2DEa0Bz3j9ZhPRdBmNyco38OR6p.jpg"
   }
 ]
