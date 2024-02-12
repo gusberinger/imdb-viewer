@@ -22,7 +22,7 @@
   {
     "tconst": "tt12324366",
     "name": "Percy Jackson and the Olympians",
-    "poster_path": "https://image.tmdb.org/t/p/w500/c9loCTYWZpzYBTJBvE3DtRw4DBb.jpg"
+    "poster_path": "https://image.tmdb.org/t/p/w500/mAX4KE8ewwuDAIzwv3WTpqE3yh7.jpg"
   },
   {
     "tconst": "tt15837600",
@@ -60,14 +60,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/7yUY1HUyQuybbvkAAhLzQ7x1l9g.jpg"
   },
   {
-    "tconst": "tt14824792",
-    "name": "ted",
-    "poster_path": "https://image.tmdb.org/t/p/w500/cPn71YFDENH0JkWUezlsLyWmLfN.jpg"
-  },
-  {
     "tconst": "tt0436992",
     "name": "Doctor Who",
     "poster_path": "https://image.tmdb.org/t/p/w500/4edFyasCrkH4MKs6H4mHqlrxA6b.jpg"
+  },
+  {
+    "tconst": "tt14824792",
+    "name": "ted",
+    "poster_path": "https://image.tmdb.org/t/p/w500/cPn71YFDENH0JkWUezlsLyWmLfN.jpg"
   },
   {
     "tconst": "tt17220216",
