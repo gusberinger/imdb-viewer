@@ -25,14 +25,24 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/21ICs3fxlxGslbzS4moCHk9HNo6.jpg"
   },
   {
-    "tconst": "tt12708542",
-    "name": "Star Wars: The Bad Batch",
-    "poster_path": "https://image.tmdb.org/t/p/w500/5mHus672nuinyaE0FtqvD0AddcY.jpg"
+    "tconst": "tt20883126",
+    "name": "Red Queen",
+    "poster_path": "https://image.tmdb.org/t/p/w500/lk7LVXYSOO5rReR2jzLo8Le3cO1.jpg"
   },
   {
     "tconst": "tt0944947",
     "name": "Game of Thrones",
     "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
+  },
+  {
+    "tconst": "tt12708542",
+    "name": "Star Wars: The Bad Batch",
+    "poster_path": "https://image.tmdb.org/t/p/w500/5mHus672nuinyaE0FtqvD0AddcY.jpg"
+  },
+  {
+    "tconst": "tt28480255",
+    "name": "Ninja Kamui",
+    "poster_path": "https://image.tmdb.org/t/p/w500/3dl7QFrpvtu9My4L6K7KtUMP8p1.jpg"
   },
   {
     "tconst": "tt22012992",
@@ -43,16 +53,6 @@
     "tconst": "tt14824792",
     "name": "ted",
     "poster_path": "https://image.tmdb.org/t/p/w500/cPn71YFDENH0JkWUezlsLyWmLfN.jpg"
-  },
-  {
-    "tconst": "tt0903747",
-    "name": "Breaking Bad",
-    "poster_path": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
-  },
-  {
-    "tconst": "tt14044212",
-    "name": "Mr. & Mrs. Smith",
-    "poster_path": "https://image.tmdb.org/t/p/w500/kvJvGxsDLi3MmHzc9nregyJtOWY.jpg"
   },
   {
     "tconst": "tt2297757",
