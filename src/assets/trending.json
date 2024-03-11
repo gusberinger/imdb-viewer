@@ -20,6 +20,11 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/rSAmgcoA74371rplbqM27yVsd3y.jpg"
   },
   {
+    "tconst": "tt13210838",
+    "name": "The Gentlemen",
+    "poster_path": "https://image.tmdb.org/t/p/w500/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg"
+  },
+  {
     "tconst": "tt19395018",
     "name": "Constellation",
     "poster_path": "https://image.tmdb.org/t/p/w500/21ICs3fxlxGslbzS4moCHk9HNo6.jpg"
@@ -28,11 +33,6 @@
     "tconst": "tt2356777",
     "name": "True Detective",
     "poster_path": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg"
-  },
-  {
-    "tconst": "tt13210838",
-    "name": "The Gentlemen",
-    "poster_path": "https://image.tmdb.org/t/p/w500/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg"
   },
   {
     "tconst": "tt20883126",
@@ -47,26 +47,16 @@
   {
     "tconst": "tt15439048",
     "name": "Death and Other Details",
-    "poster_path": "https://image.tmdb.org/t/p/w500/1elO9FMUiTJGPd4jz4HiK6vk7G8.jpg"
+    "poster_path": "https://image.tmdb.org/t/p/w500/2DEa0Bz3j9ZhPRdBmNyco38OR6p.jpg"
+  },
+  {
+    "tconst": "tt0088509",
+    "name": "Dragon Ball",
+    "poster_path": "https://image.tmdb.org/t/p/w500/onCLyCOgszTIyyVs2XKYSkKPOPG.jpg"
   },
   {
     "tconst": "tt12708542",
     "name": "Star Wars: The Bad Batch",
     "poster_path": "https://image.tmdb.org/t/p/w500/5mHus672nuinyaE0FtqvD0AddcY.jpg"
-  },
-  {
-    "tconst": "tt2297757",
-    "name": "Nathan for You",
-    "poster_path": "https://image.tmdb.org/t/p/w500/6tGXlz61c44onUg6EdRkbhjcaPA.jpg"
-  },
-  {
-    "tconst": "tt0804503",
-    "name": "Mad Men",
-    "poster_path": "https://image.tmdb.org/t/p/w500//7v8iCNzKFpdlrCMcqCoJyn74Nsa.jpg"
-  },
-  {
-    "tconst": "tt0367279",
-    "name": "Arrested Development",
-    "poster_path": "https://image.tmdb.org/t/p/w500//qMzwO952hMWQSCfHkp7IL20s4K7.jpg"
   }
 ]
