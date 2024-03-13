@@ -10,14 +10,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/hmHA5jqxN3ESIAGx0jAwV7TJhTQ.jpg"
   },
   {
-    "tconst": "tt9018736",
-    "name": "Avatar: The Last Airbender",
-    "poster_path": "https://image.tmdb.org/t/p/w500/lzZpWEaqzP0qVA5nkCc5ASbNcSy.jpg"
-  },
-  {
     "tconst": "tt13210838",
     "name": "The Gentlemen",
     "poster_path": "https://image.tmdb.org/t/p/w500/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg"
+  },
+  {
+    "tconst": "tt9018736",
+    "name": "Avatar: The Last Airbender",
+    "poster_path": "https://image.tmdb.org/t/p/w500/lzZpWEaqzP0qVA5nkCc5ASbNcSy.jpg"
   },
   {
     "tconst": "tt2640044",
@@ -35,6 +35,11 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg"
   },
   {
+    "tconst": "tt0088509",
+    "name": "Dragon Ball",
+    "poster_path": "https://image.tmdb.org/t/p/w500/onCLyCOgszTIyyVs2XKYSkKPOPG.jpg"
+  },
+  {
     "tconst": "tt0944947",
     "name": "Game of Thrones",
     "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
@@ -45,11 +50,6 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/lk7LVXYSOO5rReR2jzLo8Le3cO1.jpg"
   },
   {
-    "tconst": "tt0088509",
-    "name": "Dragon Ball",
-    "poster_path": "https://image.tmdb.org/t/p/w500/onCLyCOgszTIyyVs2XKYSkKPOPG.jpg"
-  },
-  {
     "tconst": "tt15439048",
     "name": "Death and Other Details",
     "poster_path": "https://image.tmdb.org/t/p/w500/2DEa0Bz3j9ZhPRdBmNyco38OR6p.jpg"
@@ -58,5 +58,10 @@
     "tconst": "tt12708542",
     "name": "Star Wars: The Bad Batch",
     "poster_path": "https://image.tmdb.org/t/p/w500/5mHus672nuinyaE0FtqvD0AddcY.jpg"
+  },
+  {
+    "tconst": "tt0903747",
+    "name": "Breaking Bad",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
   }
 ]
