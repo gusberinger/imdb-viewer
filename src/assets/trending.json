@@ -1,10 +1,5 @@
 [
   {
-    "tconst": "tt2788316",
-    "name": "Sh\u014dgun",
-    "poster_path": "https://image.tmdb.org/t/p/w500/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg"
-  },
-  {
     "tconst": "tt2934286",
     "name": "Halo",
     "poster_path": "https://image.tmdb.org/t/p/w500/hmHA5jqxN3ESIAGx0jAwV7TJhTQ.jpg"
@@ -30,29 +25,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/21ICs3fxlxGslbzS4moCHk9HNo6.jpg"
   },
   {
-    "tconst": "tt2356777",
-    "name": "True Detective",
-    "poster_path": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg"
-  },
-  {
-    "tconst": "tt0088509",
-    "name": "Dragon Ball",
-    "poster_path": "https://image.tmdb.org/t/p/w500/onCLyCOgszTIyyVs2XKYSkKPOPG.jpg"
-  },
-  {
     "tconst": "tt0944947",
     "name": "Game of Thrones",
     "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
   },
   {
-    "tconst": "tt20883126",
-    "name": "Red Queen",
-    "poster_path": "https://image.tmdb.org/t/p/w500/lk7LVXYSOO5rReR2jzLo8Le3cO1.jpg"
-  },
-  {
-    "tconst": "tt15439048",
-    "name": "Death and Other Details",
-    "poster_path": "https://image.tmdb.org/t/p/w500/2DEa0Bz3j9ZhPRdBmNyco38OR6p.jpg"
+    "tconst": "tt2356777",
+    "name": "True Detective",
+    "poster_path": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg"
   },
   {
     "tconst": "tt12708542",
@@ -60,8 +40,28 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/5mHus672nuinyaE0FtqvD0AddcY.jpg"
   },
   {
+    "tconst": "tt20883126",
+    "name": "Red Queen",
+    "poster_path": "https://image.tmdb.org/t/p/w500/lk7LVXYSOO5rReR2jzLo8Le3cO1.jpg"
+  },
+  {
     "tconst": "tt0903747",
     "name": "Breaking Bad",
     "poster_path": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
+  },
+  {
+    "tconst": "tt2297757",
+    "name": "Nathan for You",
+    "poster_path": "https://image.tmdb.org/t/p/w500/6tGXlz61c44onUg6EdRkbhjcaPA.jpg"
+  },
+  {
+    "tconst": "tt0804503",
+    "name": "Mad Men",
+    "poster_path": "https://image.tmdb.org/t/p/w500//7v8iCNzKFpdlrCMcqCoJyn74Nsa.jpg"
+  },
+  {
+    "tconst": "tt0367279",
+    "name": "Arrested Development",
+    "poster_path": "https://image.tmdb.org/t/p/w500//qMzwO952hMWQSCfHkp7IL20s4K7.jpg"
   }
 ]
