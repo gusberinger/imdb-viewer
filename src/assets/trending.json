@@ -15,6 +15,11 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/rSAmgcoA74371rplbqM27yVsd3y.jpg"
   },
   {
+    "tconst": "tt9859436",
+    "name": "The Walking Dead: The Ones Who Live",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ywbacot78IuNhGW4uVZPxxxVTkm.jpg"
+  },
+  {
     "tconst": "tt13210838",
     "name": "The Gentlemen",
     "poster_path": "https://image.tmdb.org/t/p/w500/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg"
@@ -38,11 +43,6 @@
     "tconst": "tt2356777",
     "name": "True Detective",
     "poster_path": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg"
-  },
-  {
-    "tconst": "tt0903747",
-    "name": "Breaking Bad",
-    "poster_path": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
   },
   {
     "tconst": "tt2297757",
