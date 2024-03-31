@@ -50,13 +50,13 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/dMOpdkrDC5dQxqNydgKxXjBKyAc.jpg"
   },
   {
+    "tconst": "tt16912512",
+    "name": "Manhunt",
+    "poster_path": "https://image.tmdb.org/t/p/w500/pN5qeqDgCG1Pij7KaEBKLkyjn4A.jpg"
+  },
+  {
     "tconst": "tt21375036",
     "name": "The Regime",
     "poster_path": "https://image.tmdb.org/t/p/w500/ztqPixNyezY6pWSNIP2AlhwPMO0.jpg"
-  },
-  {
-    "tconst": "tt8888540",
-    "name": "Palm Royale",
-    "poster_path": "https://image.tmdb.org/t/p/w500/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg"
   }
 ]
