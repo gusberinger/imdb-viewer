@@ -20,14 +20,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/buXHm2shttFRQIBsCFlv5L2TmKh.jpg"
   },
   {
-    "tconst": "tt19395018",
-    "name": "Constellation",
-    "poster_path": "https://image.tmdb.org/t/p/w500/21ICs3fxlxGslbzS4moCHk9HNo6.jpg"
-  },
-  {
     "tconst": "tt9859436",
     "name": "The Walking Dead: The Ones Who Live",
     "poster_path": "https://image.tmdb.org/t/p/w500/ywbacot78IuNhGW4uVZPxxxVTkm.jpg"
+  },
+  {
+    "tconst": "tt19395018",
+    "name": "Constellation",
+    "poster_path": "https://image.tmdb.org/t/p/w500/21ICs3fxlxGslbzS4moCHk9HNo6.jpg"
   },
   {
     "tconst": "tt2640044",
@@ -55,8 +55,18 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/pN5qeqDgCG1Pij7KaEBKLkyjn4A.jpg"
   },
   {
-    "tconst": "tt21375036",
-    "name": "The Regime",
-    "poster_path": "https://image.tmdb.org/t/p/w500/ztqPixNyezY6pWSNIP2AlhwPMO0.jpg"
+    "tconst": "tt2297757",
+    "name": "Nathan for You",
+    "poster_path": "https://image.tmdb.org/t/p/w500/6tGXlz61c44onUg6EdRkbhjcaPA.jpg"
+  },
+  {
+    "tconst": "tt0804503",
+    "name": "Mad Men",
+    "poster_path": "https://image.tmdb.org/t/p/w500//7v8iCNzKFpdlrCMcqCoJyn74Nsa.jpg"
+  },
+  {
+    "tconst": "tt0367279",
+    "name": "Arrested Development",
+    "poster_path": "https://image.tmdb.org/t/p/w500//qMzwO952hMWQSCfHkp7IL20s4K7.jpg"
   }
 ]
