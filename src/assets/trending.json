@@ -25,6 +25,11 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/9Ycz7yYRf9V4jk3YXwcZhFtbNcF.jpg"
   },
   {
+    "tconst": "tt11016042",
+    "name": "RIPLEY",
+    "poster_path": "https://image.tmdb.org/t/p/w500/rpSo8z9alultGVTqQ3dkLEyU8xx.jpg"
+  },
+  {
     "tconst": "tt20242042",
     "name": "Three-Body",
     "poster_path": "https://image.tmdb.org/t/p/w500/buXHm2shttFRQIBsCFlv5L2TmKh.jpg"
@@ -50,13 +55,8 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
   },
   {
-    "tconst": "tt2640044",
-    "name": "Masters of the Air",
-    "poster_path": "https://image.tmdb.org/t/p/w500/rSAmgcoA74371rplbqM27yVsd3y.jpg"
-  },
-  {
-    "tconst": "tt13210838",
-    "name": "The Gentlemen",
-    "poster_path": "https://image.tmdb.org/t/p/w500/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg"
+    "tconst": "tt5171438",
+    "name": "Star Trek: Discovery",
+    "poster_path": "https://image.tmdb.org/t/p/w500/pDLjbZp93qaMhruz52sH0GsfcVr.jpg"
   }
 ]
