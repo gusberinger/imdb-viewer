@@ -50,14 +50,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/gJCQ6Q8TgI0t89JAMgtLMnBdQJh.jpg"
   },
   {
-    "tconst": "tt16418808",
-    "name": "Sugar",
-    "poster_path": "https://image.tmdb.org/t/p/w500/dNrk52Rt13MxwahLneTZJezM6qD.jpg"
-  },
-  {
     "tconst": "tt0944947",
     "name": "Game of Thrones",
     "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
+  },
+  {
+    "tconst": "tt16418808",
+    "name": "Sugar",
+    "poster_path": "https://image.tmdb.org/t/p/w500/dNrk52Rt13MxwahLneTZJezM6qD.jpg"
   },
   {
     "tconst": "tt5171438",
