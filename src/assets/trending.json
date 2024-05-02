@@ -40,14 +40,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/7ZXLZ3KYL3IVvsSHBZaHjcNQzNU.jpg"
   },
   {
-    "tconst": "tt21874396",
-    "name": "Parasyte: The Grey",
-    "poster_path": "https://image.tmdb.org/t/p/w500/rubaKfmdCvWGPXErgW9aQsgzKVr.jpg"
-  },
-  {
     "tconst": "tt9064858",
     "name": "Them",
     "poster_path": "https://image.tmdb.org/t/p/w500/gJCQ6Q8TgI0t89JAMgtLMnBdQJh.jpg"
+  },
+  {
+    "tconst": "tt21874396",
+    "name": "Parasyte: The Grey",
+    "poster_path": "https://image.tmdb.org/t/p/w500/rubaKfmdCvWGPXErgW9aQsgzKVr.jpg"
   },
   {
     "tconst": "tt0944947",
@@ -63,5 +63,10 @@
     "tconst": "tt5171438",
     "name": "Star Trek: Discovery",
     "poster_path": "https://image.tmdb.org/t/p/w500/pDLjbZp93qaMhruz52sH0GsfcVr.jpg"
+  },
+  {
+    "tconst": "tt12708542",
+    "name": "Star Wars: The Bad Batch",
+    "poster_path": "https://image.tmdb.org/t/p/w500/5mHus672nuinyaE0FtqvD0AddcY.jpg"
   }
 ]
