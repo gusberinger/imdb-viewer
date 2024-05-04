@@ -25,14 +25,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/346ju9C5zy0tkzfQoetOYtM74gw.jpg"
   },
   {
-    "tconst": "tt13016388",
-    "name": "3 Body Problem",
-    "poster_path": "https://image.tmdb.org/t/p/w500/ykZ7hlShkdRQaL2aiieXdEMmrLb.jpg"
-  },
-  {
     "tconst": "tt16026746",
     "name": "X-Men '97",
     "poster_path": "https://image.tmdb.org/t/p/w500/9Ycz7yYRf9V4jk3YXwcZhFtbNcF.jpg"
+  },
+  {
+    "tconst": "tt13016388",
+    "name": "3 Body Problem",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ykZ7hlShkdRQaL2aiieXdEMmrLb.jpg"
   },
   {
     "tconst": "tt27668559",
@@ -40,19 +40,19 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/7ZXLZ3KYL3IVvsSHBZaHjcNQzNU.jpg"
   },
   {
-    "tconst": "tt9064858",
-    "name": "Them",
-    "poster_path": "https://image.tmdb.org/t/p/w500/gJCQ6Q8TgI0t89JAMgtLMnBdQJh.jpg"
-  },
-  {
     "tconst": "tt12708542",
     "name": "Star Wars: The Bad Batch",
-    "poster_path": "https://image.tmdb.org/t/p/w500/5mHus672nuinyaE0FtqvD0AddcY.jpg"
+    "poster_path": "https://image.tmdb.org/t/p/w500/cDQAvfgAqnKuklerrZylZr6PCQa.jpg"
   },
   {
-    "tconst": "tt21874396",
-    "name": "Parasyte: The Grey",
-    "poster_path": "https://image.tmdb.org/t/p/w500/rubaKfmdCvWGPXErgW9aQsgzKVr.jpg"
+    "tconst": "tt5171438",
+    "name": "Star Trek: Discovery",
+    "poster_path": "https://image.tmdb.org/t/p/w500/pDLjbZp93qaMhruz52sH0GsfcVr.jpg"
+  },
+  {
+    "tconst": "tt16418808",
+    "name": "Sugar",
+    "poster_path": "https://image.tmdb.org/t/p/w500/dNrk52Rt13MxwahLneTZJezM6qD.jpg"
   },
   {
     "tconst": "tt0944947",
@@ -60,8 +60,13 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
   },
   {
-    "tconst": "tt5171438",
-    "name": "Star Trek: Discovery",
-    "poster_path": "https://image.tmdb.org/t/p/w500/pDLjbZp93qaMhruz52sH0GsfcVr.jpg"
+    "tconst": "tt9064858",
+    "name": "Them",
+    "poster_path": "https://image.tmdb.org/t/p/w500/gJCQ6Q8TgI0t89JAMgtLMnBdQJh.jpg"
+  },
+  {
+    "tconst": "tt21874396",
+    "name": "Parasyte: The Grey",
+    "poster_path": "https://image.tmdb.org/t/p/w500/rubaKfmdCvWGPXErgW9aQsgzKVr.jpg"
   }
 ]
