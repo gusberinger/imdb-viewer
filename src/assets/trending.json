@@ -35,9 +35,19 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg"
   },
   {
+    "tconst": "tt1190634",
+    "name": "The Boys",
+    "poster_path": "https://image.tmdb.org/t/p/w500/7Ns6tO3aYjppI5bFhyYZurOYGBT.jpg"
+  },
+  {
     "tconst": "tt0944947",
     "name": "Game of Thrones",
     "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
+  },
+  {
+    "tconst": "tt11198330",
+    "name": "House of the Dragon",
+    "poster_path": "https://image.tmdb.org/t/p/w500/1X4h40fcB4WWUmIBK0auT4zRBAV.jpg"
   },
   {
     "tconst": "tt5171438",
@@ -48,16 +58,6 @@
     "tconst": "tt8740790",
     "name": "Bridgerton",
     "poster_path": "https://image.tmdb.org/t/p/w500/luoKpgVwi1E5nQsi7W0UuKHu2Rq.jpg"
-  },
-  {
-    "tconst": "tt11198330",
-    "name": "House of the Dragon",
-    "poster_path": "https://image.tmdb.org/t/p/w500/1X4h40fcB4WWUmIBK0auT4zRBAV.jpg"
-  },
-  {
-    "tconst": "tt1190634",
-    "name": "The Boys",
-    "poster_path": "https://image.tmdb.org/t/p/w500/7Ns6tO3aYjppI5bFhyYZurOYGBT.jpg"
   },
   {
     "tconst": "tt30423279",
