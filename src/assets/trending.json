@@ -15,11 +15,6 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/vlHJfLsduZiILN8eYdN57kHZTcQ.jpg"
   },
   {
-    "tconst": "tt19231492",
-    "name": "Dark Matter",
-    "poster_path": "https://image.tmdb.org/t/p/w500/c6MRUtPk0nEPQ9FBD9RdRKt2rIm.jpg"
-  },
-  {
     "tconst": "tt11198330",
     "name": "House of the Dragon",
     "poster_path": "https://image.tmdb.org/t/p/w500/t9XkeE7HzOsdQcDDDapDYh8Rrmt.jpg"
@@ -28,6 +23,11 @@
     "tconst": "tt8740790",
     "name": "Bridgerton",
     "poster_path": "https://image.tmdb.org/t/p/w500/luoKpgVwi1E5nQsi7W0UuKHu2Rq.jpg"
+  },
+  {
+    "tconst": "tt19231492",
+    "name": "Dark Matter",
+    "poster_path": "https://image.tmdb.org/t/p/w500/c6MRUtPk0nEPQ9FBD9RdRKt2rIm.jpg"
   },
   {
     "tconst": "tt0436992",
@@ -55,8 +55,18 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg"
   },
   {
-    "tconst": "tt5171438",
-    "name": "Star Trek: Discovery",
-    "poster_path": "https://image.tmdb.org/t/p/w500/zh7GLsorxecv0D8d7QAVkQUe1ju.jpg"
+    "tconst": "tt2297757",
+    "name": "Nathan for You",
+    "poster_path": "https://image.tmdb.org/t/p/w500/6tGXlz61c44onUg6EdRkbhjcaPA.jpg"
+  },
+  {
+    "tconst": "tt0804503",
+    "name": "Mad Men",
+    "poster_path": "https://image.tmdb.org/t/p/w500//7v8iCNzKFpdlrCMcqCoJyn74Nsa.jpg"
+  },
+  {
+    "tconst": "tt0367279",
+    "name": "Arrested Development",
+    "poster_path": "https://image.tmdb.org/t/p/w500//qMzwO952hMWQSCfHkp7IL20s4K7.jpg"
   }
 ]
