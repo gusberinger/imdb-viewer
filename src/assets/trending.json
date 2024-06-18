@@ -5,6 +5,11 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/2zmTngn1tYC1AvfnrFLhxeD82hz.jpg"
   },
   {
+    "tconst": "tt11198330",
+    "name": "House of the Dragon",
+    "poster_path": "https://image.tmdb.org/t/p/w500/t9XkeE7HzOsdQcDDDapDYh8Rrmt.jpg"
+  },
+  {
     "tconst": "tt31433814",
     "name": "Doctor Who",
     "poster_path": "https://image.tmdb.org/t/p/w500/8FHthx4Vu81J4X5BTLhJYK9Gtbs.jpg"
@@ -13,11 +18,6 @@
     "tconst": "tt11273352",
     "name": "Joy of Life",
     "poster_path": "https://image.tmdb.org/t/p/w500/vlHJfLsduZiILN8eYdN57kHZTcQ.jpg"
-  },
-  {
-    "tconst": "tt11198330",
-    "name": "House of the Dragon",
-    "poster_path": "https://image.tmdb.org/t/p/w500/t9XkeE7HzOsdQcDDDapDYh8Rrmt.jpg"
   },
   {
     "tconst": "tt8740790",
@@ -35,6 +35,11 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/4edFyasCrkH4MKs6H4mHqlrxA6b.jpg"
   },
   {
+    "tconst": "tt0944947",
+    "name": "Game of Thrones",
+    "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
+  },
+  {
     "tconst": "tt12809988",
     "name": "Sweet Tooth",
     "poster_path": "https://image.tmdb.org/t/p/w500/dBxxtfhC4vYrxB2fLsSxOTY2dQc.jpg"
@@ -43,11 +48,6 @@
     "tconst": "tt16283824",
     "name": "Eric",
     "poster_path": "https://image.tmdb.org/t/p/w500/9OV6McrRh1BAnrak3yVP9xYuUId.jpg"
-  },
-  {
-    "tconst": "tt0944947",
-    "name": "Game of Thrones",
-    "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
   },
   {
     "tconst": "tt12637874",
