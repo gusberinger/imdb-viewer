@@ -15,6 +15,11 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/8FHthx4Vu81J4X5BTLhJYK9Gtbs.jpg"
   },
   {
+    "tconst": "tt19231492",
+    "name": "Dark Matter",
+    "poster_path": "https://image.tmdb.org/t/p/w500/c6MRUtPk0nEPQ9FBD9RdRKt2rIm.jpg"
+  },
+  {
     "tconst": "tt11273352",
     "name": "Joy of Life",
     "poster_path": "https://image.tmdb.org/t/p/w500/vlHJfLsduZiILN8eYdN57kHZTcQ.jpg"
@@ -23,11 +28,6 @@
     "tconst": "tt8740790",
     "name": "Bridgerton",
     "poster_path": "https://image.tmdb.org/t/p/w500/luoKpgVwi1E5nQsi7W0UuKHu2Rq.jpg"
-  },
-  {
-    "tconst": "tt19231492",
-    "name": "Dark Matter",
-    "poster_path": "https://image.tmdb.org/t/p/w500/c6MRUtPk0nEPQ9FBD9RdRKt2rIm.jpg"
   },
   {
     "tconst": "tt0436992",
