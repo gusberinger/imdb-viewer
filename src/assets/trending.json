@@ -10,6 +10,11 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/2zmTngn1tYC1AvfnrFLhxeD82hz.jpg"
   },
   {
+    "tconst": "tt12262202",
+    "name": "The Acolyte",
+    "poster_path": "https://image.tmdb.org/t/p/w500/mztdt3y6GBsJR69zHtszFezTCLT.jpg"
+  },
+  {
     "tconst": "tt31433814",
     "name": "Doctor Who",
     "poster_path": "https://image.tmdb.org/t/p/w500/8FHthx4Vu81J4X5BTLhJYK9Gtbs.jpg"
@@ -53,20 +58,5 @@
     "tconst": "tt12637874",
     "name": "Fallout",
     "poster_path": "https://image.tmdb.org/t/p/w500/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg"
-  },
-  {
-    "tconst": "tt2297757",
-    "name": "Nathan for You",
-    "poster_path": "https://image.tmdb.org/t/p/w500/6tGXlz61c44onUg6EdRkbhjcaPA.jpg"
-  },
-  {
-    "tconst": "tt0804503",
-    "name": "Mad Men",
-    "poster_path": "https://image.tmdb.org/t/p/w500//7v8iCNzKFpdlrCMcqCoJyn74Nsa.jpg"
-  },
-  {
-    "tconst": "tt0367279",
-    "name": "Arrested Development",
-    "poster_path": "https://image.tmdb.org/t/p/w500//qMzwO952hMWQSCfHkp7IL20s4K7.jpg"
   }
 ]
