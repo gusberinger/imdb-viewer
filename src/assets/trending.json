@@ -12,7 +12,7 @@
   {
     "tconst": "tt12262202",
     "name": "The Acolyte",
-    "poster_path": "https://image.tmdb.org/t/p/w500/yuCKJsbzzadXh6tMUsIwZ2zaKXy.jpg"
+    "poster_path": "https://image.tmdb.org/t/p/w500/mztdt3y6GBsJR69zHtszFezTCLT.jpg"
   },
   {
     "tconst": "tt31433814",
@@ -23,6 +23,16 @@
     "tconst": "tt19231492",
     "name": "Dark Matter",
     "poster_path": "https://image.tmdb.org/t/p/w500/c6MRUtPk0nEPQ9FBD9RdRKt2rIm.jpg"
+  },
+  {
+    "tconst": "tt17677860",
+    "name": "Presumed Innocent",
+    "poster_path": "https://image.tmdb.org/t/p/w500/7MXg0BxuSRWz2yKc03M40du2mrc.jpg"
+  },
+  {
+    "tconst": "tt14452776",
+    "name": "The Bear",
+    "poster_path": "https://image.tmdb.org/t/p/w500/sHFlbKS3WLqMnp9t2ghADIJFnuQ.jpg"
   },
   {
     "tconst": "tt0436992",
@@ -43,16 +53,6 @@
     "tconst": "tt11273352",
     "name": "Joy of Life",
     "poster_path": "https://image.tmdb.org/t/p/w500/vlHJfLsduZiILN8eYdN57kHZTcQ.jpg"
-  },
-  {
-    "tconst": "tt12637874",
-    "name": "Fallout",
-    "poster_path": "https://image.tmdb.org/t/p/w500/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg"
-  },
-  {
-    "tconst": "tt0903747",
-    "name": "Breaking Bad",
-    "poster_path": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
   },
   {
     "tconst": "tt2297757",
