@@ -1,0 +1,4 @@
+public/series/*/*.json filter=lfs diff=lfs merge=lfs -text
+public/sitemap.xml filter=lfs diff=lfs merge=lfs -text
+public/search.json filter=lfs diff=lfs merge=lfs -text
+src/assets/trending.json filter=lfs diff=lfs merge=lfs -text

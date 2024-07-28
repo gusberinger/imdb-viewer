@@ -29,7 +29,3 @@ coverage
 *.sw?
 /venv/
 /tmp/
-/public/series/
-/public/sitemap.xml
-/public/search.json
-/src/assets/trending.json
