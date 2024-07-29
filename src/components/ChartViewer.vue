@@ -34,7 +34,7 @@ const data = computed(() => {
         // @ts-ignore - force reactivity
         hideSeasonConnectionSegments: displayStore.displayOptions.hideSeasonConnectionSegments,
 
-        labels: episodes.value.map((e) => e.seasonNumber + 'x' + e.episodeNumber),
+        labels: episodes.value.map((e) => e[1] + 'x' + e[2]),
         datasets: [
             {
                 normalized: true,
@@ -43,10 +43,10 @@ const data = computed(() => {
                         ? 'Average Rating'
                         : 'Number of Votes',
                 data: episodes.value.map((e) =>
-                    displayOptions.value.yAxis === 'averageRating' ? e.averageRating : e.numVotes
+                    displayOptions.value.yAxis === 'averageRating' ? e[3] : e[4],
                 ),
                 pointBackgroundColor: (ctx) => {
-                    const season = episodes.value[ctx.dataIndex].seasonNumber
+                    const season = episodes.value[ctx.dataIndex][1]
                     return '#' + colors[season % colors.length]
                 },
                 borderWidth: displayStore.linesEnabled ? 3 : 0,
@@ -63,11 +63,11 @@ const data = computed(() => {
 
                         if (displayOptions.value.hideSeasonConnectionSegments) {
                             const nextEpisode = episodes.value[idx + 1]
-                            if (nextEpisode.seasonNumber !== episode.seasonNumber) {
+                            if (nextEpisode[1] !== episode[1]) {
                                 return 'rgba(0,0,0,0)'
                             }
                         }
-                        return '#' + colors[episode.seasonNumber % colors.length]
+                        return '#' + colors[episode[1] % colors.length]
                     }
                 }
             }
@@ -121,18 +121,18 @@ const options = computed(() => {
                     label: (ctx) => {
                         const index = ctx.dataIndex
                         const episode = episodes.value[index]
-                        const value = episode.primaryTitle
+                        const value = episode[5]
                         return value == null ? '[No Title]' : value
                     },
                     afterBody: (tooltipInfo) => {
                         const index = tooltipInfo[0].dataIndex
                         const episode = episodes.value[index]
-                        let message = `Season ${episode.seasonNumber} Episode ${episode.episodeNumber}`
-                        if (episode.startYear) {
-                            message += `\n${episode.startYear}`
+                        let message = `Season ${episode[1]} Episode ${episode[2]}`
+                        if (episode[6]) {
+                            message += `\n${episode[6]}`
                         }
-                        message += `\n${episode.averageRating}/10`
-                        message += `\n${episode.numVotes} votes`
+                        message += `\n${episode[3]}/10`
+                        message += `\n${episode[4]} votes`
                         return message
                     },
                     title: () => ''

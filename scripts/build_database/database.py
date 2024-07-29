@@ -170,6 +170,17 @@ def main():
             key=lambda episode: episode["seasonNumber"] * 10000
             + episode["episodeNumber"]
         )
+        series["episodes"] = [
+            [
+                episode.get("tconst"),
+                episode.get("seasonNumber"),
+                episode.get("episodeNumber"),
+                episode.get("averageRating"),
+                episode.get("numVotes"),
+                episode.get("primaryTitle"),
+                episode.get("startYear")
+            ] for episode in series["episodes"]
+        ]
         series["originalTitle"] = (
             series["originalTitle"]
             if series["originalTitle"] != "\\N"
