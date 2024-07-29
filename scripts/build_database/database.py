@@ -144,6 +144,12 @@ def main():
         if parent_tconst not in series_db:
             continue
 
+        del episode["parentTconst"]
+        if "originalTitle" in episode:
+            del episode["originalTitle"]
+        if "endYear" in episode:
+            del episode["endYear"]
+
         series_db[parent_tconst]["episodes"].append(episode)
 
     search_db = []
