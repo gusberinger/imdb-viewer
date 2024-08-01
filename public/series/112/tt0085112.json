@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:222d6b750922c2d6c00b0593edaf5b685eedaf124802da0d86d5f78133bb7584
-size 1875
+{"tconst": "tt0085112", "titleType": "tvMiniSeries", "primaryTitle": "The Winds of War", "originalTitle": null, "isAdult": "0", "startYear": "1983", "endYear": "1983", "episodes": [["tt1253832", 1, 1, 7.9, 195, "The Winds Rise", "1983"], ["tt1253831", 1, 2, 7.7, 159, "The Storm Breaks", "1983"], ["tt1251467", 1, 3, 7.8, 140, "Cataclysm", "1983"], ["tt1254645", 1, 4, 7.9, 138, "Defiance", "1983"], ["tt1254647", 1, 5, 7.4, 134, "Of Love and War", "1983"], ["tt1254648", 1, 6, 7.9, 136, "The Changing of the Guard", "1983"], ["tt1254646", 1, 7, 7.8, 140, "Into the Maelstrom", "1983"]]}

@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9593bab11c63cd2b87b3c035a5a893c3be5ce6fcbc85ba97f4d7dd60cd83cfca
-size 1565
+{"tconst": "tt0112130", "titleType": "tvMiniSeries", "primaryTitle": "Pride and Prejudice", "originalTitle": null, "isAdult": "0", "startYear": "1995", "endYear": "1995", "episodes": [["tt1263532", 1, 1, 8.2, 1064, "Episode 1", "1995"], ["tt1263533", 1, 2, 8.2, 954, "Episode 2", "1995"], ["tt1263534", 1, 3, 8.5, 941, "Episode 3", "1995"], ["tt1263535", 1, 4, 8.6, 955, "Episode 4", "1995"], ["tt1263536", 1, 5, 8.5, 914, "Episode 5", "1995"], ["tt1263537", 1, 6, 8.7, 927, "Episode 6", "1995"]]}

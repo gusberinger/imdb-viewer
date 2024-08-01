@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:323c508277f0b51aa819b53e31dd761db06665e962e00a6d14debb51aa44d3bf
-size 1501
+{"tconst": "tt0094999", "titleType": "tvMiniSeries", "primaryTitle": "The French as Seen by...", "originalTitle": "Les Fran\u00e7ais vus par", "isAdult": "0", "startYear": "1988", "endYear": null, "episodes": [["tt0095202", 1, 1, 5.8, 83, "Les Gaulois", "1988"], ["tt0190327", 1, 2, 6.2, 1378, "The Cowboy and the Frenchman", "1988"], ["tt2291347", 1, 3, null, null, "Proust contre la d\u00e9ch\u00e9ance", "1988"], ["tt2291349", 1, 4, 4.8, 8, "P\u00e8lerinage \u00e0 Agen", "1988"], ["tt2291345", 1, 5, 5.7, 32, "Le dernier mot", "1988"]]}

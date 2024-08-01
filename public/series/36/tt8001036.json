@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f12284bed5d6d5b2544ef529d1e91b49d4483735f27ed3aa7ec095b7d4f1795c
-size 1605
+{"tconst": "tt8001036", "titleType": "tvSeries", "primaryTitle": "The Trial of Christine Keeler", "originalTitle": null, "isAdult": "0", "startYear": "2019", "endYear": "2020", "episodes": [["tt8926684", 1, 1, 7.0, 152, "Episode #1.1", "2019"], ["tt8926686", 1, 2, 7.1, 115, "Episode #1.2", "2019"], ["tt8926688", 1, 3, 7.1, 105, "Episode #1.3", "2020"], ["tt8926692", 1, 4, 7.3, 108, "Episode #1.4", "2020"], ["tt8926694", 1, 5, 7.8, 103, "Episode #1.5", "2020"], ["tt8926696", 1, 6, 7.8, 95, "Episode #1.6", "2020"]]}

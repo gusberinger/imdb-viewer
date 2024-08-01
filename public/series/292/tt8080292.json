@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:133a36dd5b00ea0df92b4fb90e0e26552c6536126cf1b13291c6ba46f6243757
-size 2143
+{"tconst": "tt8080292", "titleType": "tvSeries", "primaryTitle": "The Watch", "originalTitle": null, "isAdult": "0", "startYear": "2020", "endYear": "2021", "episodes": [["tt8080364", 1, 1, 6.3, 540, "A Near Vimes Experience", "2020"], ["tt10945500", 1, 2, 6.5, 424, "Ook", "2021"], ["tt10945502", 1, 3, 6.7, 350, "The What?", "2021"], ["tt10945508", 1, 4, 6.8, 320, "Twilight Canyons", "2021"], ["tt10945510", 1, 5, 6.5, 276, "Not on My Watch", "2021"], ["tt10945516", 1, 6, 6.2, 265, "The Dark in the Dark", "2021"], ["tt10945522", 1, 7, 6.8, 247, "Nowhere in the Multiverse", "2021"], ["tt10945524", 1, 8, 6.4, 231, "Better to Light a Candle", "2021"]]}

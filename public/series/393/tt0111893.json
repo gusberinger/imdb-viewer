@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e7df9885e47f99419ba12e3c179f6741b859220a9ad4b85b8f3be8871191898
-size 2480
+{"tconst": "tt0111893", "titleType": "tvMiniSeries", "primaryTitle": "The Beatles Anthology", "originalTitle": null, "isAdult": "0", "startYear": "1995", "endYear": "1996", "episodes": [["tt1522697", 1, 1, 8.7, 277, "July '40 to March '63", "1995"], ["tt1522698", 1, 2, 8.8, 260, "March '63 to February '64", "1995"], ["tt1522696", 1, 3, 8.7, 241, "February '64 to July '64", "1995"], ["tt1526960", 1, 4, 8.8, 241, "August '64 to August '65", "1995"], ["tt1526961", 1, 5, 8.9, 235, "August '65 to July '66", "1995"], ["tt1526962", 1, 6, 9.0, 226, "July '66 to June '67", "1995"], ["tt1528187", 1, 7, 9.0, 217, "June '67 to July '68", "1996"], ["tt1528186", 1, 8, 9.0, 218, "July '68 to the End", "1996"], ["tt23951222", 1, 9, 9.5, 14, "Threetles Sessions", "1996"]]}

@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1d3fac5270a5585df45b03d42bf3ecf6de207929aa990d5b4aae6c0d0ce12dab
-size 1671
+{"tconst": "tt0092324", "titleType": "tvSeries", "primaryTitle": "Blackadder the Third", "originalTitle": null, "isAdult": "0", "startYear": "1987", "endYear": "1987", "episodes": [["tt0526722", 1, 1, 8.2, 1087, "Dish and Dishonesty", "1987"], ["tt0526724", 1, 2, 8.6, 1115, "Ink and Incapability", "1987"], ["tt0526725", 1, 3, 8.1, 1003, "Nob and Nobility", "1987"], ["tt0526726", 1, 4, 8.1, 1003, "Sense and Senility", "1987"], ["tt0526721", 1, 5, 8.1, 976, "Amy and Amiability", "1987"], ["tt0526723", 1, 6, 8.5, 979, "Duel and Duality", "1987"]]}

@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:766e4a8363b98879fa86f45f90cc29119e3212eecb29e895b36e1600590f1097
-size 1744
+{"tconst": "tt0118273", "titleType": "tvSeries", "primaryTitle": "Brass Eye", "originalTitle": null, "isAdult": "0", "startYear": "1997", "endYear": "2001", "episodes": [["tt0531314", 1, 1, 7.8, 253, "Animals", "1997"], ["tt0531317", 1, 2, 8.6, 276, "Drugs", "1997"], ["tt0531319", 1, 3, 7.7, 200, "Science", "1997"], ["tt0531320", 1, 4, 8.0, 201, "Sex", "1997"], ["tt0531315", 1, 5, 8.1, 194, "Crime", "1997"], ["tt0531316", 1, 6, 7.9, 176, "Decline", "1997"], ["tt0330093", 2, 0, 9.3, 877, "Paedophilia", "2001"]]}

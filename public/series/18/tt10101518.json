@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a5568e53e3b6ba7d195d2a618e81c49227c6f3780251fbc16919912049df7fd7
-size 1815
+{"tconst": "tt10101518", "titleType": "tvSeries", "primaryTitle": "Curon", "originalTitle": null, "isAdult": "0", "startYear": "2020", "endYear": "2020", "episodes": [["tt12381868", 1, 1, 6.4, 265, "The Black Lake", "2020"], ["tt12485234", 1, 2, 6.4, 204, "The Day After", "2020"], ["tt12492528", 1, 3, 6.4, 158, "The Killer", "2020"], ["tt12492546", 1, 4, 6.6, 156, "The Fathers", "2020"], ["tt12492552", 1, 5, 6.7, 154, "The Curse", "2020"], ["tt12492560", 1, 6, 6.4, 144, "The Wolves", "2020"], ["tt12492566", 1, 7, 6.4, 150, "The Maze", "2020"]]}

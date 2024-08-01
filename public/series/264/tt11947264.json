@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:66096ed61dfdbd9ec8ebfa36f292b6a4b20f4713049700e60d7ebd0c68b14726
-size 2429
+{"tconst": "tt11947264", "titleType": "tvSeries", "primaryTitle": "The Astronauts", "originalTitle": null, "isAdult": "0", "startYear": "2020", "endYear": "2021", "episodes": [["tt12489218", 1, 1, 8.5, 78, "Countdown", "2020"], ["tt13386670", 1, 2, 8.9, 66, "Day 1", "2020"], ["tt13386680", 1, 3, 8.7, 60, "Day 3", "2020"], ["tt13386682", 1, 4, 8.0, 58, "Day 21", "2020"], ["tt13386690", 1, 5, 8.4, 53, "Day 33", "2020"], ["tt13597344", 1, 6, 8.4, 44, "Day 34", "2020"], ["tt13587738", 1, 7, 8.6, 41, "Day 73", "2020"], ["tt13677014", 1, 8, 8.6, 46, "Day 76", "2021"], ["tt13710636", 1, 9, 8.8, 46, "Day 84", "2021"], ["tt13710640", 1, 10, 9.1, 48, "Day 85", "2021"]]}

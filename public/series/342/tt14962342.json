@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d8309ce7768b57c72d9042f757d71a15a0bf46985cb280a3071fab111cefb0e1
-size 1506
+{"tconst": "tt14962342", "titleType": "tvSeries", "primaryTitle": "The Therapy", "originalTitle": "Sebastian Fitzek's Therapy", "isAdult": "0", "startYear": "2023", "endYear": null, "episodes": [["tt19479828", 1, 1, 7.2, 125, "Pilot", "2023"], ["tt19480196", 1, 2, 7.2, 90, "Zweifel", "2023"], ["tt19515762", 1, 3, 7.7, 78, "3", "2023"], ["tt19515794", 1, 4, 7.7, 71, "4", "2023"], ["tt19515802", 1, 5, 7.8, 70, "5", "2023"], ["tt19515806", 1, 6, 7.7, 69, "6", "2023"]]}

@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d99827d5b2adb027e3674d34ab13a8baca6b26c4bca2c0fa7734b6c5a8de3698
-size 1802
+{"tconst": "tt0182408", "titleType": "tvSeries", "primaryTitle": "The Scarlet Pimpernel", "originalTitle": null, "isAdult": "0", "startYear": "1999", "endYear": "2000", "episodes": [["tt0912252", 1, 1, 8.0, 85, "The Scarlet Pimpernel", "1999"], ["tt0221533", 1, 2, 7.7, 214, "Valentin Gautier/The Scarlet Pimpernel Meets Madame Guillotine", "1999"], ["tt0221534", 1, 3, 7.5, 222, "A King's Ransom/The Scarlet Pimpernel and the Kidnapped King", "1999"], ["tt0909745", 2, 1, 7.4, 30, "Ennui", "2000"], ["tt0394871", 2, 2, 7.6, 26, "Friends & Enemies", "2000"], ["tt0293917", 2, 3, 8.1, 58, "A Good Name", "2000"]]}
