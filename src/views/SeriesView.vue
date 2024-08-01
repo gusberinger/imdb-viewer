@@ -3,6 +3,7 @@ import ChartViewer from '@/components/ChartViewer.vue'
 import ChartControls from '@/components/ChartControls.vue'
 import SeriesSearch from '@/components/SeriesSearch.vue'
 import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
+import Footer from '@/components/Footer.vue'
 import { useDataBaseStore } from '@/stores/databaseStore'
 import { useDisplayOptionsStore } from '@/stores/displayOptionsStore'
 import { storeToRefs } from 'pinia'
@@ -97,9 +98,6 @@ onMounted(async () => {
         </div>
         <ChartControls />
         <ChartViewer />
-        <footer class="mt-10 py-10 text-sm text-gray-500">
-            © {{ new Date().getFullYear() }} Gus Beringer. Information courtesy of
-            <a href="https://www.imdb.com">IMDb</a>, used with permission.
-        </footer>
+        <Footer />
     </div>
 </template>
