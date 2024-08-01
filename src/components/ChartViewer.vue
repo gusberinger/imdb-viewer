@@ -89,7 +89,7 @@ const options = computed(() => {
                 return
             }
             const element = episodes.value[elements[0].index]
-            const link = `https://www.imdb.com/title/${element.tconst}`
+            const link = `https://www.imdb.com/title/${element[0]}`
             window.open(link, '_blank')
         },
         responsive: true,

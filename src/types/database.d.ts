@@ -8,7 +8,7 @@
 // type startYear = number
 
 type Episode = [
-    Tconst: string, // 0
+    tconst: string, // 0
     seasonNumber: number, // 1
     episodeNumber: number, // 2
     averageRating: number, // 3

@@ -9,10 +9,10 @@ export const useDataBaseStore = defineStore('db', () => {
 
     const episodes = computed(() => {
         return db.value.episodes.filter((episode) => {
-            if (displayOptions.value.hidePilots && episode.episodeNumber === 0) {
+            if (displayOptions.value.hidePilots && episode[2] === 0) {
                 return false
             }
-            if (displayOptions.value.hideUnrated && episode.averageRating == null) {
+            if (displayOptions.value.hideUnrated && episode[3] == null) {
                 return false
             }
             return true
