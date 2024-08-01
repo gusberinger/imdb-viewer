@@ -1,5 +1,6 @@
 import build_database
 import shutil
+import time
 
 
 def main():
@@ -14,6 +15,7 @@ def main():
     build_database.database()
     build_database.trending()
     build_database.sitemap()
+    (build_database.PUBLIC_DIR_PATH / "timestamp.txt").write_text(str(int(time.time())))
 
 
 if __name__ == "__main__":
