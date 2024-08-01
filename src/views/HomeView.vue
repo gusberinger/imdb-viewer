@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import SeriesSearch from '@/components/SeriesSearch.vue'
 import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
-import Footer from '@/components/Footer.vue'
+import SiteFooter from '@/components/SiteFooter.vue'
 import GithubCallToAction from '@/components/GithubCallToAction.vue'
 import trending from '@/assets/trending.json'
 import { breakpointsTailwind, useBreakpoints } from '@vueuse/core'
@@ -58,6 +58,6 @@ const trendingRandom = computed(() => {
             <h1 class="mb-2 text-center text-2xl">IMDb Charts</h1>
             <series-search />
         </section>
-        <Footer />
+        <SiteFooter />
     </main>
 </template>

@@ -3,7 +3,7 @@ import ChartViewer from '@/components/ChartViewer.vue'
 import ChartControls from '@/components/ChartControls.vue'
 import SeriesSearch from '@/components/SeriesSearch.vue'
 import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
-import Footer from '@/components/Footer.vue'
+import SiteFooter from '@/components/SiteFooter.vue'
 import { useDataBaseStore } from '@/stores/databaseStore'
 import { useDisplayOptionsStore } from '@/stores/displayOptionsStore'
 import { storeToRefs } from 'pinia'
@@ -98,6 +98,6 @@ onMounted(async () => {
         </div>
         <ChartControls />
         <ChartViewer />
-        <Footer />
+        <SiteFooter />
     </div>
 </template>
