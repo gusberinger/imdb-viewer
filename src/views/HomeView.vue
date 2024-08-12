@@ -55,7 +55,7 @@ const trendingRandom = computed(() => {
             </div>
         </section>
         <section aria-label="TV Search Box">
-            <h1 class="mb-2 text-center text-2xl">IMDb Charts</h1>
+            <h1 class="mb-2 text-center dark:text-slate-100 text-2xl">IMDb Charts</h1>
             <series-search />
         </section>
         <SiteFooter />
