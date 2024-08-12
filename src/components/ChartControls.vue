@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useDisplayOptionsStore } from '@/stores/displayOptionsStore'
 import { storeToRefs } from 'pinia'
-import Dropdown from 'primevue/dropdown'
+import Select from 'primevue/select';
 import InputGroup from 'primevue/inputgroup'
 import InputGroupAddon from 'primevue/inputgroupaddon'
 import { CogIcon } from '@heroicons/vue/24/outline'
@@ -16,7 +16,7 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
 <template>
     <InputGroup class="flex max-w-3xl justify-center py-6">
         <div class="p-float-label">
-            <Dropdown
+            <Select
                 v-model="displayOptions.yAxis"
                 inputId="yAxis"
                 :options="[
@@ -30,7 +30,7 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
             <label for="yAxis">Y Axis Value</label>
         </div>
         <div v-if="displayOptions.yAxis == 'averageRating'" class="p-float-label">
-            <Dropdown
+            <Select
                 v-model="displayOptions.yAxisRange"
                 inputId="yAxis"
                 :options="[
@@ -44,7 +44,7 @@ const { displayOptions } = storeToRefs(useDisplayOptionsStore())
             <label for="yAxis">Y Axis Range</label>
         </div>
         <div class="p-float-label">
-            <Dropdown
+            <Select
                 v-model="displayOptions.mode"
                 inputId="yAxis"
                 :options="[
