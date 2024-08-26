@@ -20,6 +20,11 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
   },
   {
+    "tconst": "tt1928307",
+    "name": "Time Bandits",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ahnTuygdAbjXvLKzLQlK2txosMX.jpg"
+  },
+  {
     "tconst": "tt0149460",
     "name": "Futurama",
     "poster_path": "https://image.tmdb.org/t/p/w500/sdJcX2cXirwQurLLlrDLYov7hcD.jpg"
@@ -30,24 +35,24 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/qYGIf2QAhSIa5Xbf72QvLtte2e8.jpg"
   },
   {
-    "tconst": "tt1928307",
-    "name": "Time Bandits",
-    "poster_path": "https://image.tmdb.org/t/p/w500/ahnTuygdAbjXvLKzLQlK2txosMX.jpg"
+    "tconst": "tt8888462",
+    "name": "Pachinko",
+    "poster_path": "https://image.tmdb.org/t/p/w500/Ab9z43yotMYDzDNmXk8Uw9ZNIhx.jpg"
   },
   {
-    "tconst": "tt14681596",
-    "name": "Batman: Caped Crusader",
-    "poster_path": "https://image.tmdb.org/t/p/w500/imuZQcnPNKNygPw28TESUq4tNsb.jpg"
+    "tconst": "tt7631058",
+    "name": "The Lord of the Rings: The Rings of Power",
+    "poster_path": "https://image.tmdb.org/t/p/w500/eTQLv1sjLhDBPwI2u0qaqV51HWU.jpg"
   },
   {
-    "tconst": "tt14452776",
-    "name": "The Bear",
-    "poster_path": "https://image.tmdb.org/t/p/w500/3MVHF64rlvH1eofKefIoazXwOK0.jpg"
+    "tconst": "tt14022668",
+    "name": "Lady in the Lake",
+    "poster_path": "https://image.tmdb.org/t/p/w500/cK0zAfFHfpSZJ5e9yhm2jRJJ6Zj.jpg"
   },
   {
-    "tconst": "tt10569934",
-    "name": "Those About to Die",
-    "poster_path": "https://image.tmdb.org/t/p/w500/gvz0m4MJ8sAj6yMcQdwN07bNjRY.jpg"
+    "tconst": "tt9055008",
+    "name": "Evil",
+    "poster_path": "https://image.tmdb.org/t/p/w500/auRAAVxlyT6YACql96UdtnpFHy3.jpg"
   },
   {
     "tconst": "tt2297757",
