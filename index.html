@@ -1,19 +1,27 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="/src/assets/base.css" />
+        <link rel="stylesheet" href="/src/assets/base.css" type="text/css" />
         <meta charset="UTF-8" />
         <link rel="icon" href="/favicon.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Draw charts for TV shows using IMDb data" />
         <title>IMDb Charts</title>
+        <script>
+            const isDark = localStorage.getItem('vueuse-color-scheme') === 'dark'
+            if (isDark) {
+                console.log('adding dark')
+                document.documentElement.classList.add('dark')
+            }
+          </script>
     </head>
     <body>
+        <script>0</script>
         <div id="app"></div>
         <script type="module" src="/src/main.ts"></script>
     </body>
     <!-- Google tag (gtag.js) -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXQ415KY5E"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXQ415KY5E"></script>
     <script>
         window.dataLayer = window.dataLayer || []
         function gtag() {
@@ -22,5 +30,5 @@
         gtag('js', new Date())
 
         gtag('config', 'G-NXQ415KY5E')
-    </script> -->
+    </script>
 </html>
