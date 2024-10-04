@@ -6,7 +6,7 @@ import GithubCallToAction from '@/components/GithubCallToAction.vue'
 import trending from '@/assets/trending.json'
 import { breakpointsTailwind, useBreakpoints } from '@vueuse/core'
 import { computed } from 'vue'
-
+import { RouterLink } from 'vue-router'
 const breakpoints = useBreakpoints(breakpointsTailwind)
 
 const trendingRandom = computed(() => {
@@ -37,11 +37,11 @@ const trendingRandom = computed(() => {
                 aria-label="Trending TV Show Selector"
                 class="grid grid-cols-2 gap-2 md:grid-cols-4 xl:grid-cols-6"
             >
-                <a
+                <RouterLink
                     v-for="series in trendingRandom"
                     class="border-transparent border-4 transition-colors duration-75 ease-in-out hover:dark:border-green-400 hover:border-amber-500"
                     :key="series.tconst"
-                    :href="`/series/${series.tconst}`"
+                    :to="`/series/${series.tconst}`"
                 >
                     <img
                         class="h-60 w-40 object-cover"
@@ -51,7 +51,7 @@ const trendingRandom = computed(() => {
                         :src="series.poster_path"
                         :alt="series.name + ' Poster'"
                     />
-                </a>
+                </RouterLink>
             </div>
         </section>
         <section aria-label="TV Search Box">
