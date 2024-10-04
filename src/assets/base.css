@@ -2,7 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    background-color: theme('colors.slate.100');
-}
 
