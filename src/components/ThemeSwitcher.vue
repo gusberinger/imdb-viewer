@@ -3,7 +3,8 @@ import { MoonIcon } from '@heroicons/vue/24/outline'
 import { SunIcon } from '@heroicons/vue/24/outline'
 import { useDark, useToggle } from '@vueuse/core'
 
-const isDark = useDark()
+const isDark = useDark({
+})
 
 const toggleDarkMode = useToggle(isDark)
 

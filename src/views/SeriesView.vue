@@ -59,7 +59,7 @@ onMounted(async () => {
             </h1>
             <h1 v-else>{{ db.primaryTitle }} ({{ db.startYear }})</h1>
             <div class="flex items-center gap-x-3">
-                <!-- <theme-switcher /> -->
+                <theme-switcher />
                 <SeriesSearch />
             </div>
         </header>

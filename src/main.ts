@@ -10,7 +10,10 @@ const app = createApp(App)
 const pinia = createPinia()
 app.use(PrimeVue, {
     theme: {
-        preset: Aura
+        preset: Aura,
+        options: {
+            darkModeSelector: '.dark'
+        }
     }
 })
 pinia.use(piniaPluginPersistedstate)
