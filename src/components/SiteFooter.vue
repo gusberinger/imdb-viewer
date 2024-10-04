@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import axios from 'axios'
 import { ref, onMounted } from 'vue'
 
 const lastUpdated = ref('')
 
 onMounted(async () => {
-    const response = axios.get(`/timestamp.txt`, {})
-    const date = new Date((await response).data * 1000)
+    const response = await fetch(`/timestamp.txt`)
+    const epoch = Number(await response.json())
+    const date = new Date(epoch * 1000)
     lastUpdated.value = `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`
 })
 </script>

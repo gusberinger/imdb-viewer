@@ -9,7 +9,6 @@ import { useDisplayOptionsStore } from '@/stores/displayOptionsStore'
 import { storeToRefs } from 'pinia'
 import { onMounted, ref, defineAsyncComponent } from 'vue'
 import { useRoute } from 'vue-router'
-import axios from 'axios'
 import type { TMDBSeries } from '@/types/database'
 
 const NotFound = defineAsyncComponent(() => import('@/views/NotFound.vue'))
@@ -33,19 +32,11 @@ onMounted(async () => {
     }
 
     try {
-        const response = axios.get(`/api/tmdb/poster`, {
-            params: {
-                tconst: tconst
-            }
-        })
-        tmdb.value = (await response).data
+        const response = await fetch(`/api/tmdb/poster?tconst=${tconst}`)
+        const data = await response.json()
+        tmdb.value = data
     } catch (error) {
-        if (!axios.isAxiosError(error)) {
-            throw error
-        }
-        if (error.response?.status === 404) {
-            tmdb_not_found.value = true
-        }
+        tmdb_not_found.value = true
     }
 
     if (displayOptions.value.autoSwitchMode) {
