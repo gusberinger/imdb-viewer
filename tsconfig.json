@@ -2,14 +2,11 @@
     "files": [],
     "references": [
         {
-            "path": "./tsconfig.node.json"
-        },
-        {
             "path": "./tsconfig.app.json"
         }
     ],
     "compilerOptions": {
-        "target": "esnext",
+        "target": "ESNext",
         "baseUrl": ".",
         "paths": {
             "@/*": ["./src/*"]
