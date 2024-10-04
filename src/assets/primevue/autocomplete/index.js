@@ -11,20 +11,21 @@ export default {
 
             // Size
             { 'w-full': props.multiple },
+            { '[&>input]:!rounded-r-none': props.dropdown },
 
             // Color
             'text-surface-900 dark:text-surface-0',
 
             //States
             {
-                'opacity-60 select-none pointer-events-none cursor-default': props.disabled
+                'bg-surface-200 dark:bg-surface-700 select-none pointer-events-none cursor-default': props.disabled
             }
         ]
     }),
     inputMultiple: ({ props, state }) => ({
         class: [
             // Font
-            'text-base leading-[normal]',
+            'leading-none',
 
             // Flex
             'flex items-center flex-wrap',
@@ -32,11 +33,10 @@ export default {
 
             // Spacing
             'm-0 list-none',
-            'px-3 py-1.5',
+            'py-1 px-1',
 
             // Size
             'w-full',
-            'min-h-[2.877rem]',
 
             // Shape
             'appearance-none rounded-md',
@@ -44,18 +44,19 @@ export default {
             // Color
             'text-surface-700 dark:text-white/80',
             'placeholder:text-surface-400 dark:placeholder:text-surface-500',
-            'bg-surface-0 dark:bg-surface-900',
+            { 'bg-surface-0 dark:bg-surface-950': !props.disabled },
             'border',
-            { 'border-surface-300 dark:border-surface-600': !props.invalid },
+            { 'border-surface-300 dark:border-surface-700': !props.invalid },
 
             // Invalid State
+            'invalid:focus:ring-red-200',
+            'invalid:hover:border-red-500',
             { 'border-red-500 dark:border-red-400': props.invalid },
 
             // States
-            { 'hover:border-primary': !props.invalid },
-            'focus:outline-none focus:outline-offset-0',
-            { 'ring ring-primary-400/50 dark:ring-primary-300/50': state.focused },
-            { 'ring ring-primary-400/50 dark:ring-primary-300/50': state.hovered },
+            { 'hover:border-surface-400 dark:hover:border-surface-700': !props.invalid },
+            { 'outline-none outline-offset-0 z-10 ring-1 ring-primary-500 dark:ring-primary-400': state.focused },
+
             // Transition
             'transition duration-200 ease-in-out',
 
@@ -64,7 +65,7 @@ export default {
         ]
     }),
     inputToken: {
-        class: ['py-1.5 px-0', 'inline-flex flex-auto']
+        class: ['py-1 px-0 ml-2', 'inline-flex flex-auto']
     },
     inputChip: {
         class: 'flex-auto inline-flex pt-1 pb-1'
@@ -72,39 +73,19 @@ export default {
     input: {
         class: 'border-none outline-none bg-transparent m-0 p-0 shadow-none rounded-none w-full'
     },
-    chipItem: {
-        root: {
-            class: [
-                // Flex
-                'inline-flex items-center',
-
-                // Spacings
-                'py-1.5 px-3',
-
-                // Shape
-                'rounded-[1.14rem]',
-
-                // Colors
-                'bg-surface-200 dark:bg-surface-700',
-                'text-surface-700 dark:text-white/70',
-
-                // Misc
-                'cursor-default'
-            ]
-        }
-    },
     dropdown: {
         class: [
             'relative',
 
             // Alignments
-            'items-center inline-flex text-center align-bottom',
+            'items-center inline-flex justify-center text-center align-bottom',
 
             // Shape
             'rounded-r-md',
 
             // Size
-            'px-4 py-3 leading-[normal]',
+            'py-2 leading-none',
+            'w-10',
 
             // Colors
             'text-primary-contrast',
@@ -112,9 +93,9 @@ export default {
             'border border-primary',
 
             // States
-            'focus:outline-none focus:outline-offset-0 focus:ring',
+            'focus:outline-none focus:outline-offset-0 focus:ring-1 ',
             'hover:bg-primary-emphasis hover:border-primary-emphasis',
-            'focus:ring-primary-400/50 dark:focus:ring-primary-300/50'
+            'focus:ring-primary-500 dark:focus:ring-primary-400'
         ]
     },
     loader: {
@@ -123,33 +104,34 @@ export default {
     overlay: {
         class: [
             // Colors
-            'bg-surface-0 dark:bg-surface-800',
+            'bg-surface-0 dark:bg-surface-900',
             'text-surface-700 dark:text-white/80',
 
             // Shape
-            'border-0',
+            'border border-surface-300 dark:border-surface-700',
             'rounded-md',
             'shadow-md',
 
             // Size
-            'max-h-[200px] overflow-auto'
+            'overflow-auto'
         ]
     },
     list: {
-        class: 'py-3 px-0 list-none m-0'
+        class: 'p-1 list-none m-0'
     },
     option: ({ context }) => ({
         class: [
             'relative',
 
             // Font
-            'font-normal text-base leading-[normal]',
+            'leading-none',
 
             // Spacing
-            'm-0 px-5 py-3',
+            'm-0 px-3 py-2',
+            'first:mt-0 mt-[2px]',
 
             // Shape
-            'border-0 rounded-none',
+            'border-0 rounded',
 
             // Colors
             {
@@ -160,9 +142,9 @@ export default {
             },
 
             //States
-            { 'hover:bg-surface-100 dark:hover:bg-surface-600/80': !context.focused && !context.selected },
+            { 'hover:bg-surface-100 dark:hover:bg-[rgba(255,255,255,0.03)]': !context.focused && !context.selected },
             { 'hover:bg-highlight-emphasis': context.selected },
-            'focus-visible:outline-none focus-visible:outline-offset-0 focus-visible:ring focus-visible:ring-inset focus-visible:ring-primary-400/50 dark:focus-visible:ring-primary-300/50',
+            { 'hover:text-surface-700 hover:bg-surface-100 dark:hover:text-white dark:hover:bg-[rgba(255,255,255,0.03)]': context.focused && !context.selected },
 
             // Transition
             'transition-shadow duration-200',
@@ -173,14 +155,13 @@ export default {
     }),
     optionGroup: {
         class: [
-            'font-bold',
+            'font-semibold',
 
             // Spacing
-            'm-0 p-3',
+            'm-0 py-2 px-3',
 
             // Colors
-            'bg-surface-0 dark:bg-surface-700',
-            'text-surface-800 dark:text-white/80',
+            'text-surface-400 dark:text-surface-500',
 
             // Misc
             'cursor-auto'
@@ -189,10 +170,10 @@ export default {
     emptyMessage: {
         class: [
             // Font
-            'leading-[normal]',
+            'leading-none',
 
             // Spacing
-            'py-3 px-5',
+            'py-2 px-3',
 
             // Color
             'text-surface-800 dark:text-white/80',

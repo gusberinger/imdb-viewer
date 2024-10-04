@@ -11,22 +11,25 @@ export default {
     preview: {
         class: [
             // Font
-            'text-base ',
+            'text-base leading-none',
 
             // Spacing
             'm-0',
-            'p-3',
+            'p-0',
 
-            // Size & Shape
-            'rounded-lg w-8 h-8',
+            //Size
+            'w-6 h-6',
+
+            // Shape
+            'rounded-md',
 
             // Colors
             'bg-surface-0 dark:bg-surface-900',
             'border border-surface-300 dark:border-surface-700',
 
             // States
-            'hover:border-primary',
-            'focus:outline-none focus:outline-offset-0 focus:ring focus:ring-primary-400/50 dark:focus:ring-primary-300/50',
+            'hover:border-surface-400 dark:hover:border-surface-600',
+            'focus:outline-none focus:outline-offset-0 focus:ring-1 focus:ring-primary-500 dark:focus:ring-primary-400 focus:z-10',
 
             // Transition
             'transition-colors duration-200',
@@ -47,7 +50,7 @@ export default {
             'shadow-md border',
 
             // Colors
-            'bg-surface-800 border-surface-900 dark:border-surface-600'
+            'bg-surface-800 dark:bg-surface-900 border-surface-600 dark:border-surface-700'
         ]
     }),
     colorSelector: {
@@ -59,12 +62,12 @@ export default {
             'h-[150px] w-[150px]'
         ]
     },
-    color: {
+    colorbackground: {
         class: [
             // Size
             'h-[150px] w-[150px]'
         ],
-        style: 'background: linear-gradient(to top, #000 0%, rgb(0 0 0 / 0) 100%), linear-gradient(to right, #fff 0%, rgb(255 255 255 / 0) 100%)'
+        style: 'background:linear-gradient(to top,#000 0%,rgba(0,0,0,0) 100%),linear-gradient(to right,#fff 0%,rgba(255,255,255,0) 100%)'
     },
     colorHandle: {
         class: [
