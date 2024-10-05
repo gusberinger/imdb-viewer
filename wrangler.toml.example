@@ -1,4 +1,0 @@
-name = "my-worker-dev"
-
-[vars]
-TMDB_API_KEY = ""
