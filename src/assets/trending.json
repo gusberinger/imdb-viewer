@@ -1,33 +1,38 @@
 [
   {
-    "tconst": "tt14379784",
-    "name": "The Devil's Hour",
-    "poster_path": "https://image.tmdb.org/t/p/w500/idKszwiEpFEW0bBr44HBQXAwzZo.jpg"
+    "tconst": "tt12235718",
+    "name": "Hellbound",
+    "poster_path": "https://image.tmdb.org/t/p/w500/5NYdSAnDVIXePrSG2dznHdiibMk.jpg"
   },
   {
-    "tconst": "tt13833978",
-    "name": "The Lincoln Lawyer",
-    "poster_path": "https://image.tmdb.org/t/p/w500/9TaupczRcEkOaYbsiQuLg3kXPLq.jpg"
+    "tconst": "tt15435876",
+    "name": "The Penguin",
+    "poster_path": "https://image.tmdb.org/t/p/w500/a2fqompEWB2GFp9GOdlqLcfEFfw.jpg"
   },
   {
-    "tconst": "tt0386676",
-    "name": "The Office",
-    "poster_path": "https://image.tmdb.org/t/p/w500/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg"
+    "tconst": "tt9813792",
+    "name": "FROM",
+    "poster_path": "https://image.tmdb.org/t/p/w500/cjXLrg4R7FRPFafvuQ3SSznQOd9.jpg"
   },
   {
     "tconst": "tt15571732",
     "name": "Agatha All Along",
-    "poster_path": "https://image.tmdb.org/t/p/w500/gOcqzHwkApTWD9i5ChDK5wO5pM5.jpg"
+    "poster_path": "https://image.tmdb.org/t/p/w500/1tfCj5h0FEQ5xg8hzVjQgcuGlgN.jpg"
   },
   {
-    "tconst": "tt13062500",
-    "name": "The Walking Dead: Daryl Dixon",
-    "poster_path": "https://image.tmdb.org/t/p/w500/AjnMXY6DH3nTDLYxdqksAH9Ft3n.jpg"
+    "tconst": "tt27031263",
+    "name": "Teacup",
+    "poster_path": "https://image.tmdb.org/t/p/w500/cP5zuQvWAFrgWptS0iXvDI3iND.jpg"
   },
   {
-    "tconst": "tt7631058",
-    "name": "The Lord of the Rings: The Rings of Power",
-    "poster_path": "https://image.tmdb.org/t/p/w500/mYLOqiStMxDK3fYZFirgrMt8z5d.jpg"
+    "tconst": "tt9184820",
+    "name": "Star Trek: Lower Decks",
+    "poster_path": "https://image.tmdb.org/t/p/w500/4Rcjf6pOnKJSHDPeur2IShFlYtI.jpg"
+  },
+  {
+    "tconst": "tt11192306",
+    "name": "Superman & Lois",
+    "poster_path": "https://image.tmdb.org/t/p/w500/hoWkpACsrLgv4QMT4XCDrzoPdWN.jpg"
   },
   {
     "tconst": "tt1586680",
@@ -35,14 +40,19 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/9akij7PqZ1g6zl42DQQTtL9CTSb.jpg"
   },
   {
-    "tconst": "tt27031263",
-    "name": "Teacup",
-    "poster_path": "https://image.tmdb.org/t/p/w500/emeFo6OW5tE0BISzx0HEdVqOOgG.jpg"
+    "tconst": "tt14379784",
+    "name": "The Devil's Hour",
+    "poster_path": "https://image.tmdb.org/t/p/w500/idKszwiEpFEW0bBr44HBQXAwzZo.jpg"
   },
   {
-    "tconst": "tt10293938",
-    "name": "Outer Banks",
-    "poster_path": "https://image.tmdb.org/t/p/w500/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg"
+    "tconst": "tt0944947",
+    "name": "Game of Thrones",
+    "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
+  },
+  {
+    "tconst": "tt11126994",
+    "name": "Arcane",
+    "poster_path": "https://image.tmdb.org/t/p/w500/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg"
   },
   {
     "tconst": "tt2297757",
