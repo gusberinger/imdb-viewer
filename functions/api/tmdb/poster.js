@@ -1,6 +1,6 @@
 /**
  *  cloudflare worker function
- * @param {} context
+ * @param {EventContext} context
  * @returns
  */
 export async function onRequest(context) {
