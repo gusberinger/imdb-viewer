@@ -83,8 +83,3 @@ onMounted(async () => {
         </AutoComplete>
     </div>
 </template>
-<style>
-div.series-search.p-autocomplete input.p-inputtext {
-    @apply w-60 rounded-2xl border-2 px-2 py-2;
-}
-</style>
