@@ -11,7 +11,7 @@ export async function onRequest(context) {
         const tmdb_response = await fetch(tmdb_url)
         const tmdb_json = await tmdb_response.json()
         const tv_results = tmdb_json.tv_results
-        if (tv_results.length == 0) {
+        if (tv_results.length === 0) {
             return new Response({}, { status: 404 })
         }
 
