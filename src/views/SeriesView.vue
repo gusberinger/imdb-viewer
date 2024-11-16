@@ -7,7 +7,7 @@ import SiteFooter from '@/components/SiteFooter.vue'
 import { useDataBaseStore } from '@/stores/databaseStore'
 import { useDisplayOptionsStore } from '@/stores/displayOptionsStore'
 import { storeToRefs } from 'pinia'
-import { onMounted, ref, defineAsyncComponent } from 'vue'
+import { defineAsyncComponent, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import type { TMDBSeries } from '@/types/database'
 
@@ -24,8 +24,7 @@ onMounted(async () => {
     const group = Number(tconst.replace('tt', '')) % 500
     try {
         const response = await fetch(`/series/${group}/${tconst}.json`)
-        const data = await response.json()
-        db.value = data
+        db.value = await response.json()
     } catch (error) {
         seriesNotFound.value = true
         return
@@ -33,8 +32,7 @@ onMounted(async () => {
 
     try {
         const response = await fetch(`/api/tmdb/poster?tconst=${tconst}`)
-        const data = await response.json()
-        tmdb.value = data
+        tmdb.value = await response.json()
     } catch (error) {
         tmdb_not_found.value = true
     }
