@@ -73,6 +73,7 @@ onMounted(async () => {
                 ><img
                     width="128"
                     height="190"
+                    :alt="tmdb.name + ' poster'"
                     :src="`https://image.tmdb.org/t/p/w500/${tmdb.poster_path}`"
                     class="w-32"
             /></a>
