@@ -2,27 +2,12 @@
   {
     "tconst": "tt11126994",
     "name": "Arcane",
-    "poster_path": "https://image.tmdb.org/t/p/w500/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg"
+    "poster_path": "https://image.tmdb.org/t/p/w500/abf8tHznhSvl9BAElD2cQeRr7do.jpg"
   },
   {
-    "tconst": "tt7341934",
-    "name": "Day and Night",
-    "poster_path": "https://image.tmdb.org/t/p/w500/wVcpid3NW6UWPFeRhmO9PproG9Y.jpg"
-  },
-  {
-    "tconst": "tt15435876",
-    "name": "The Penguin",
-    "poster_path": "https://image.tmdb.org/t/p/w500/7I3EypifSHlW1BmmHbXXevqUUA7.jpg"
-  },
-  {
-    "tconst": "tt11794812",
-    "name": "Cross",
-    "poster_path": "https://image.tmdb.org/t/p/w500/oArnlWvky2KtWoGC0ChaDboEvcH.jpg"
-  },
-  {
-    "tconst": "tt9813792",
-    "name": "FROM",
-    "poster_path": "https://image.tmdb.org/t/p/w500/cjXLrg4R7FRPFafvuQ3SSznQOd9.jpg"
+    "tconst": "tt7631058",
+    "name": "The Lord of the Rings: The Rings of Power",
+    "poster_path": "https://image.tmdb.org/t/p/w500/mYLOqiStMxDK3fYZFirgrMt8z5d.jpg"
   },
   {
     "tconst": "tt14688458",
@@ -30,43 +15,33 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/tlliQuCupf8fpTH7RAor3aKMGy.jpg"
   },
   {
-    "tconst": "tt26670955",
-    "name": "A Man on the Inside",
-    "poster_path": "https://image.tmdb.org/t/p/w500/3yYX4MBbmWFYCBF2j00FKqzLAQs.jpg"
+    "tconst": "tt4016454",
+    "name": "Supergirl",
+    "poster_path": "https://image.tmdb.org/t/p/w500/3jm0Av0Pf2UtlLrBKkIFoVbj6IJ.jpg"
   },
   {
-    "tconst": "tt24053860",
-    "name": "The Day of the Jackal",
-    "poster_path": "https://image.tmdb.org/t/p/w500/4hSnGq014MGdxCOMWBwyvKoDjrF.jpg"
+    "tconst": "tt0108778",
+    "name": "Friends",
+    "poster_path": "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
   },
   {
-    "tconst": "tt16358384",
-    "name": "Tulsa King",
-    "poster_path": "https://image.tmdb.org/t/p/w500/zMFAdj30K84Sz90bCd6ePwiAO37.jpg"
+    "tconst": "tt1856010",
+    "name": "House of Cards",
+    "poster_path": "https://image.tmdb.org/t/p/w500/hKWxWjFwnMvkWQawbhvC0Y7ygQ8.jpg"
   },
   {
-    "tconst": "tt3006802",
-    "name": "Outlander",
-    "poster_path": "https://image.tmdb.org/t/p/w500/oftZNfyTVNU7IfOqoGLoT8MGvNs.jpg"
+    "tconst": "tt2297757",
+    "name": "Nathan for You",
+    "poster_path": "https://image.tmdb.org/t/p/w500/6tGXlz61c44onUg6EdRkbhjcaPA.jpg"
   },
   {
-    "tconst": "tt13720112",
-    "name": "The Empress",
-    "poster_path": "https://image.tmdb.org/t/p/w500/9AWkNkZHwNLuM6H5u6dToioHMAI.jpg"
+    "tconst": "tt0804503",
+    "name": "Mad Men",
+    "poster_path": "https://image.tmdb.org/t/p/w500//7v8iCNzKFpdlrCMcqCoJyn74Nsa.jpg"
   },
   {
-    "tconst": "tt4236770",
-    "name": "Yellowstone",
-    "poster_path": "https://image.tmdb.org/t/p/w500/s4QRRYc1V2e68Qy9Wel9MI8fhRP.jpg"
-  },
-  {
-    "tconst": "tt0096697",
-    "name": "The Simpsons",
-    "poster_path": "https://image.tmdb.org/t/p/w500/vHqeLzYl3dEAutojCO26g0LIkom.jpg"
-  },
-  {
-    "tconst": "tt13111078",
-    "name": "Lioness",
-    "poster_path": "https://image.tmdb.org/t/p/w500/ajaXSmdAlYYhnvx1EIsvpfN949y.jpg"
+    "tconst": "tt0367279",
+    "name": "Arrested Development",
+    "poster_path": "https://image.tmdb.org/t/p/w500//qMzwO952hMWQSCfHkp7IL20s4K7.jpg"
   }
 ]
