@@ -1,33 +1,43 @@
 [
   {
+    "tconst": "tt4236770",
+    "name": "Yellowstone",
+    "poster_path": "https://image.tmdb.org/t/p/w500/s4QRRYc1V2e68Qy9Wel9MI8fhRP.jpg"
+  },
+  {
     "tconst": "tt11126994",
     "name": "Arcane",
     "poster_path": "https://image.tmdb.org/t/p/w500/abf8tHznhSvl9BAElD2cQeRr7do.jpg"
   },
   {
-    "tconst": "tt7631058",
-    "name": "The Lord of the Rings: The Rings of Power",
-    "poster_path": "https://image.tmdb.org/t/p/w500/mYLOqiStMxDK3fYZFirgrMt8z5d.jpg"
+    "tconst": "tt24053860",
+    "name": "The Day of the Jackal",
+    "poster_path": "https://image.tmdb.org/t/p/w500/4hSnGq014MGdxCOMWBwyvKoDjrF.jpg"
+  },
+  {
+    "tconst": "tt14186672",
+    "name": "Landman",
+    "poster_path": "https://image.tmdb.org/t/p/w500/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg"
+  },
+  {
+    "tconst": "tt7341934",
+    "name": "Day and Night",
+    "poster_path": "https://image.tmdb.org/t/p/w500/uuKmigg4WuduZMJKIzJ8UP02pRg.jpg"
+  },
+  {
+    "tconst": "tt13024830",
+    "name": "Senna",
+    "poster_path": "https://image.tmdb.org/t/p/w500/dmRfKme3j8mbTf4iTJd0L8wtaQa.jpg"
+  },
+  {
+    "tconst": "tt10919420",
+    "name": "Squid Game",
+    "poster_path": "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg"
   },
   {
     "tconst": "tt14688458",
     "name": "Silo",
     "poster_path": "https://image.tmdb.org/t/p/w500/tlliQuCupf8fpTH7RAor3aKMGy.jpg"
-  },
-  {
-    "tconst": "tt4016454",
-    "name": "Supergirl",
-    "poster_path": "https://image.tmdb.org/t/p/w500/3jm0Av0Pf2UtlLrBKkIFoVbj6IJ.jpg"
-  },
-  {
-    "tconst": "tt0108778",
-    "name": "Friends",
-    "poster_path": "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
-  },
-  {
-    "tconst": "tt1856010",
-    "name": "House of Cards",
-    "poster_path": "https://image.tmdb.org/t/p/w500/hKWxWjFwnMvkWQawbhvC0Y7ygQ8.jpg"
   },
   {
     "tconst": "tt2297757",
