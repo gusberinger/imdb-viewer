@@ -1,33 +1,13 @@
 [
   {
-    "tconst": "tt10919420",
-    "name": "Squid Game",
-    "poster_path": "https://image.tmdb.org/t/p/w500/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg"
+    "tconst": "tt8165086",
+    "name": "Sintonia",
+    "poster_path": "https://image.tmdb.org/t/p/w500/safjAD2bBNT1grB23rFff5ChwDv.jpg"
   },
   {
-    "tconst": "tt1710308",
-    "name": "Regular Show",
-    "poster_path": "https://image.tmdb.org/t/p/w500/88dAGv0ywrLJKCynkH226dBwe0i.jpg"
-  },
-  {
-    "tconst": "tt0185103",
-    "name": "Raw",
-    "poster_path": "https://image.tmdb.org/t/p/w500/7wq6uV8YRdWNEyI9TY5k80yWENg.jpg"
-  },
-  {
-    "tconst": "tt33204697",
-    "name": "Secret Level",
-    "poster_path": "https://image.tmdb.org/t/p/w500/856MRq23grNxpeVl1PdFgmmLiT0.jpg"
-  },
-  {
-    "tconst": "tt13064902",
-    "name": "FUBAR",
-    "poster_path": "https://image.tmdb.org/t/p/w500/ryqcPZCEnEahBW4X06QZBUmtavp.jpg"
-  },
-  {
-    "tconst": "tt32252772",
-    "name": "Dexter: Original Sin",
-    "poster_path": "https://image.tmdb.org/t/p/w500/j5bP7spdfS0NpDLKDlqJYyJPi1j.jpg"
+    "tconst": "tt6741278",
+    "name": "INVINCIBLE",
+    "poster_path": "https://image.tmdb.org/t/p/w500/dMOpdkrDC5dQxqNydgKxXjBKyAc.jpg"
   },
   {
     "tconst": "tt11280740",
@@ -35,19 +15,39 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg"
   },
   {
-    "tconst": "tt5420376",
-    "name": "Riverdale",
-    "poster_path": "https://image.tmdb.org/t/p/w500/d8mmn9thQ5dBk2qbv6BCqGUXWK3.jpg"
+    "tconst": "tt13918776",
+    "name": "The Night Agent",
+    "poster_path": "https://image.tmdb.org/t/p/w500/4c5yUNcaff4W4aPrkXE6zr7papX.jpg"
   },
   {
-    "tconst": "tt2395695",
-    "name": "Cosmos",
-    "poster_path": "https://image.tmdb.org/t/p/w500/5o07ps0QZ0bNoRYxTn9cPdRWlUu.jpg"
+    "tconst": "tt11126994",
+    "name": "Arcane",
+    "poster_path": "https://image.tmdb.org/t/p/w500/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg"
   },
   {
-    "tconst": "tt0101081",
-    "name": "Dinosaurs",
-    "poster_path": "https://image.tmdb.org/t/p/w500/rcD2grjO6xAerWLkSgpmGkGhnTH.jpg"
+    "tconst": "tt29494111",
+    "name": "Envious",
+    "poster_path": "https://image.tmdb.org/t/p/w500/qYw979lIT163wN2z2P6DHoVEftj.jpg"
+  },
+  {
+    "tconst": "tt10919420",
+    "name": "Squid Game",
+    "poster_path": "https://image.tmdb.org/t/p/w500/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg"
+  },
+  {
+    "tconst": "tt0903747",
+    "name": "Breaking Bad",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
+  },
+  {
+    "tconst": "tt24069848",
+    "name": "American Primeval",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ff0s9OHGNSZL6cVteIb7LNvTnJD.jpg"
+  },
+  {
+    "tconst": "tt16030542",
+    "name": "The Recruit",
+    "poster_path": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg"
   },
   {
     "tconst": "tt2297757",
