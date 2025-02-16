@@ -5,24 +5,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg"
   },
   {
-    "tconst": "tt10919420",
-    "name": "Squid Game",
-    "poster_path": "https://image.tmdb.org/t/p/w500/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg"
+    "tconst": "tt32252772",
+    "name": "Dexter: Original Sin",
+    "poster_path": "https://image.tmdb.org/t/p/w500/j5bP7spdfS0NpDLKDlqJYyJPi1j.jpg"
   },
   {
-    "tconst": "tt6741278",
-    "name": "INVINCIBLE",
-    "poster_path": "https://image.tmdb.org/t/p/w500/jBn4LWlgdsf6xIUYhYBwpctBVsj.jpg"
-  },
-  {
-    "tconst": "tt30428143",
-    "name": "Apple Cider Vinegar",
-    "poster_path": "https://image.tmdb.org/t/p/w500/5Ov4ZX2NKCpyKZicXZ6MdQasnAq.jpg"
-  },
-  {
-    "tconst": "tt26656917",
-    "name": "The Agency",
-    "poster_path": "https://image.tmdb.org/t/p/w500/jtzUrOzxY0iRnPJ2qZ6VmVC1Hfl.jpg"
+    "tconst": "tt11041332",
+    "name": "Yellowjackets",
+    "poster_path": "https://image.tmdb.org/t/p/w500/bYr4kBf26aa1eEtOnOLpjDmKPVX.jpg"
   },
   {
     "tconst": "tt0944947",
@@ -30,9 +20,39 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
   },
   {
-    "tconst": "tt23664162",
-    "name": "The \u00c5re Murders",
-    "poster_path": "https://image.tmdb.org/t/p/w500/9hUh2yK71us4uO3cKeDq9ONu69.jpg"
+    "tconst": "tt7221388",
+    "name": "Cobra Kai",
+    "poster_path": "https://image.tmdb.org/t/p/w500/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg"
+  },
+  {
+    "tconst": "tt10919420",
+    "name": "Squid Game",
+    "poster_path": "https://image.tmdb.org/t/p/w500/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg"
+  },
+  {
+    "tconst": "tt27444205",
+    "name": "Paradise",
+    "poster_path": "https://image.tmdb.org/t/p/w500/m4Rcp33FyrXPyZ2dJ2gmzdsACdw.jpg"
+  },
+  {
+    "tconst": "tt29135600",
+    "name": "Cassandra",
+    "poster_path": "https://image.tmdb.org/t/p/w500/vPYNYzgvO43X3563mK7sqjJqPEh.jpg"
+  },
+  {
+    "tconst": "tt0096697",
+    "name": "The Simpsons",
+    "poster_path": "https://image.tmdb.org/t/p/w500/vHqeLzYl3dEAutojCO26g0LIkom.jpg"
+  },
+  {
+    "tconst": "tt0108778",
+    "name": "Friends",
+    "poster_path": "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
+  },
+  {
+    "tconst": "tt6741278",
+    "name": "INVINCIBLE",
+    "poster_path": "https://image.tmdb.org/t/p/w500/jBn4LWlgdsf6xIUYhYBwpctBVsj.jpg"
   },
   {
     "tconst": "tt16027074",
@@ -40,23 +60,8 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/kjcsNeqF52YUQ2rUBGLMHwLkxvR.jpg"
   },
   {
-    "tconst": "tt32252772",
-    "name": "Dexter: Original Sin",
-    "poster_path": "https://image.tmdb.org/t/p/w500/j5bP7spdfS0NpDLKDlqJYyJPi1j.jpg"
-  },
-  {
-    "tconst": "tt13918776",
-    "name": "The Night Agent",
-    "poster_path": "https://image.tmdb.org/t/p/w500/4c5yUNcaff4W4aPrkXE6zr7papX.jpg"
-  },
-  {
-    "tconst": "tt11126994",
-    "name": "Arcane",
-    "poster_path": "https://image.tmdb.org/t/p/w500/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg"
-  },
-  {
-    "tconst": "tt27444205",
-    "name": "Paradise",
-    "poster_path": "https://image.tmdb.org/t/p/w500/rkwqy7uE0ORdUxDFNeVq7vpJORN.jpg"
+    "tconst": "tt23664162",
+    "name": "The \u00c5re Murders",
+    "poster_path": "https://image.tmdb.org/t/p/w500/9hUh2yK71us4uO3cKeDq9ONu69.jpg"
   }
 ]
