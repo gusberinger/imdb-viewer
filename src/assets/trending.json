@@ -1,8 +1,33 @@
 [
   {
+    "tconst": "tt13406094",
+    "name": "The White Lotus",
+    "poster_path": "https://image.tmdb.org/t/p/w500/jNFcfgLFPhCZdhUUmwjHvq6TLxh.jpg"
+  },
+  {
     "tconst": "tt11280740",
     "name": "Severance",
     "poster_path": "https://image.tmdb.org/t/p/w500/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg"
+  },
+  {
+    "tconst": "tt6741278",
+    "name": "INVINCIBLE",
+    "poster_path": "https://image.tmdb.org/t/p/w500/jBn4LWlgdsf6xIUYhYBwpctBVsj.jpg"
+  },
+  {
+    "tconst": "tt7221388",
+    "name": "Cobra Kai",
+    "poster_path": "https://image.tmdb.org/t/p/w500/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg"
+  },
+  {
+    "tconst": "tt16027074",
+    "name": "Your Friendly Neighborhood Spider-Man",
+    "poster_path": "https://image.tmdb.org/t/p/w500/kjcsNeqF52YUQ2rUBGLMHwLkxvR.jpg"
+  },
+  {
+    "tconst": "tt27444205",
+    "name": "Paradise",
+    "poster_path": "https://image.tmdb.org/t/p/w500/sJUti0JDtE1IYl7RVJARAGyKHqz.jpg"
   },
   {
     "tconst": "tt32252772",
@@ -15,14 +40,19 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/bYr4kBf26aa1eEtOnOLpjDmKPVX.jpg"
   },
   {
-    "tconst": "tt0944947",
-    "name": "Game of Thrones",
-    "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
+    "tconst": "tt0072562",
+    "name": "Saturday Night Live",
+    "poster_path": "https://image.tmdb.org/t/p/w500/sHGuKFjIBisPk8cvtCZTDVktYfs.jpg"
   },
   {
-    "tconst": "tt7221388",
-    "name": "Cobra Kai",
-    "poster_path": "https://image.tmdb.org/t/p/w500/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg"
+    "tconst": "tt9288030",
+    "name": "Reacher",
+    "poster_path": "https://image.tmdb.org/t/p/w500/oIAMQ42lzSd6ksvGe4WFMKqT0ja.jpg"
+  },
+  {
+    "tconst": "tt26748649",
+    "name": "High Potential",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ylTZ6bfmPrwUz01A0VpvluGFWsv.jpg"
   },
   {
     "tconst": "tt10919420",
@@ -30,38 +60,13 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg"
   },
   {
-    "tconst": "tt27444205",
-    "name": "Paradise",
-    "poster_path": "https://image.tmdb.org/t/p/w500/m4Rcp33FyrXPyZ2dJ2gmzdsACdw.jpg"
+    "tconst": "tt2044128",
+    "name": "Bref",
+    "poster_path": "https://image.tmdb.org/t/p/w500/alaRcixeZ1lLVb5NuvmJnAsfbyA.jpg"
   },
   {
-    "tconst": "tt29135600",
-    "name": "Cassandra",
-    "poster_path": "https://image.tmdb.org/t/p/w500/vPYNYzgvO43X3563mK7sqjJqPEh.jpg"
-  },
-  {
-    "tconst": "tt0096697",
-    "name": "The Simpsons",
-    "poster_path": "https://image.tmdb.org/t/p/w500/vHqeLzYl3dEAutojCO26g0LIkom.jpg"
-  },
-  {
-    "tconst": "tt0108778",
-    "name": "Friends",
-    "poster_path": "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
-  },
-  {
-    "tconst": "tt6741278",
-    "name": "INVINCIBLE",
-    "poster_path": "https://image.tmdb.org/t/p/w500/jBn4LWlgdsf6xIUYhYBwpctBVsj.jpg"
-  },
-  {
-    "tconst": "tt16027074",
-    "name": "Your Friendly Neighborhood Spider-Man",
-    "poster_path": "https://image.tmdb.org/t/p/w500/kjcsNeqF52YUQ2rUBGLMHwLkxvR.jpg"
-  },
-  {
-    "tconst": "tt23664162",
-    "name": "The \u00c5re Murders",
-    "poster_path": "https://image.tmdb.org/t/p/w500/9hUh2yK71us4uO3cKeDq9ONu69.jpg"
+    "tconst": "tt3581920",
+    "name": "The Last of Us",
+    "poster_path": "https://image.tmdb.org/t/p/w500/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg"
   }
 ]
