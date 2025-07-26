@@ -1,28 +1,8 @@
 [
   {
-    "tconst": "tt14016500",
-    "name": "The Summer I Turned Pretty",
-    "poster_path": "https://image.tmdb.org/t/p/w500/s85u6WqkfkVBOrWDMKrefnU1g1n.jpg"
-  },
-  {
-    "tconst": "tt31710822",
-    "name": "UNTAMED",
-    "poster_path": "https://image.tmdb.org/t/p/w500/wCJSNZcLT7EuKKW35my9VLmrkR7.jpg"
-  },
-  {
-    "tconst": "tt4574334",
-    "name": "Stranger Things",
-    "poster_path": "https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg"
-  },
-  {
-    "tconst": "tt10919420",
-    "name": "Squid Game",
-    "poster_path": "https://image.tmdb.org/t/p/w500/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg"
-  },
-  {
-    "tconst": "tt12327578",
-    "name": "Star Trek: Strange New Worlds",
-    "poster_path": "https://image.tmdb.org/t/p/w500/w6KapI2JvrCkOPmQhkwYPJNjqeo.jpg"
+    "tconst": "tt0121955",
+    "name": "South Park",
+    "poster_path": "https://image.tmdb.org/t/p/w500/xJnbMTrJ2fl1AXAKx34U4BPvOhs.jpg"
   },
   {
     "tconst": "tt0804484",
@@ -30,38 +10,53 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/tg9I5pOY4M9CKj8U0cxVBTsm5eh.jpg"
   },
   {
-    "tconst": "tt26676904",
-    "name": "Ballard",
-    "poster_path": "https://image.tmdb.org/t/p/w500/vHQGu6ducKC7JcDU6lqWyx7tWW5.jpg"
+    "tconst": "tt31710822",
+    "name": "UNTAMED",
+    "poster_path": "https://image.tmdb.org/t/p/w500/tclYY8RGieQwkJXDxZGf505Zybr.jpg"
   },
   {
-    "tconst": "tt32361930",
-    "name": "GOOD BOY",
-    "poster_path": "https://image.tmdb.org/t/p/w500/59MAdHaHepsz3uDCU1LyoNQcLlT.jpg"
+    "tconst": "tt10919420",
+    "name": "Squid Game",
+    "poster_path": "https://image.tmdb.org/t/p/w500/onV0JoOJeiUHG1rfpB2lFTVw1vN.jpg"
   },
   {
-    "tconst": "tt13623126",
-    "name": "Ironheart",
-    "poster_path": "https://image.tmdb.org/t/p/w500/AmzGVKlLvpraNAXxPYUROiN2Ulj.jpg"
+    "tconst": "tt13146488",
+    "name": "Peacemaker",
+    "poster_path": "https://image.tmdb.org/t/p/w500/bUYOeu8A3mjtqWWoKDLzjBkdLa1.jpg"
   },
   {
-    "tconst": "tt0386676",
-    "name": "The Office",
-    "poster_path": "https://image.tmdb.org/t/p/w500/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg"
+    "tconst": "tt1751634",
+    "name": "The Sandman",
+    "poster_path": "https://image.tmdb.org/t/p/w500/dhbqyYjLfTNAHodDDjDELzwO6F4.jpg"
   },
   {
-    "tconst": "tt24163532",
-    "name": "Smoke",
-    "poster_path": "https://image.tmdb.org/t/p/w500/p789YfZtMqe3ErII3t61FWmAaFQ.jpg"
+    "tconst": "tt0903747",
+    "name": "Breaking Bad",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
+  },
+  {
+    "tconst": "tt12327578",
+    "name": "Star Trek: Strange New Worlds",
+    "poster_path": "https://image.tmdb.org/t/p/w500/w6KapI2JvrCkOPmQhkwYPJNjqeo.jpg"
+  },
+  {
+    "tconst": "tt4574334",
+    "name": "Stranger Things",
+    "poster_path": "https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg"
+  },
+  {
+    "tconst": "tt0108778",
+    "name": "Friends",
+    "poster_path": "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
+  },
+  {
+    "tconst": "tt0944947",
+    "name": "Game of Thrones",
+    "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
   },
   {
     "tconst": "tt3581920",
     "name": "The Last of Us",
     "poster_path": "https://image.tmdb.org/t/p/w500/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg"
-  },
-  {
-    "tconst": "tt0773262",
-    "name": "Dexter",
-    "poster_path": "https://image.tmdb.org/t/p/w500/q8dWfc4JwQuv3HayIZeO84jAXED.jpg"
   }
 ]
