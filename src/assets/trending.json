@@ -1,43 +1,13 @@
 [
   {
+    "tconst": "tt13443470",
+    "name": "Wednesday",
+    "poster_path": "https://image.tmdb.org/t/p/w500/36xXlhEpQqVVPuiZhfoQuaY4OlA.jpg"
+  },
+  {
     "tconst": "tt13968252",
     "name": "Eyes of Wakanda",
     "poster_path": "https://image.tmdb.org/t/p/w500/bG23nZW96LxmWkJjsagRZI9hF6t.jpg"
-  },
-  {
-    "tconst": "tt33043892",
-    "name": "Dexter: Resurrection",
-    "poster_path": "https://image.tmdb.org/t/p/w500/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg"
-  },
-  {
-    "tconst": "tt10919420",
-    "name": "Squid Game",
-    "poster_path": "https://image.tmdb.org/t/p/w500/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg"
-  },
-  {
-    "tconst": "tt0804484",
-    "name": "Foundation",
-    "poster_path": "https://image.tmdb.org/t/p/w500/tg9I5pOY4M9CKj8U0cxVBTsm5eh.jpg"
-  },
-  {
-    "tconst": "tt1751634",
-    "name": "The Sandman",
-    "poster_path": "https://image.tmdb.org/t/p/w500/vfJ1nBnqiiRWZWv3ZvtFWO5zccg.jpg"
-  },
-  {
-    "tconst": "tt0944947",
-    "name": "Game of Thrones",
-    "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
-  },
-  {
-    "tconst": "tt13443470",
-    "name": "Wednesday",
-    "poster_path": "https://image.tmdb.org/t/p/w500/kKwy8QiXyQocbDj4haUG0uD1SbF.jpg"
-  },
-  {
-    "tconst": "tt14261112",
-    "name": "Twisted Metal",
-    "poster_path": "https://image.tmdb.org/t/p/w500/3Zr9qJXqHQwi9IyPBDwukgg1jcZ.jpg"
   },
   {
     "tconst": "tt0121955",
@@ -45,18 +15,48 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/dqAKFEjPEu7vWkVBkMdhGu9ifxU.jpg"
   },
   {
-    "tconst": "tt14016500",
-    "name": "The Summer I Turned Pretty",
-    "poster_path": "https://image.tmdb.org/t/p/w500/s85u6WqkfkVBOrWDMKrefnU1g1n.jpg"
+    "tconst": "tt33043892",
+    "name": "Dexter: Resurrection",
+    "poster_path": "https://image.tmdb.org/t/p/w500/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg"
   },
   {
-    "tconst": "tt32213668",
-    "name": "Leanne",
-    "poster_path": "https://image.tmdb.org/t/p/w500/sILKrYhFK6bedXgDggQD3GmGUUV.jpg"
+    "tconst": "tt12327578",
+    "name": "Star Trek: Strange New Worlds",
+    "poster_path": "https://image.tmdb.org/t/p/w500/w6KapI2JvrCkOPmQhkwYPJNjqeo.jpg"
+  },
+  {
+    "tconst": "tt13366604",
+    "name": "Platonic",
+    "poster_path": "https://image.tmdb.org/t/p/w500/7G8wB9CG82nITeFwRFIRSk0sQJs.jpg"
+  },
+  {
+    "tconst": "tt24163532",
+    "name": "Smoke",
+    "poster_path": "https://image.tmdb.org/t/p/w500/p789YfZtMqe3ErII3t61FWmAaFQ.jpg"
   },
   {
     "tconst": "tt0773262",
     "name": "Dexter",
     "poster_path": "https://image.tmdb.org/t/p/w500/q8dWfc4JwQuv3HayIZeO84jAXED.jpg"
+  },
+  {
+    "tconst": "tt14261112",
+    "name": "Twisted Metal",
+    "poster_path": "https://image.tmdb.org/t/p/w500/3Zr9qJXqHQwi9IyPBDwukgg1jcZ.jpg"
+  },
+  {
+    "tconst": "tt0944947",
+    "name": "Game of Thrones",
+    "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
+  },
+  {
+    "tconst": "tt31710822",
+    "name": "UNTAMED",
+    "poster_path": "https://image.tmdb.org/t/p/w500/tclYY8RGieQwkJXDxZGf505Zybr.jpg"
+  },
+  {
+    "tconst": "tt2861424",
+    "name": "Rick and Morty",
+    "poster_path": "https://image.tmdb.org/t/p/w500/WGRQ8FpjkDTzivQJ43t94bOuY0.jpg"
   }
 ]
