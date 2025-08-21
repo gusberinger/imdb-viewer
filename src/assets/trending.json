@@ -5,14 +5,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/36xXlhEpQqVVPuiZhfoQuaY4OlA.jpg"
   },
   {
-    "tconst": "tt13146488",
-    "name": "Peacemaker",
-    "poster_path": "https://image.tmdb.org/t/p/w500/yb4F1Oocq8GfQt6iIuAgYEBokhG.jpg"
-  },
-  {
-    "tconst": "tt33043892",
-    "name": "Dexter: Resurrection",
-    "poster_path": "https://image.tmdb.org/t/p/w500/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg"
+    "tconst": "tt26672404",
+    "name": "Butterfly",
+    "poster_path": "https://image.tmdb.org/t/p/w500/fTpD8cg1xkxO17iCSWFAxUBWdCV.jpg"
   },
   {
     "tconst": "tt0944947",
@@ -20,24 +15,24 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
   },
   {
-    "tconst": "tt0773262",
-    "name": "Dexter",
-    "poster_path": "https://image.tmdb.org/t/p/w500/q8dWfc4JwQuv3HayIZeO84jAXED.jpg"
+    "tconst": "tt13146488",
+    "name": "Peacemaker",
+    "poster_path": "https://image.tmdb.org/t/p/w500/yb4F1Oocq8GfQt6iIuAgYEBokhG.jpg"
   },
   {
-    "tconst": "tt0121955",
-    "name": "South Park",
-    "poster_path": "https://image.tmdb.org/t/p/w500/dqAKFEjPEu7vWkVBkMdhGu9ifxU.jpg"
+    "tconst": "tt24163532",
+    "name": "Smoke",
+    "poster_path": "https://image.tmdb.org/t/p/w500/p789YfZtMqe3ErII3t61FWmAaFQ.jpg"
   },
   {
-    "tconst": "tt14016500",
-    "name": "The Summer I Turned Pretty",
-    "poster_path": "https://image.tmdb.org/t/p/w500/s85u6WqkfkVBOrWDMKrefnU1g1n.jpg"
+    "tconst": "tt19381692",
+    "name": "Chief of War",
+    "poster_path": "https://image.tmdb.org/t/p/w500/8Mckh3qJRTzXTQNZtpb133RHmO4.jpg"
   },
   {
-    "tconst": "tt14261112",
-    "name": "Twisted Metal",
-    "poster_path": "https://image.tmdb.org/t/p/w500/3Zr9qJXqHQwi9IyPBDwukgg1jcZ.jpg"
+    "tconst": "tt0903747",
+    "name": "Breaking Bad",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
   },
   {
     "tconst": "tt0804484",
@@ -45,23 +40,33 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/tg9I5pOY4M9CKj8U0cxVBTsm5eh.jpg"
   },
   {
-    "tconst": "tt4406178",
-    "name": "The Gilded Age",
-    "poster_path": "https://image.tmdb.org/t/p/w500/4zXlBCc1rNTDtrfMCBFIGKWlwnC.jpg"
+    "tconst": "tt14016500",
+    "name": "The Summer I Turned Pretty",
+    "poster_path": "https://image.tmdb.org/t/p/w500/s85u6WqkfkVBOrWDMKrefnU1g1n.jpg"
   },
   {
-    "tconst": "tt2297757",
-    "name": "Nathan for You",
-    "poster_path": "https://image.tmdb.org/t/p/w500/6tGXlz61c44onUg6EdRkbhjcaPA.jpg"
+    "tconst": "tt0773262",
+    "name": "Dexter",
+    "poster_path": "https://image.tmdb.org/t/p/w500/q8dWfc4JwQuv3HayIZeO84jAXED.jpg"
   },
   {
-    "tconst": "tt0804503",
-    "name": "Mad Men",
-    "poster_path": "https://image.tmdb.org/t/p/w500//7v8iCNzKFpdlrCMcqCoJyn74Nsa.jpg"
+    "tconst": "tt33043892",
+    "name": "Dexter: Resurrection",
+    "poster_path": "https://image.tmdb.org/t/p/w500/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg"
   },
   {
-    "tconst": "tt0367279",
-    "name": "Arrested Development",
-    "poster_path": "https://image.tmdb.org/t/p/w500//qMzwO952hMWQSCfHkp7IL20s4K7.jpg"
+    "tconst": "tt12327578",
+    "name": "Star Trek: Strange New Worlds",
+    "poster_path": "https://image.tmdb.org/t/p/w500/w6KapI2JvrCkOPmQhkwYPJNjqeo.jpg"
+  },
+  {
+    "tconst": "tt4574334",
+    "name": "Stranger Things",
+    "poster_path": "https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg"
+  },
+  {
+    "tconst": "tt0386676",
+    "name": "The Office",
+    "poster_path": "https://image.tmdb.org/t/p/w500/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg"
   }
 ]
