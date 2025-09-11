@@ -5,14 +5,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/36xXlhEpQqVVPuiZhfoQuaY4OlA.jpg"
   },
   {
+    "tconst": "tt33043892",
+    "name": "Dexter: Resurrection",
+    "poster_path": "https://image.tmdb.org/t/p/w500/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg"
+  },
+  {
     "tconst": "tt13623632",
     "name": "Alien: Earth",
     "poster_path": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg"
-  },
-  {
-    "tconst": "tt9737326",
-    "name": "Invasion",
-    "poster_path": "https://image.tmdb.org/t/p/w500/xP4SIyOn7vUh0OqT4a30MHhNFMO.jpg"
   },
   {
     "tconst": "tt13146488",
@@ -20,39 +20,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/yb4F1Oocq8GfQt6iIuAgYEBokhG.jpg"
   },
   {
-    "tconst": "tt33043892",
-    "name": "Dexter: Resurrection",
-    "poster_path": "https://image.tmdb.org/t/p/w500/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg"
-  },
-  {
-    "tconst": "tt26576161",
-    "name": "The Terminal List: Dark Wolf",
-    "poster_path": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg"
-  },
-  {
     "tconst": "tt0804484",
     "name": "Foundation",
     "poster_path": "https://image.tmdb.org/t/p/w500/tg9I5pOY4M9CKj8U0cxVBTsm5eh.jpg"
-  },
-  {
-    "tconst": "tt18332852",
-    "name": "Outlander: Blood of My Blood",
-    "poster_path": "https://image.tmdb.org/t/p/w500/hlwZbEKXLbZvgdfxCT1j54pRyE4.jpg"
-  },
-  {
-    "tconst": "tt0386676",
-    "name": "The Office",
-    "poster_path": "https://image.tmdb.org/t/p/w500/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg"
-  },
-  {
-    "tconst": "tt14261112",
-    "name": "Twisted Metal",
-    "poster_path": "https://image.tmdb.org/t/p/w500/3Zr9qJXqHQwi9IyPBDwukgg1jcZ.jpg"
-  },
-  {
-    "tconst": "tt32559610",
-    "name": "Countdown",
-    "poster_path": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg"
   },
   {
     "tconst": "tt14016500",
@@ -60,8 +30,38 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg"
   },
   {
-    "tconst": "tt1190634",
-    "name": "The Boys",
-    "poster_path": "https://image.tmdb.org/t/p/w500/2zmTngn1tYC1AvfnrFLhxeD82hz.jpg"
+    "tconst": "tt32159809",
+    "name": "The Paper",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ySA5MvhoxTdezNUMe0ifPmhxH4w.jpg"
+  },
+  {
+    "tconst": "tt13062500",
+    "name": "The Walking Dead: Daryl Dixon",
+    "poster_path": "https://image.tmdb.org/t/p/w500/sP5QdW9FN18XWcA4ROz3MPAQBTx.jpg"
+  },
+  {
+    "tconst": "tt10691770",
+    "name": "Helluva Boss",
+    "poster_path": "https://image.tmdb.org/t/p/w500/dgtuBsG2F4cGiumtHBKDru7PW9j.jpg"
+  },
+  {
+    "tconst": "tt0121955",
+    "name": "South Park",
+    "poster_path": "https://image.tmdb.org/t/p/w500/dqAKFEjPEu7vWkVBkMdhGu9ifxU.jpg"
+  },
+  {
+    "tconst": "tt26576161",
+    "name": "The Terminal List: Dark Wolf",
+    "poster_path": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg"
+  },
+  {
+    "tconst": "tt11691774",
+    "name": "Only Murders in the Building",
+    "poster_path": "https://image.tmdb.org/t/p/w500/1yjFVQZuW8aofZ5Cgol8iImsVFp.jpg"
+  },
+  {
+    "tconst": "tt19381692",
+    "name": "Chief of War",
+    "poster_path": "https://image.tmdb.org/t/p/w500/8Mckh3qJRTzXTQNZtpb133RHmO4.jpg"
   }
 ]
