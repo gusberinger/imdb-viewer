@@ -1,15 +1,5 @@
 [
   {
-    "tconst": "tt13443470",
-    "name": "Wednesday",
-    "poster_path": "https://image.tmdb.org/t/p/w500/36xXlhEpQqVVPuiZhfoQuaY4OlA.jpg"
-  },
-  {
-    "tconst": "tt33043892",
-    "name": "Dexter: Resurrection",
-    "poster_path": "https://image.tmdb.org/t/p/w500/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg"
-  },
-  {
     "tconst": "tt13623632",
     "name": "Alien: Earth",
     "poster_path": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg"
@@ -25,14 +15,24 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/tg9I5pOY4M9CKj8U0cxVBTsm5eh.jpg"
   },
   {
-    "tconst": "tt14016500",
-    "name": "The Summer I Turned Pretty",
-    "poster_path": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg"
+    "tconst": "tt0903747",
+    "name": "Breaking Bad",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
   },
   {
-    "tconst": "tt32159809",
-    "name": "The Paper",
-    "poster_path": "https://image.tmdb.org/t/p/w500/ySA5MvhoxTdezNUMe0ifPmhxH4w.jpg"
+    "tconst": "tt13443470",
+    "name": "Wednesday",
+    "poster_path": "https://image.tmdb.org/t/p/w500/36xXlhEpQqVVPuiZhfoQuaY4OlA.jpg"
+  },
+  {
+    "tconst": "tt10986410",
+    "name": "Ted Lasso",
+    "poster_path": "https://image.tmdb.org/t/p/w500/5fhZdwP1DVJ0FyVH6vrFdHwpXIn.jpg"
+  },
+  {
+    "tconst": "tt0773262",
+    "name": "Dexter",
+    "poster_path": "https://image.tmdb.org/t/p/w500/q8dWfc4JwQuv3HayIZeO84jAXED.jpg"
   },
   {
     "tconst": "tt13062500",
@@ -40,19 +40,29 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/sP5QdW9FN18XWcA4ROz3MPAQBTx.jpg"
   },
   {
-    "tconst": "tt10691770",
-    "name": "Helluva Boss",
-    "poster_path": "https://image.tmdb.org/t/p/w500/dgtuBsG2F4cGiumtHBKDru7PW9j.jpg"
+    "tconst": "tt12327578",
+    "name": "Star Trek: Strange New Worlds",
+    "poster_path": "https://image.tmdb.org/t/p/w500/w6KapI2JvrCkOPmQhkwYPJNjqeo.jpg"
   },
   {
-    "tconst": "tt0121955",
-    "name": "South Park",
-    "poster_path": "https://image.tmdb.org/t/p/w500/dqAKFEjPEu7vWkVBkMdhGu9ifxU.jpg"
+    "tconst": "tt32267726",
+    "name": "The Girlfriend",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg"
   },
   {
-    "tconst": "tt26576161",
-    "name": "The Terminal List: Dark Wolf",
-    "poster_path": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg"
+    "tconst": "tt32159809",
+    "name": "The Paper",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ySA5MvhoxTdezNUMe0ifPmhxH4w.jpg"
+  },
+  {
+    "tconst": "tt23649128",
+    "name": "The Studio",
+    "poster_path": "https://image.tmdb.org/t/p/w500/2c6ofLTa5CRfeQjVA1bWiYBdxQN.jpg"
+  },
+  {
+    "tconst": "tt14016500",
+    "name": "The Summer I Turned Pretty",
+    "poster_path": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg"
   },
   {
     "tconst": "tt11691774",
@@ -63,5 +73,15 @@
     "tconst": "tt19381692",
     "name": "Chief of War",
     "poster_path": "https://image.tmdb.org/t/p/w500/8Mckh3qJRTzXTQNZtpb133RHmO4.jpg"
+  },
+  {
+    "tconst": "tt33043892",
+    "name": "Dexter: Resurrection",
+    "poster_path": "https://image.tmdb.org/t/p/w500/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg"
+  },
+  {
+    "tconst": "tt0108778",
+    "name": "Friends",
+    "poster_path": "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
   }
 ]
