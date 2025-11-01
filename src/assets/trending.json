@@ -5,39 +5,9 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/AoGsDM02UVt0npBA8OvpDcZbaMi.jpg"
   },
   {
-    "tconst": "tt13159924",
-    "name": "Gen V",
-    "poster_path": "https://image.tmdb.org/t/p/w500/tEv842Nd5uMSavURG4aQO1pNtst.jpg"
-  },
-  {
-    "tconst": "tt16358384",
-    "name": "Tulsa King",
-    "poster_path": "https://image.tmdb.org/t/p/w500/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg"
-  },
-  {
-    "tconst": "tt11712058",
-    "name": "Mayor of Kingstown",
-    "poster_path": "https://image.tmdb.org/t/p/w500/bCoVQckqnqVtiAZua0EO17eI2Y1.jpg"
-  },
-  {
-    "tconst": "tt29457135",
-    "name": "The Monster of Florence",
-    "poster_path": "https://image.tmdb.org/t/p/w500/1RRBxq1hEC7rKIp4yac96F9ObL5.jpg"
-  },
-  {
-    "tconst": "tt26933824",
-    "name": "Nobody Wants This",
-    "poster_path": "https://image.tmdb.org/t/p/w500/cUpIceeJJoRqUHSCzh6jRSmlpkA.jpg"
-  },
-  {
-    "tconst": "tt4574334",
-    "name": "Stranger Things",
-    "poster_path": "https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg"
-  },
-  {
-    "tconst": "tt26862142",
-    "name": "The Last Frontier",
-    "poster_path": "https://image.tmdb.org/t/p/w500/4S2gS1mECZ5wDRBVAZE6KWmJHI3.jpg"
+    "tconst": "tt13622982",
+    "name": "Star Wars: Visions",
+    "poster_path": "https://image.tmdb.org/t/p/w500/3odUYvzLh0iPyHWY7UJsHzhxdX1.jpg"
   },
   {
     "tconst": "tt5875444",
@@ -45,9 +15,49 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/5RuZZIouptatjV96BdPmKmRsnGg.jpg"
   },
   {
+    "tconst": "tt16358384",
+    "name": "Tulsa King",
+    "poster_path": "https://image.tmdb.org/t/p/w500/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg"
+  },
+  {
+    "tconst": "tt4574334",
+    "name": "Stranger Things",
+    "poster_path": "https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg"
+  },
+  {
+    "tconst": "tt11691774",
+    "name": "Only Murders in the Building",
+    "poster_path": "https://image.tmdb.org/t/p/w500/1yjFVQZuW8aofZ5Cgol8iImsVFp.jpg"
+  },
+  {
+    "tconst": "tt11712058",
+    "name": "Mayor of Kingstown",
+    "poster_path": "https://image.tmdb.org/t/p/w500/bCoVQckqnqVtiAZua0EO17eI2Y1.jpg"
+  },
+  {
+    "tconst": "tt0903747",
+    "name": "Breaking Bad",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
+  },
+  {
     "tconst": "tt28013708",
     "name": "Task",
     "poster_path": "https://image.tmdb.org/t/p/w500/9JdL1aQdAQiyYYQ2xCqbHaEcZt8.jpg"
+  },
+  {
+    "tconst": "tt29457135",
+    "name": "The Monster of Florence",
+    "poster_path": "https://image.tmdb.org/t/p/w500/1RRBxq1hEC7rKIp4yac96F9ObL5.jpg"
+  },
+  {
+    "tconst": "tt7631058",
+    "name": "The Lord of the Rings: The Rings of Power",
+    "poster_path": "https://image.tmdb.org/t/p/w500/kf5Hz70tjNAHg4swGDzOr9BfoZ1.jpg"
+  },
+  {
+    "tconst": "tt7216636",
+    "name": "Hazbin Hotel",
+    "poster_path": "https://image.tmdb.org/t/p/w500/aVYHMW8pdzJ9qG1OGRMKyGy9xor.jpg"
   },
   {
     "tconst": "tt9737326",
@@ -55,18 +65,13 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/xP4SIyOn7vUh0OqT4a30MHhNFMO.jpg"
   },
   {
-    "tconst": "tt31186865",
-    "name": "Harlan Coben's Lazarus",
-    "poster_path": "https://image.tmdb.org/t/p/w500/lxUlUBGnYJNxqOwc3baBdLpa3Lx.jpg"
+    "tconst": "tt13146488",
+    "name": "Peacemaker",
+    "poster_path": "https://image.tmdb.org/t/p/w500/eYzbGcYnOUlvj2fa76pTgIXogd7.jpg"
   },
   {
-    "tconst": "tt13622982",
-    "name": "Star Wars: Visions",
-    "poster_path": "https://image.tmdb.org/t/p/w500/3odUYvzLh0iPyHWY7UJsHzhxdX1.jpg"
-  },
-  {
-    "tconst": "tt22091076",
-    "name": "High Potential",
-    "poster_path": "https://image.tmdb.org/t/p/w500/xCtaUDBUP1iKqtoqpHfeH1T2pWF.jpg"
+    "tconst": "tt13159924",
+    "name": "Gen V",
+    "poster_path": "https://image.tmdb.org/t/p/w500/tEv842Nd5uMSavURG4aQO1pNtst.jpg"
   }
 ]
