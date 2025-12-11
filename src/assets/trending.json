@@ -10,34 +10,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/nrM2xFUfKJJEmZzd5d7kohT2G0C.jpg"
   },
   {
+    "tconst": "tt19244304",
+    "name": "IT: Welcome to Derry",
+    "poster_path": "https://image.tmdb.org/t/p/w500/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg"
+  },
+  {
     "tconst": "tt14186672",
     "name": "Landman",
     "poster_path": "https://image.tmdb.org/t/p/w500/hYthRgS1nvQkGILn9YmqsF8kSk6.jpg"
-  },
-  {
-    "tconst": "tt19244304",
-    "name": "IT: Welcome to Derry",
-    "poster_path": "https://image.tmdb.org/t/p/w500/ycC53SEDcY7YDOSrFqPQigxaCyx.jpg"
-  },
-  {
-    "tconst": "tt0111893",
-    "name": "The Beatles Anthology",
-    "poster_path": "https://image.tmdb.org/t/p/w500/97zhDkOLlrkaIiIvROPsAMSqnzQ.jpg"
-  },
-  {
-    "tconst": "tt31987295",
-    "name": "The Chair Company",
-    "poster_path": "https://image.tmdb.org/t/p/w500/xZgftEXZXTM47k2rZlXo8kr8HZF.jpg"
-  },
-  {
-    "tconst": "tt0182576",
-    "name": "Family Guy",
-    "poster_path": "https://image.tmdb.org/t/p/w500/8o8kiBkWFK3gVytHdyzEWUBXVfK.jpg"
-  },
-  {
-    "tconst": "tt36188448",
-    "name": "The Manipulated",
-    "poster_path": "https://image.tmdb.org/t/p/w500/nOj4nsomFyAVJgpp68L0xq3cREc.jpg"
   },
   {
     "tconst": "tt26862142",
@@ -45,18 +25,38 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/4S2gS1mECZ5wDRBVAZE6KWmJHI3.jpg"
   },
   {
-    "tconst": "tt16358384",
-    "name": "Tulsa King",
-    "poster_path": "https://image.tmdb.org/t/p/w500/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg"
+    "tconst": "tt12637874",
+    "name": "Fallout",
+    "poster_path": "https://image.tmdb.org/t/p/w500/c15BtJxCXMrISLVmysdsnZUPQft.jpg"
   },
   {
-    "tconst": "tt0121955",
-    "name": "South Park",
-    "poster_path": "https://image.tmdb.org/t/p/w500/1CGwZCFX2qerXaXQJJUB3qUvxq7.jpg"
+    "tconst": "tt0903747",
+    "name": "Breaking Bad",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
   },
   {
-    "tconst": "tt0108778",
-    "name": "Friends",
-    "poster_path": "https://image.tmdb.org/t/p/w500/f496cm9enuEsZkSPzCwnTESEK5s.jpg"
+    "tconst": "tt28129282",
+    "name": "Blood Coast",
+    "poster_path": "https://image.tmdb.org/t/p/w500/pKvpiFL4pxrixwpHg77s9oQqfNl.jpg"
+  },
+  {
+    "tconst": "tt12324366",
+    "name": "Percy Jackson and the Olympians",
+    "poster_path": "https://image.tmdb.org/t/p/w500/40eFcTzZier3DWLqldsP5VHxeoD.jpg"
+  },
+  {
+    "tconst": "tt0096697",
+    "name": "The Simpsons",
+    "poster_path": "https://image.tmdb.org/t/p/w500/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg"
+  },
+  {
+    "tconst": "tt33484460",
+    "name": "Robin Hood",
+    "poster_path": "https://image.tmdb.org/t/p/w500/3teWChNzKJdbfen46IdeKTygdZa.jpg"
+  },
+  {
+    "tconst": "tt36188448",
+    "name": "The Manipulated",
+    "poster_path": "https://image.tmdb.org/t/p/w500/nOj4nsomFyAVJgpp68L0xq3cREc.jpg"
   }
 ]
