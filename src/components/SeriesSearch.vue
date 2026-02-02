@@ -22,13 +22,16 @@ const search = (e: { query: string }) => {
     const results = miniSearchObj.value.search(e.query, { prefix: true, fuzzy: 0.2 })
     suggestions.value = results.slice(0, 10).map((result) => {
         const date = `${result.startYear}–${result.endYear ? result.endYear : ''}`
+        const title = result.originalTitle
+            ? `${result.primaryTitle} <i>${result.originalTitle}</i> ${date}`
+            : `${result.primaryTitle} ${date}`
         return {
             tconst: result.tconst,
             primaryTitle: result.primaryTitle,
             originalTitle: result.originalTitle,
             startYear: result.startYear,
             endYear: result.endYear,
-            display: `${result.primaryTitle} <i>${result.originalTitle}</i> ${date}`
+            display: title,
         }
     })
 }
