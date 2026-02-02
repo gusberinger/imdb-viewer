@@ -7,13 +7,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Draw charts for TV shows using IMDb data" />
         <title>IMDb Charts</title>
+        <style>
+            html.dark { color-scheme: dark; }
+        </style>
         <script>
+            /**
+             * Preloading dark mode to avoid flash of white content in Firefox.
+             */
             const isDark = localStorage.getItem('vueuse-color-scheme') === 'dark'
             if (isDark) {
-                console.log('adding dark')
                 document.documentElement.classList.add('dark')
             }
-          </script>
+        </script>
     </head>
     <body>
         <script>0</script>
