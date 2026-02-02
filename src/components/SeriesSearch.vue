@@ -2,7 +2,7 @@
 import AutoComplete from 'primevue/autocomplete'
 import { onMounted, ref } from 'vue'
 import MiniSearch from 'minisearch'
-import { RouterLink } from 'vue-router'
+import { useRouter } from 'vue-router'
 
 type Series = {
     tconst: string
@@ -31,6 +31,11 @@ const search = (e: { query: string }) => {
             display: `${result.primaryTitle} <i>${result.originalTitle}</i> ${date}`
         }
     })
+}
+
+const router = useRouter()
+const onItemSelect = (e: { value: Series }) => {
+    router.push(`/series/${e.value.tconst}`)
 }
 
 onMounted(async () => {
@@ -62,23 +67,22 @@ onMounted(async () => {
             :suggestions="suggestions"
             option-label="display"
             @complete="search"
+            @item-select="onItemSelect"
         >
             <template #option="option">
-                <RouterLink :to="`/series/${option.option.tconst}`">
-                    <p>
-                        <span>{{ option.option.primaryTitle }}</span>
-                        <span
-                            v-if="option.option.startYear != option.option.endYear"
-                            class="text-teal-300 dark:text-teal-600"
-                            >{{ ' (' + option.option.startYear }}–{{
-                                option.option.endYear ? option.option.endYear : ''
-                            }})</span
-                        >
-                        <span v-else class="text-teal-300 dark:text-teal-600"
-                            >{{ ' (' + option.option.startYear }})</span
-                        >
-                    </p>
-                </RouterLink>
+                <p>
+                    <span>{{ option.option.primaryTitle }}</span>
+                    <span
+                        v-if="option.option.startYear != option.option.endYear"
+                        class="text-teal-300 dark:text-teal-600"
+                        >{{ ' (' + option.option.startYear }}–{{
+                            option.option.endYear ? option.option.endYear : ''
+                        }})</span
+                    >
+                    <span v-else class="text-teal-300 dark:text-teal-600"
+                        >{{ ' (' + option.option.startYear }})</span
+                    >
+                </p>
             </template>
         </AutoComplete>
     </div>
