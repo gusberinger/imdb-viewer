@@ -50,6 +50,7 @@ VARTIANTS: dict[str, str] = {
     "tt0290978": "The Office (UK)",
     "tt20877972": "The Office (Saudi Arabia)",
     "tt8305218": "The Office (India)",
+    "tt10193026": "The Office (Australia)",
     "tt10681780": "The Stranger (Quibi)",
     "tt9698480": "The Stranger (Netflix)",
 }
