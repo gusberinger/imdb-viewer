@@ -201,6 +201,7 @@ def main():
                 "originalTitle": series["originalTitle"],
                 "startYear": series["startYear"],
                 "endYear": series["endYear"],
+                "totalVotes": ratings_db.get(parent_tconst, {}).get("numVotes", 0)
             }
         )
 
