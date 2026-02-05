@@ -1,4 +1,5 @@
 import json
+import math
 from tqdm import tqdm
 from .constants import PUBLIC_DIR_PATH, TMP_PATH
 import csv
@@ -201,8 +202,17 @@ def main():
                 "originalTitle": series["originalTitle"],
                 "startYear": series["startYear"],
                 "endYear": series["endYear"],
+                "totalVotes": ratings_db.get(parent_tconst, {}).get("numVotes", 0)
             }
         )
+
+    max_vote_count = math.log10(max(item["totalVotes"] for item in search_db))
+
+    for item in search_db:
+        if not item["totalVotes"]:
+            continue
+        item["totalVotes"] = math.log10(item["totalVotes"]) / max_vote_count
+
 
     # list all the duplicate primary
 
