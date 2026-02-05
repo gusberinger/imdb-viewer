@@ -44,11 +44,19 @@ const onItemSelect = (e: { value: Series }) => {
 onMounted(async () => {
     const res = await fetch('/search.json')
     const json = await res.json()
-    const mini = new MiniSearch({
+    const mini = new MiniSearch<Series>({
         idField: 'tconst',
         fields: ['primaryTitle', 'originalTitle'],
-        storeFields: ['tconst', 'primaryTitle', 'originalTitle', 'startYear', 'endYear'],
-        searchOptions: { boost: { primaryTitle: 2, originalTitle: 1 } }
+        storeFields: ['tconst', 'primaryTitle', 'originalTitle', 'startYear', 'endYear', 'totalVotes'],
+        searchOptions: { 
+            boost: { primaryTitle: 2, originalTitle: 1 },
+            boostDocument: (_documentId, _term, storedFields) => {
+                if (!storedFields) {
+                    return 1
+                }
+                return 1 + (storedFields.totalVotes as number)
+            }
+        }
     })
     mini.addAll(json)
     miniSearchObj.value = mini
