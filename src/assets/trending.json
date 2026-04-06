@@ -1,13 +1,8 @@
 [
   {
-    "tconst": "tt27444205",
-    "name": "Paradise",
-    "poster_path": "https://image.tmdb.org/t/p/w500/l8RqfhqEk04W5sSOjQ9zeWU1DyM.jpg"
-  },
-  {
-    "tconst": "tt31938062",
-    "name": "The Pitt",
-    "poster_path": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"
+    "tconst": "tt6741278",
+    "name": "Invincible",
+    "poster_path": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"
   },
   {
     "tconst": "tt18923754",
@@ -15,19 +10,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg"
   },
   {
-    "tconst": "tt31810018",
-    "name": "Detective Hole",
-    "poster_path": "https://image.tmdb.org/t/p/w500/j61dmzEq4aRWJZk5tPyjzpHj8T2.jpg"
-  },
-  {
     "tconst": "tt32937780",
     "name": "Something Very Bad Is Going to Happen",
-    "poster_path": "https://image.tmdb.org/t/p/w500/eK39KSennwJPzzgQ6V3q1iSSRYt.jpg"
+    "poster_path": "https://image.tmdb.org/t/p/w500/7mQslLUNjiZx3UwCgnC2s2VRsAX.jpg"
   },
   {
-    "tconst": "tt7772588",
-    "name": "For All Mankind",
-    "poster_path": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg"
+    "tconst": "tt26315487",
+    "name": "Bloodhounds",
+    "poster_path": "https://image.tmdb.org/t/p/w500/yu4oHDi6kO3cYXdmEnYT6SibATj.jpg"
   },
   {
     "tconst": "tt17220216",
@@ -35,28 +25,38 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg"
   },
   {
-    "tconst": "tt40197357",
-    "name": "Scrubs",
-    "poster_path": "https://image.tmdb.org/t/p/w500/nNNM50G7p9C3n4vgidCiybsIdHA.jpg"
+    "tconst": "tt8772296",
+    "name": "Euphoria",
+    "poster_path": "https://image.tmdb.org/t/p/w500/zvVt4xPUDR6SglHvUa8ECg8uREV.jpg"
   },
   {
-    "tconst": "tt6741278",
-    "name": "Invincible",
-    "poster_path": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"
+    "tconst": "tt14490706",
+    "name": "XO, Kitty",
+    "poster_path": "https://image.tmdb.org/t/p/w500/hxvTdKAwv27PUfpXOQp6AwWr6V.jpg"
+  },
+  {
+    "tconst": "tt31938062",
+    "name": "The Pitt",
+    "poster_path": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"
+  },
+  {
+    "tconst": "tt27444205",
+    "name": "Paradise",
+    "poster_path": "https://image.tmdb.org/t/p/w500/l8RqfhqEk04W5sSOjQ9zeWU1DyM.jpg"
+  },
+  {
+    "tconst": "tt31810018",
+    "name": "Detective Hole",
+    "poster_path": "https://image.tmdb.org/t/p/w500/j61dmzEq4aRWJZk5tPyjzpHj8T2.jpg"
+  },
+  {
+    "tconst": "tt1190634",
+    "name": "The Boys",
+    "poster_path": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg"
   },
   {
     "tconst": "tt11737520",
     "name": "ONE PIECE",
     "poster_path": "https://image.tmdb.org/t/p/w500/blWCPEqDGLBuLB9u89CxP9ORQP4.jpg"
-  },
-  {
-    "tconst": "tt35316225",
-    "name": "Pursuit of Jade",
-    "poster_path": "https://image.tmdb.org/t/p/w500/g2CSCJuWm7IcpuRjxySQvZcJYnp.jpg"
-  },
-  {
-    "tconst": "tt3006802",
-    "name": "Outlander",
-    "poster_path": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg"
   }
 ]
