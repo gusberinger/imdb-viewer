@@ -5,34 +5,24 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg"
   },
   {
-    "tconst": "tt18923754",
-    "name": "Daredevil: Born Again",
-    "poster_path": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg"
+    "tconst": "tt8772296",
+    "name": "Euphoria",
+    "poster_path": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg"
   },
   {
-    "tconst": "tt17220216",
-    "name": "Monarch: Legacy of Monsters",
-    "poster_path": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg"
-  },
-  {
-    "tconst": "tt26315487",
-    "name": "Bloodhounds",
-    "poster_path": "https://image.tmdb.org/t/p/w500/yu4oHDi6kO3cYXdmEnYT6SibATj.jpg"
+    "tconst": "tt35466672",
+    "name": "Malcolm in the Middle: Life's Still Unfair",
+    "poster_path": "https://image.tmdb.org/t/p/w500/4uXAZRYtcMfoX2XtY1gcUxLHhjj.jpg"
   },
   {
     "tconst": "tt6741278",
-    "name": "Invincible",
+    "name": "INVINCIBLE",
     "poster_path": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"
   },
   {
-    "tconst": "tt7772588",
-    "name": "For All Mankind",
-    "poster_path": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg"
-  },
-  {
-    "tconst": "tt11815682",
-    "name": "Hacks",
-    "poster_path": "https://image.tmdb.org/t/p/w500/ca5XiEFgyGsI38QT3wEKa1QVGX.jpg"
+    "tconst": "tt18923754",
+    "name": "Daredevil: Born Again",
+    "poster_path": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg"
   },
   {
     "tconst": "tt31938062",
@@ -40,14 +30,29 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"
   },
   {
+    "tconst": "tt36957934",
+    "name": "Big Mistakes",
+    "poster_path": "https://image.tmdb.org/t/p/w500/mgXTCQ86lV3oudr2KXXO5zGEqIb.jpg"
+  },
+  {
     "tconst": "tt7587890",
     "name": "The Rookie",
     "poster_path": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg"
   },
   {
-    "tconst": "tt14490706",
-    "name": "XO, Kitty",
-    "poster_path": "https://image.tmdb.org/t/p/w500/hxvTdKAwv27PUfpXOQp6AwWr6V.jpg"
+    "tconst": "tt26315487",
+    "name": "Bloodhounds",
+    "poster_path": "https://image.tmdb.org/t/p/w500/yu4oHDi6kO3cYXdmEnYT6SibATj.jpg"
+  },
+  {
+    "tconst": "tt36849871",
+    "name": "Marshals",
+    "poster_path": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg"
+  },
+  {
+    "tconst": "tt40197357",
+    "name": "Scrubs",
+    "poster_path": "https://image.tmdb.org/t/p/w500/nNNM50G7p9C3n4vgidCiybsIdHA.jpg"
   },
   {
     "tconst": "tt2297757",
