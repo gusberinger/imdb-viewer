@@ -15,19 +15,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg"
   },
   {
-    "tconst": "tt36104233",
-    "name": "If Wishes Could Kill",
-    "poster_path": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg"
+    "tconst": "tt27331527",
+    "name": "Man on Fire",
+    "poster_path": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg"
   },
   {
-    "tconst": "tt27486290",
-    "name": "Stranger Things: Tales from '85",
-    "poster_path": "https://image.tmdb.org/t/p/w500/xyVpiSZNA2fYJUuuagkqiSHJqjr.jpg"
-  },
-  {
-    "tconst": "tt6741278",
-    "name": "INVINCIBLE",
-    "poster_path": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"
+    "tconst": "tt17220216",
+    "name": "Monarch: Legacy of Monsters",
+    "poster_path": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg"
   },
   {
     "tconst": "tt18923754",
@@ -37,17 +32,17 @@
   {
     "tconst": "tt36594331",
     "name": "Star Wars: Maul - Shadow Lord",
-    "poster_path": "https://image.tmdb.org/t/p/w500/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg"
+    "poster_path": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg"
   },
   {
-    "tconst": "tt36849871",
-    "name": "Marshals",
-    "poster_path": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg"
+    "tconst": "tt36104233",
+    "name": "If Wishes Could Kill",
+    "poster_path": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg"
   },
   {
-    "tconst": "tt7772588",
-    "name": "For All Mankind",
-    "poster_path": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg"
+    "tconst": "tt6741278",
+    "name": "INVINCIBLE",
+    "poster_path": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"
   },
   {
     "tconst": "tt7587890",
@@ -55,13 +50,13 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg"
   },
   {
-    "tconst": "tt17220216",
-    "name": "Monarch: Legacy of Monsters",
-    "poster_path": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg"
+    "tconst": "tt9794044",
+    "name": "Citadel",
+    "poster_path": "https://image.tmdb.org/t/p/w500/rIuJpbBcZjROIqvu9OKr3psP0zv.jpg"
   },
   {
-    "tconst": "tt31938062",
-    "name": "The Pitt",
-    "poster_path": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"
+    "tconst": "tt7772588",
+    "name": "For All Mankind",
+    "poster_path": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg"
   }
 ]
