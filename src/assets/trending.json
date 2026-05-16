@@ -5,14 +5,19 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg"
   },
   {
+    "tconst": "tt15716776",
+    "name": "Devil May Cry",
+    "poster_path": "https://image.tmdb.org/t/p/w500/kRdImlrsRmSSVrdsD1nUTddihL8.jpg"
+  },
+  {
+    "tconst": "tt33546863",
+    "name": "Off Campus",
+    "poster_path": "https://image.tmdb.org/t/p/w500/gtoV2udbEnUgkMuCNX8zJrEwm7N.jpg"
+  },
+  {
     "tconst": "tt18923754",
     "name": "Daredevil: Born Again",
     "poster_path": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg"
-  },
-  {
-    "tconst": "tt9794044",
-    "name": "Citadel",
-    "poster_path": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg"
   },
   {
     "tconst": "tt9813792",
@@ -25,48 +30,43 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg"
   },
   {
+    "tconst": "tt1869454",
+    "name": "Good Omens",
+    "poster_path": "https://image.tmdb.org/t/p/w500/nO68XVx5of8hlBwEOGOkPC8Mveu.jpg"
+  },
+  {
     "tconst": "tt36594331",
     "name": "Star Wars: Maul - Shadow Lord",
-    "poster_path": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg"
+    "poster_path": "https://image.tmdb.org/t/p/w500/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg"
   },
   {
-    "tconst": "tt14452776",
-    "name": "The Bear",
-    "poster_path": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg"
+    "tconst": "tt6741278",
+    "name": "INVINCIBLE",
+    "poster_path": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"
   },
   {
-    "tconst": "tt10834220",
-    "name": "The Chestnut Man",
-    "poster_path": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg"
+    "tconst": "tt32420734",
+    "name": "Rooster",
+    "poster_path": "https://image.tmdb.org/t/p/w500/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg"
   },
   {
-    "tconst": "tt27331527",
-    "name": "Man on Fire",
-    "poster_path": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg"
+    "tconst": "tt9794044",
+    "name": "Citadel",
+    "poster_path": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg"
   },
   {
-    "tconst": "tt17220216",
-    "name": "Monarch: Legacy of Monsters",
-    "poster_path": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg"
+    "tconst": "tt2297757",
+    "name": "Nathan for You",
+    "poster_path": "https://image.tmdb.org/t/p/w500/6tGXlz61c44onUg6EdRkbhjcaPA.jpg"
   },
   {
-    "tconst": "tt7587890",
-    "name": "The Rookie",
-    "poster_path": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg"
+    "tconst": "tt0804503",
+    "name": "Mad Men",
+    "poster_path": "https://image.tmdb.org/t/p/w500//7v8iCNzKFpdlrCMcqCoJyn74Nsa.jpg"
   },
   {
-    "tconst": "tt11737520",
-    "name": "ONE PIECE",
-    "poster_path": "https://image.tmdb.org/t/p/w500/blWCPEqDGLBuLB9u89CxP9ORQP4.jpg"
-  },
-  {
-    "tconst": "tt31938062",
-    "name": "The Pitt",
-    "poster_path": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"
-  },
-  {
-    "tconst": "tt36104233",
-    "name": "If Wishes Could Kill",
-    "poster_path": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg"
+    "tconst": "tt0367279",
+    "name": "Arrested Development",
+    "poster_path": "https://image.tmdb.org/t/p/w500//qMzwO952hMWQSCfHkp7IL20s4K7.jpg"
   }
 ]
