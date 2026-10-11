@@ -1,8 +1,28 @@
 [
   {
+    "tconst": "tt14976292",
+    "name": "LINK CLICK",
+    "poster_path": "https://image.tmdb.org/t/p/w500/wo9jwu5qMvXzhW2cyy5E6hOVs92.jpg"
+  },
+  {
+    "tconst": "tt11540908",
+    "name": "Carrie",
+    "poster_path": "https://image.tmdb.org/t/p/w500/eXjk4W4robXs7l1YXwaXMv4f2qb.jpg"
+  },
+  {
     "tconst": "tt26545992",
     "name": "Lanterns",
-    "poster_path": "https://image.tmdb.org/t/p/w500/sbBehMLO6Ge7Tbk374dIBtUjO6P.jpg"
+    "poster_path": "https://image.tmdb.org/t/p/w500/gpC7h43xPMEV3goYMQShfJbTtLq.jpg"
+  },
+  {
+    "tconst": "tt35934755",
+    "name": "Below",
+    "poster_path": "https://image.tmdb.org/t/p/w500/vgLqqhMUbljp585qPp1EFCyJtcz.jpg"
+  },
+  {
+    "tconst": "tt10986410",
+    "name": "Ted Lasso",
+    "poster_path": "https://image.tmdb.org/t/p/w500/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg"
   },
   {
     "tconst": "tt21097264",
@@ -15,29 +35,14 @@
     "poster_path": "https://image.tmdb.org/t/p/w500/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg"
   },
   {
-    "tconst": "tt9288030",
-    "name": "Reacher",
-    "poster_path": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg"
-  },
-  {
     "tconst": "tt1844624",
     "name": "American Horror Story",
     "poster_path": "https://image.tmdb.org/t/p/w500/yCkPLQ10qKIUgRBXmQVVMF1h96d.jpg"
   },
   {
-    "tconst": "tt0149460",
-    "name": "Futurama",
-    "poster_path": "https://image.tmdb.org/t/p/w500/eM8bbTn8C8vUwwS6upzzm7gX31u.jpg"
-  },
-  {
-    "tconst": "tt36849871",
-    "name": "Marshals",
-    "poster_path": "https://image.tmdb.org/t/p/w500/zV1MRb6eqx6Uj3NSXquZFfz75pa.jpg"
-  },
-  {
-    "tconst": "tt0182576",
-    "name": "Family Guy",
-    "poster_path": "https://image.tmdb.org/t/p/w500/3PFsEuAiyLkWsP4GG6dIV37Q6gu.jpg"
+    "tconst": "tt36064406",
+    "name": "Coven Academy",
+    "poster_path": "https://image.tmdb.org/t/p/w500/f4R4YGeMQrXEu6jm3oAbSPeGC3M.jpg"
   },
   {
     "tconst": "tt2297757",
